@@ -10,54 +10,65 @@ The goal is not simply to store facts. The goal is to preserve **identity, struc
 
 ## Core architecture
 
-### 1. Working memory
+### Working memory
 `MEMORY.md`
 
-Broad durable synthesis of the user's creative, technical, conceptual, project, and collaboration context.
+High-density durable synthesis. It should contain the minimum set of information needed to orient a future AI without pretending to be a transcript.
 
-### 2. Fiction system
-`FICTION.md`
-`COSMOLOGY.md`
-`WORLD_SYSTEMS.md`
-`CREATIVE_PROJECTS_DEEP.md`
+### Domain knowledge
+- `FICTION.md`
+- `COSMOLOGY.md`
+- `WORLD_SYSTEMS.md`
+- `CHARACTERS.md`
+- `CREATIVE_PROJECTS_DEEP.md`
+- `PROJECTS.md`
+- `TECH_STACK.md`
 
-### 3. Character system
-`CHARACTERS.md`
+### Graph / semantics
+- `ANCHOR_GRAPH.md`
+- `RELATIONSHIPS.md`
+- `MEMORY_SCHEMA.md`
+- `CANON_CONTROL.md`
+- `CANON_AND_PROVENANCE.md`
 
-### 4. Project system
-`PROJECTS.md`
-`TIMELINE.md`
-`DECISIONS_AND_LESSONS.md`
-`QUESTIONS_AND_OPEN_LOOPS.md`
+### Memory operations
+- `ARCHIVE_PROTOCOL.md`
+- `CONTEXT_LAYERS.md`
+- `ARCHIVE_CENSUS.md`
+- `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification
+- `QUESTIONS_AND_OPEN_LOOPS.md`
+- `TECHNICAL_OPEN_LOOPS.md`
+- `TIMELINE.md`
+- `DECISIONS_AND_LESSONS.md`
 
-### 5. AI-memory system
-`AI_MEMORY_ARCHITECTURE.md`
-`MEMORY_SCHEMA.md`
-`ARCHIVE_PROTOCOL.md`
-`TECHNICAL_OPEN_LOOPS.md`
+### Archive directory
+`ARCHIVE/`
 
-### 6. Concept / graph system
-`ANCHOR_GRAPH.md`
-`RELATIONSHIPS.md`
+Contains deeper operational/status records and future atomic knowledge nodes. It should grow by adding genuinely useful nodes, not by duplicating root-level documents.
 
-### 7. Creative method
-`CREATIVE_METHOD.md`
+### Project-specific memory
+`STRINGS_OF_FATE/`
 
-### 8. Technical ecosystem
-`TECH_STACK.md`
+A dedicated project branch containing the currently recoverable memory about «أوتار القدر» and its explicit visual/project constraints. It must not be treated as a substitute for historical transcripts.
 
 ## Evidence model
 
 The vault distinguishes:
 - canonical user statements
+- confirmed repository/source state
 - current state
 - historical state
+- working interpretation
 - inference
 - speculation
 - retired ideas
 - unknowns
 
-See `ARCHIVE_PROTOCOL.md`.
+See `CANON_CONTROL.md` and `ARCHIVE_PROTOCOL.md`.
+
+## Editing principle
+
+**Review before expansion.** Before creating a new node, inspect existing nodes for overlap. Update or merge when the information belongs to an existing concept. Create a new node only when it adds a genuinely distinct entity, relationship, decision, state, artifact, or evidence source.
 
 ## Graph principle
 
@@ -65,17 +76,23 @@ Major recurring concepts should become explicit anchors. Their relationships sho
 
 ## Raw history vs distilled memory
 
-When historical conversation transcripts become available, raw transcripts should remain distinct from distilled memory. Raw material is evidence. Distilled files are the current working model. Summaries must never pretend to be verbatim transcripts.
+When historical conversation transcripts become available, raw transcripts must remain distinct from distilled memory. Raw material is evidence. Distilled files are the current working model. Summaries must never pretend to be verbatim transcripts.
 
-## Expansion roadmap
+## Quality test
 
-1. Preserve current durable synthesis.
-2. Split major anchors into independent notes.
-3. Add explicit Obsidian links between nodes.
-4. Add frontmatter and stable IDs.
-5. Add imported conversation records when source transcripts are available.
-6. Add semantic indexing only after the Markdown graph is coherent.
-7. Add MCP retrieval operations around the graph rather than replacing it.
+A change is valuable only when it adds at least one of:
+- new factual knowledge
+- a real relationship
+- a historical state change
+- a decision and its reason
+- a constraint
+- an evidence source
+- a consequence
+- a resolved contradiction
+- a useful open question
+- a new operational capability
+
+More words alone do not qualify.
 
 ## Guiding principle
 
