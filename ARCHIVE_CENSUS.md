@@ -1,31 +1,34 @@
 # Archive Census
 
 ## Purpose
-A high-level inventory of the durable knowledge currently captured in this repository, used to prevent attention from collapsing onto one project.
+A maintenance inventory of the durable knowledge captured in this repository. This document exists to prevent attention collapse onto one project and to reveal duplication or missing domains.
 
-## Domains
-1. Creator / collaboration architecture
-2. Creative methodology
-3. Fictional universe
-4. Cosmology
-5. Characters
-6. World systems
-7. Fiction projects
-8. Visual art / cover direction
+## Current domains
+1. creator / collaboration architecture
+2. creative methodology
+3. fictional universe
+4. cosmology
+5. characters
+6. world systems
+7. fiction projects
+8. visual art / cover direction
 9. AI memory architecture
-10. Nexus
-11. Hermes
-12. MCP
-13. deployment and infrastructure
-14. model evaluation
-15. web/product experiments
-16. cross-model context portability
-17. research / reading interests
-18. decisions and lessons
-19. open loops / unresolved questions
-20. relationship graph
+10. conversation archival model
+11. Nexus
+12. Hermes
+13. MCP / agent integration
+14. deployment / infrastructure
+15. model evaluation
+16. web / product experiments
+17. cross-model context portability
+18. research / reading interests
+19. decisions / lessons
+20. open loops
+21. relationship graph
+22. provenance / canon control
+23. archive operations
 
-## Current project-specific anchors
+## High-value project anchors
 - Strings of Fate / أوتار القدر
 - Whispers of Fog / همسات الضباب
 - The Last Thing to Be Forgotten
@@ -35,22 +38,36 @@ A high-level inventory of the durable knowledge currently captured in this repos
 - Hermes
 - Obsidian memory architecture
 
-## Current limitation
-The assistant's accessible conversation state is a summarized memory context, not a searchable database containing every historical utterance. A census of accessible durable knowledge is therefore possible; a literal census of all historical chat text is not.
+## Known archive design corrections
+Earlier expansion rounds created multiple overlapping protocol/specification files. The canonical conversation-archive specification is now `CONVERSATION_ARCHIVE_SPEC_V2.md`; the older duplicate `CONVERSATION_ARCHIVE_SPEC.md` has been removed rather than left to compete with it.
 
-## Expansion strategy
-Prefer new information over repetition. When expanding, search for:
-- new entities
-- new relationships
-- historical changes
-- rejected alternatives
-- causal explanations
-- constraints
-- decisions
+The repository should prefer editing an existing authoritative node over multiplying near-duplicates.
+
+## Expansion rule
+A future addition should be justified by at least one of:
+- new fact
+- new entity
+- new relationship
+- state change
+- decision
+- rejected alternative
+- causal explanation
+- constraint
 - evidence
-- open loops
-- consequences
-- project dependencies
-- artifacts
+- consequence
+- open loop
+- operational capability
 
-Do not count paraphrasing as new knowledge.
+Paraphrasing, renaming, and adding decorative prose do not count as knowledge growth.
+
+## Current limitation
+The assistant's accessible conversation state is a summarized memory context, not a searchable database containing every historical utterance. A census of accessible durable knowledge is possible; a literal census of all historical chat text is not.
+
+## Maintenance procedure
+Before expanding the vault:
+1. inspect the existing node with the closest semantic role;
+2. correct stale or inaccurate content;
+3. merge duplicates where appropriate;
+4. preserve superseded material only when historically useful;
+5. add new nodes only after the above checks;
+6. update the index and relationship graph when the architecture changes.
