@@ -47,12 +47,16 @@ Purpose: separate medieval-fantasy side novel.
 
 Historical state: a 20-chapter structure was explored.
 
-Further state/history should be stored in project-specific notes when recovered.
+Dedicated owner: `PROJECTS/WHISPERS_OF_FOG.md`.
+
+Further state/history should be stored there when recovered.
 
 ## Main novel
 Purpose: major novel project.
 
 Historical state: development reached at least section 9 in one phase; a 20-chapter architecture was explored.
+
+Dedicated owner: `PROJECTS/MAIN_NOVEL_DEVELOPMENT.md`.
 
 Craft open loop: mystery/depth can outrun clarity and pacing; future revisions should treat progression, causal logic, scene purpose, rhythm, and emotional movement as first-class concerns.
 
