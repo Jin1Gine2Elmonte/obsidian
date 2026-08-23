@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, and working methods** in a form that humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, and working methods** in a form that humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -37,6 +37,8 @@ High-density durable synthesis. It should contain the minimum set of information
 - `CONTEXT_LAYERS.md`
 - `ARCHIVE_CENSUS.md`
 - `ARCHIVE_DEDUPLICATION_AUDIT.md`
+- `ARCHIVE_CLEANUP_BACKLOG.md`
+- `ARCHIVE_MAINTENANCE_LOOP.md`
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
@@ -53,7 +55,12 @@ Contains deeper operational/status records and future atomic knowledge nodes. It
 ### World reconstruction
 `WORLD/`
 
-This directory contains high-density reconstruction of the Jin universe: Jin and his variants, Almont and the imperial family, the empire, Garthin, Adam, the Dark Forest, the power system, causal maps, relationship recovery, and scene-recovery matrices. These notes are intentionally conservative: remembered facts are preserved, while missing scene-level canon remains marked as a recovery target.
+This directory contains high-density reconstruction of the Jin universe: Jin and his variants, Almont and the imperial family, the empire, Garthin, Adam, the Dark Forest, the power system, causal maps, relationship recovery, motive recovery, and scene-recovery matrices. These notes are intentionally conservative: remembered facts are preserved, while missing scene-level canon remains marked as a recovery target.
+
+### Cosmology reconstruction
+`COSMOS/`
+
+Contains cosmological anchors and memory-density/recovery notes. Shared themes are not treated as shared canon without evidence.
 
 ### Project-specific memory
 `STRINGS_OF_FATE/`
@@ -73,15 +80,21 @@ The vault distinguishes:
 - retired ideas
 - unknowns
 
-See `CANON_CONTROL.md` and `ARCHIVE_PROTOCOL.md`.
-
-## Ownership principle
-
-Every knowledge type should have a primary owner. Use `KNOWLEDGE_OWNERSHIP_MAP.md` before creating a new node. A secondary file may reference a fact, but should not silently become a second canonical source by copying an entire existing summary.
+See `CANON_CONTROL.md`, `ARCHIVE_PROTOCOL.md`, and `KNOWLEDGE_OWNERSHIP_MAP.md`.
 
 ## Editing principle
 
 **Review before expansion.** Before creating a new node, inspect existing nodes for overlap. Update or merge when the information belongs to an existing concept. Create a new node only when it adds a genuinely distinct entity, relationship, decision, state, artifact, or evidence source.
+
+## Current maintenance mode
+
+The archive is in **consolidation mode** as well as reconstruction mode. New information must be placed under an explicit owner, and existing overlapping files should be narrowed, linked, merged, or retired when appropriate.
+
+See:
+- `KNOWLEDGE_OWNERSHIP_MAP.md` — where each class of information belongs.
+- `ARCHIVE_DEDUPLICATION_AUDIT.md` — what counts as useful vs harmful repetition.
+- `ARCHIVE_CLEANUP_BACKLOG.md` — concrete node-by-node cleanup work.
+- `ARCHIVE_MAINTENANCE_LOOP.md` — how changes propagate through the archive.
 
 ## Graph principle
 
