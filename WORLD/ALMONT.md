@@ -1,10 +1,13 @@
 # Emperor Almont — Character Anchor
 
+## Ownership
+This is the **canonical identity owner** for Almont: who he is, his durable role, broad family position, and high-confidence characterization. Reign/institution analysis belongs in `ALMONT_REIGN_PROFILE.md`; memory completeness belongs in `ALMONT_MEMORY_DENSITY.md`; the Almont–Ryota relationship has dedicated nodes.
+
 ## Status
 The Almont material is one of the strongest human/political branches of the user's fictional history. The accessible memory preserves the family structure and several major events, but not every scene, dialogue, age, or chronological detail.
 
 ## Identity
-Emperor Almont (المونت) is remembered as a tyrannical ruler and the central authority figure in a large imperial world. He is husband of Arisa, father of Ryota, and connected to Benjamin as adviser.
+Emperor Almont (المونت) is remembered as a tyrannical ruler and the central authority figure in a large imperial world. He is husband of Arisa, father of Ryota in the strongest family branch, and connected to Benjamin as adviser.
 
 ## Political function
 Almont represents centralized authority on a world scale. His character should therefore be understood at two levels:
@@ -48,12 +51,19 @@ The relationship therefore intersects:
 - geographic separation and return.
 
 ## Arisa's death — identity safeguard
-Arisa's death is preserved as a pivotal event in the child-history material, followed by escape and eventual return to the capital. One durable summary describes the witness as Ryota; another separately describes the child/young witness as Jin. This discrepancy is now explicitly tracked in `JIN_RYOTA_IDENTITY_AUDIT.md`.
+Arisa's death is preserved as a pivotal event in the child-history material, followed by escape and eventual return to the capital. One durable summary describes the witness as Ryota; another separately describes the child/young witness as Jin. This discrepancy is now explicitly tracked in `JIN_RYOTA_IDENTITY_AUDIT.md` and `CANON_CONFLICTS.md`.
 
 Until source-level conversation evidence resolves the relationship between those names/versions, this file must not silently identify every child-history reference as Ryota.
 
+## Cross-links
+- Reign/institution: `WORLD/ALMONT_REIGN_PROFILE.md`.
+- Memory completeness: `WORLD/ALMONT_MEMORY_DENSITY.md`.
+- Father/son dynamics: `WORLD/ALMONT_RYOTA_RELATIONSHIP_DYNAMICS.md`.
+- Relationship states: `WORLD/ALMONT_RYOTA_STATE_MACHINE.md`.
+- Family system: `WORLD/RYOTA_ARISA_BENJAMIN.md`.
+- Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+
 ## Future recovery priorities
-Recover exact material about:
 1. Almont's dialogue.
 2. His relationship with Arisa before her death.
 3. His reaction to Arisa's death.
