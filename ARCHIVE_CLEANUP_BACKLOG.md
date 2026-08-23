@@ -62,6 +62,12 @@ Ownership remains split by function:
 - `STRINGS_OF_FATE/RESEARCH_MATRIX.md` — recovery plan.
 - `STRINGS_OF_FATE/VISUAL_IDENTITY.md` — visual canon.
 
+### Cosmology
+- Individual files own individual cosmological definitions.
+- `COSMOS/COSMOLOGY_MEMORY_DENSITY.md` now owns only memory completeness, project-membership uncertainty, and recovery gaps.
+- `NEGATIVE_KNOWLEDGE.md` owns unsafe global assumptions.
+- Thematic resemblance is not a canonical edge.
+
 ## Tier 4 — time/evolution
 Canonical ownership:
 - `TIMELINE.md` — broad historical sequence.
@@ -70,10 +76,21 @@ Canonical ownership:
 - `INTENT_AND_DISCARDED_PATHS.md` — rejected/abandoned reasoning.
 - `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions.
 
+## Tier 5 — technical memory
+### AI memory architecture
+- `AI_MEMORY_ARCHITECTURE.md` owns system architecture and technical boundaries.
+- `KNOWLEDGE_OWNERSHIP_MAP.md` owns information ownership.
+- `ARCHIVE_PROTOCOL.md` owns archive behavior.
+- `ARCHIVE_MAINTENANCE_LOOP.md` owns maintenance lifecycle.
+- Technical architecture files should link to these instead of restating canon/provenance rules.
+
 ## Completed consolidation in this pass
 - Adam memory-density node reduced to evidence/gaps rather than identity duplication.
 - Empire memory-density node reduced to memory strength/recovery rather than world-system duplication.
 - Garthin memory-density node reduced to memory strength/recovery rather than repeating the canonical character page.
+- Cosmology memory-density node reduced to evidence gaps rather than repeating individual cosmology definitions.
+- Strings of Fate truth-audit node reduced to evidence-boundary information rather than acting as a second canon or design document.
+- AI memory architecture reduced to technical architecture rather than re-stating archive governance.
 
 ## Next cleanup rule
 When a memory-density node contains canonical identity prose already owned elsewhere, move the prose into the owner only if it is genuinely stronger/new evidence; otherwise replace it with a compact pointer and recovery information.
