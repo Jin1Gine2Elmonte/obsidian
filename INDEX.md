@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, and working methods** in a form that humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, and working methods** in a form that humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -15,12 +15,18 @@ The goal is not simply to store facts. The goal is to preserve **identity, struc
 
 High-density durable orientation. It is not a transcript and not the owner of every detail.
 
+### Reasoning / collaboration architecture
+`REASONING_ARCHITECTURE.md`
+
+Cross-domain reasoning model: internal/external perspectives, Anchor Core promotion, emergent expertise, architectural simplicity, perspective switching, purpose-first analysis, and correction discipline.
+
 ### Domain / navigation layer
 - `FICTION.md` — fiction navigation and legacy orientation.
 - `COSMOLOGY.md` — cosmology navigation and legacy orientation.
 - `WORLD_SYSTEMS.md`
 - `CHARACTERS.md`
 - `CREATIVE_PROJECTS_DEEP.md`
+- `CREATIVE_METHOD.md` — writing/artistic method.
 - `PROJECTS.md` — project-state/navigation layer.
 - `TECH_STACK.md` — technical navigation/state layer.
 
@@ -42,15 +48,15 @@ High-density durable orientation. It is not a transcript and not the owner of ev
 - `ARCHIVE_MAINTENANCE_LOOP.md`
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
-- `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets for each priority.
+- `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
+- `KNOWLEDGE_STATE_TRANSITIONS.md`
+- `KNOWLEDGE_EVENTS.md`
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
 - `TEMPORAL_MODEL.md`
 - `TEMPORAL_EVENT_TYPES.md`
 - `PROJECT_STATE_TRANSITIONS.md`
-- `KNOWLEDGE_STATE_TRANSITIONS.md`
-- `KNOWLEDGE_EVENTS.md`
 - `DECISIONS_AND_LESSONS.md`
 - `NEGATIVE_KNOWLEDGE.md`
 
@@ -108,6 +114,7 @@ See:
 - `RECOVERY_EVIDENCE_PIPELINE.md` — how recovery should affect the graph.
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
 - `TEMPORAL_EVENT_TYPES.md` — how world, project, and knowledge events differ.
+- `REASONING_ARCHITECTURE.md` — cross-domain reasoning and collaboration model.
 
 ## Graph principle
 
