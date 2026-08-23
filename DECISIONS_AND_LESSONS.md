@@ -67,20 +67,76 @@ A logically necessary consequence is not automatically canon. Analytical consequ
 ### L-010 — Relationships deserve first-class status
 A relationship may carry more explanatory value than either endpoint. Preserve its origin, changes, asymmetry, evidence, and consequences rather than merely listing the two entities together.
 
-## Technical integration lesson
-When two platforms cannot integrate directly, investigate a technically correct bridge rather than stopping at the limitation. A previously explored Nexus pattern used an external Gateway/cognition port with MCP-mediated consultation while keeping internal autonomy separated from the interface.
+## Technical experiment lineage
 
-## Tool-use lesson
-When a tool is available and the task is operational, the tool should perform the real operation. If a tool cannot perform it, state that boundary precisely rather than substituting generic instructions.
+### T-001 — External access should not own memory
+Experiments around MCP, gateways, agent servers, Android context injection, and cross-model access repeatedly led to the same architectural boundary: access layers may retrieve or write knowledge, but the durable vault must remain independently usable.
 
-## Preservation lesson
-Existing work is protected by default. Changes should be surgical and should explain why unrelated elements remain untouched.
+**Decision:** keep Obsidian/Markdown as the human-readable durable knowledge substrate; treat MCP, APIs, gateways, plugins, accessibility/IME bridges, semantic indexes, and hosted services as replaceable access or acceleration layers.
 
-## Writing lesson
-Before adding more mystery, diagnose the scene's actual failure: progression, causal logic, information flow, rhythm, emotional movement, clarity, or intentional concealment.
+**Why:** a provider, bridge, model, MCP server, or retrieval service can disappear or fail without the user's accumulated knowledge becoming inaccessible or rewritten.
 
-## Archive lesson
-The archive should become more accurate faster than it becomes larger. A new file is justified only when it introduces a genuinely distinct knowledge dimension, evidence source, state, relationship, or operational capability.
+**Status:** durable architectural principle.
 
-## Current strategic principle
-Build the smallest complete foundation that preserves the important structure. Let complexity emerge from demonstrated need, while keeping historical decisions and abandoned paths available for future learning.
+### T-002 — Retrieval must be hybrid rather than vector-only
+Memory-system exploration exposed that semantic similarity alone cannot reliably preserve chronology, supersession, identity/version boundaries, relationships, or current-vs-historical state.
+
+**Decision:** a mature retrieval layer should combine exact search, semantic similarity, graph/relationship traversal, recency, importance, project relevance, and temporal state.
+
+**Status:** architecture target; detailed implementation remains open.
+
+### T-003 — Tool availability is a runtime constraint, not a theoretical capability
+Agent/Hermes work repeatedly exposed cases where a capability could exist in an architecture but be disabled, unavailable, or constrained at runtime.
+
+**Lesson:** design operational paths around actually available tools and permissions, and preserve explicit fallback behavior.
+
+**Status:** durable operational lesson.
+
+### T-004 — Deployment limits are part of architecture
+Experiments involving hosted deployment, containers, GPU/resource availability, and service providers showed that theoretical server architecture can be invalidated by hard platform limits, quotas, or resource availability.
+
+**Lesson:** architecture decisions must be checked against provider constraints before being treated as executable plans.
+
+**Status:** durable engineering lesson.
+
+### T-005 — External cognition should remain separated from internal autonomy
+The Nexus/Gateway exploration established a useful architectural pattern: an agent can consult an external cognition service or model through a bridge while retaining its own orchestration/autonomy boundary.
+
+**Lesson:** consultation, memory, tool execution, and core control do not need to be collapsed into one service.
+
+**Status:** reusable architectural pattern, not a requirement for every implementation.
+
+### T-006 — Model changes should not force knowledge rewrites
+Exploration across multiple model ecosystems reinforced that model-specific prompts, adapters, and tool integrations should sit above a stable knowledge model.
+
+**Decision:** changing the model/provider should be treated as a transport/runtime change, not a reason to rewrite durable memory.
+
+**Status:** durable architectural principle.
+
+### T-007 — Minimum viable memory before advanced retrieval
+The memory architecture repeatedly converged on a simpler base: Markdown + explicit ownership + links + provenance should remain useful before embeddings, databases, MCP routing, synchronization, or automation are added.
+
+**Lesson:** advanced retrieval should solve measured friction rather than serve as proof of architectural sophistication.
+
+**Status:** durable design principle.
+
+## Technical preservation rules
+Technical experiments should preserve:
+- what was actually tested versus merely proposed;
+- the provider/tool constraints encountered;
+- the failure mode;
+- the workaround, if any;
+- whether the workaround became architecture or remained an experiment;
+- whether a later project generation superseded the approach.
+
+A technical architecture summary must never retroactively turn an untested idea into an implemented system.
+
+## Meta-lesson
+A durable lesson should remain linked to the evidence pattern that produced it. When future work contradicts a lesson, update the lesson's confidence or scope rather than silently preserving it as universal law.
+
+## Ownership
+- Lesson definitions and current strategic interpretation: `DECISIONS_AND_LESSONS.md`
+- Reasoning principles: `REASONING_ARCHITECTURE.md`
+- Evidence/status: `CANON_AND_PROVENANCE.md`
+- Knowledge-state change: `KNOWLEDGE_STATE_TRANSITIONS.md`
+- Archive structure: `KNOWLEDGE_OWNERSHIP_MAP.md`
