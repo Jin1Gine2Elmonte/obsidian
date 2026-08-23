@@ -1,53 +1,75 @@
 # Persistent Memory — Deep Project Context
 
-> High-density durable synthesis. This file is an orientation layer, not a transcript.
+> High-density orientation layer. This is durable synthesis, not a transcript and not the canonical owner of every detail.
 
-## 1. Collaboration architecture
+## 1. Collaboration / reasoning core
 
-The user prefers substantial work to begin with the underlying structure rather than the visible wording alone. Identify purpose, emotional effect, center of gravity, internal architecture, mechanisms, relationships, causality, constraints, and external perception before generating.
+The user prefers substantial work to begin with underlying structure: purpose, emotional effect, center of gravity, internal architecture, mechanisms, relationships, causality, constraints, and external perception.
 
-Use internal and external perspectives together:
-- internal: architecture, mechanisms, dependencies, constraints, hidden logic, causal structure;
-- external: appearance, reader/viewer perception, usability, emotional impact, clarity, practical effect.
+Use internal and external perspectives together. Creative generation and critical evaluation should remain distinct. Treat expertise as emerging from repeated patterns and stable understanding. Promote recurring high-impact concepts to Anchor nodes.
 
-Useful evaluation modes include creator, expert/critic, and first-time observer. Keep creative generation and critical evaluation distinct.
+The user values direct execution, preservation of constraints, accurate uncertainty, and correction over defensive elegance. Do not pretend unavailable work was completed.
 
-Treat expertise as emergent from repeated experience and stable patterns. Prefer fewer, broader principles with strong explanatory power. When a concept becomes structurally important, promote it to an Anchor Core node and preserve its relationship neighborhood.
+## 2. Creative orientation
 
-The user values direct execution over generic tutorials. Preserve existing constraints. Do not pretend unavailable work was completed. Do not ask for information already available in the active context.
+Preferred creative territory is dark, gothic, philosophical, psychologically tense, mysterious, intimate, morally ambiguous, and behavior-driven. Meaning should usually emerge through scenes, timing, silence, reactions, contradictions, and emotional subtext rather than explanatory moral labels.
 
-## 2. Creative identity
+A recurring craft gap is that mystery/depth can advance faster than clarity/pacing. Future critique should therefore test causality, information flow, scene purpose, rhythm, emotional movement, and readability before adding more mystery.
 
-The user's creative orientation is intuitive, instinctive, subconscious, mythological, and inside-out. The ambition is a distinctive artistic voice rather than conventional competence alone.
+## 3. Fictional anchor: Jin
 
-Preferred atmosphere: dark, gothic, philosophical, gray, psychologically tense, mysterious, intimate, sometimes brutal, morally ambiguous. Actions are more useful as expressions of pressure, fear, desire, repression, wounds, instincts, and competing forces than as simple good/evil labels.
+Jin / Gin / Gene is a recurring cosmic/meta-fictional anchor associated with fictional awareness, imagination functioning as an effective realm despite lacking ordinary physical existence, and extraordinary agency over reality.
 
-Meaning should usually emerge through scenes, behavior, silence, timing, reactions, contradictions, and emotional subtext rather than direct exposition.
+Multiple Jin iterations/versions exist in the accessible memory. Never collapse them into one entity without evidence. Version-scoped properties include project/world membership, personality, memories, powers, chronology, relationships, and visual identity.
 
-Anime/manhwa-scale dramatic intensity can be an inspiration point, while the resulting work should not feel like imitation or culturally obvious translation.
+The relationship between cosmic Jin material and the Almont/Ryota human-family branch remains a major unresolved continuity question.
 
-A recurring craft issue is imbalance: mystery and depth can improve while clarity and pacing lag. Diagnose progression, causality, scene purpose, information flow, rhythm, and emotional movement before adding more mystery.
+Canonical identity owner: `WORLD/JIN_CORE.md`.
+Variant registry: `WORLD/JIN_VARIANTS.md`.
+Version relationships: `WORLD/JIN_VERSION_LATTICE.md`.
+Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
 
-## 3. Fictional universe — high-confidence anchors
+## 4. Jin / Almont / Ryota / Arisa / Benjamin
 
-### Jin / Gin / Gene
-A recurring cosmic/meta-fictional anchor associated with fictional awareness, reality control, imagination as an effective realm despite lacking ordinary physical existence, and agency that can cross ordinary narrative boundaries.
+Almont is emperor; Arisa is his wife; Ryota is his son; Benjamin is an adviser. The family branch contains trauma, authority, inheritance, rebellion, escape/return, and political succession.
 
-Jin's exact powers, costs, limitations, hierarchy, and full chronology remain version-dependent and partially under-recovered.
+Arisa's death is a major remembered event in the child-history. The exact circumstances remain under-recovered.
 
-### Jin variants
-The user has discussed multiple versions/iterations of Jin. This is a major archive safeguard: never collapse all Jin occurrences into one entity without evidence. Version identity, world/project membership, personality, memories, powers, chronology, relationships, and visual identity must be recorded separately.
+Durable memory contains an unresolved overlap between a child-history described under Jin and closely related history described under Ryota. This is an active conflict, not a solved identity.
 
-### Human-scale Jin branch
-A particularly important recovery direction is the intersection between Jin's enormous cosmological agency and the human/family/political stories around him. The durable archive should prioritize scenes showing restraint, choice, emotional vulnerability, consequences, or relationships that power alone cannot trivialize.
+Canonical Almont owner: `WORLD/ALMONT.md`.
+Relationship/state/family material has specialized owners in `WORLD/`.
+Conflict owner: `WORLD/CANON_CONFLICTS.md`.
 
-### Adam
-Adam is remembered as a traveler between worlds and a follower of Jin. The durable context does not yet preserve a complete origin, motive, power set, or independent arc. Those are high-value recovery targets.
+## 5. Empire / Dark Forest / power system
 
-### Garthin
-Garthin is a ruler defined by contradiction: brutality and monstrous behavior can coexist with a hidden, difficult-to-understand spark of kindness. The contradiction should be shown through behavior and circumstance, not converted into a simplistic redemption narrative.
+The empire controls most of the world outside the Dark Forest. Earlier worldbuilding established approximately 1,060 military cities, with some cities imagined at extraordinarily large populations.
 
-### Cosmology anchors
+These scale details are durable worldbuilding memories. Institutional consequences are reconstruction targets unless explicitly established.
+
+Remembered power distinction:
+- Magic: transcendent / difficult / beyond ordinary logic.
+- Powers: more logical / constrained / often inherited through blood.
+
+A spiritual-vessel concept exists, but exact mechanics remain under-recovered.
+
+Canonical owners are in `WORLD/EMPIRE.md`, `WORLD/DARK_FOREST.md`, and `WORLD/POWER_SYSTEM.md`.
+
+## 6. Adam
+
+Adam is remembered as a traveler between worlds and follower of Jin. His exact origin, motives, travel mechanics, independent arc, and ability to recognize Jin variants remain under-recovered.
+
+Canonical owner: `WORLD/ADAM.md`.
+
+## 7. Garthin
+
+Garthin is a ruler defined by contradiction: brutality/monstrous behavior can coexist with a hidden, difficult-to-explain spark of kindness. The contradiction is not a redemption shortcut; it should emerge through behavior and circumstance.
+
+Canonical owner: `WORLD/GARTHIN.md`.
+
+## 8. Cosmology anchors
+
+Recurring anchors include:
 - Existence Sublime / الوجود الأبهى
 - Entity of Forgetting / كيان النسيان
 - Primordial Rift
@@ -56,144 +78,56 @@ Garthin is a ruler defined by contradiction: brutality and monstrous behavior ca
 - Corruption
 - Curse of the Ancients
 - Blood family
-- Noir
 - Dreams of the Inverted Universe
+- Noir
 
-### Entity of Forgetting
-Absolute nothingness cannot literally manifest as an entity because manifestation would make something existent. The Entity of Forgetting is therefore an existent entity/function performing something absolute nothingness itself cannot perform. This philosophical distinction anchors The Last Thing to Be Forgotten.
+The cosmological hierarchy and project membership of these concepts remain incompletely recovered. The Entity of Forgetting carries a particularly strong preserved philosophical distinction: an existent forgetting entity cannot be identical to absolute nothingness because manifestation itself entails existence.
 
-## 4. Almont / Ryota / Arisa / Benjamin branch
+## 9. Major creative projects
 
-### Established remembered structure
-Almont is emperor. Arisa is his wife. Ryota is his son. Benjamin is an adviser. The family branch is bound to a huge imperial structure.
+- `Whispers of Fog / همسات الضباب` — medieval-fantasy side project; 20-chapter structure explored.
+- Main novel — major development reached at least section 9 in one phase; 20-chapter architecture explored.
+- `Strings of Fate / أوتار القدر` — project with strong recoverable visual identity but incomplete story-level memory. Canonical visual constraints include translucent white strings with a slight pale-emerald tint in their illumination, preservation of sky/composition/city/character/lighting/colors/title/dimensions, removal of bottom writing, improved decoration under the title, and avoidance of generic AI aesthetics.
+- `The Last Thing to Be Forgotten` — cosmic/orchestral-operatic concept around the Entity of Forgetting and the nothingness/existence distinction.
+- `Lord of the Abyss / لورد الغوامض` and `Shadows of the First Creation / ظلال الخلق الأول` — recurring dark-mythological/cosmological anchors.
 
-Arisa's death is a major remembered event in the child/younger-character history and is witnessed by the relevant child/young character. The exact circumstances are under-recovered.
+Do not merge projects or generations merely because themes/names recur.
 
-Ryota is remembered as living in prolonged rebellion against his father, repeatedly leaving/disappearing into other lands, and later returning because his political position and future influence matter. The relationship is harsh and lacks conventional warmth.
+## 10. AI memory / technical ecosystem
 
-### Identity warning
-The archive contains both explicit Ryota material and multiple Jin/version signals around the broader family history. This is a known ambiguity. Do not merge them until a historical transcript identifies the exact names and versions used in each scene.
+Long-term objective: portable external memory surviving changes in models, applications, and providers. Obsidian is the durable human-readable substrate and intended source of truth. Explored access layers include MCP, APIs, plugins, synchronization, Android accessibility/IME approaches, and cross-model context bridges.
 
-### Structural significance
-The family branch is simultaneously:
-- family trauma;
-- political succession;
-- inherited authority;
-- identity versus imposed role;
-- escape versus return;
-- private emotion under imperial pressure.
+Nexus is an evolving family of agent/server experiments involving orchestration, tools, memory, gateways, and remote deployment. Hermes work includes CLI/YAML, Docker, Northflank, storage/embeddings, tool constraints, and deployment experiments.
 
-Exact causal links must be recovered from scenes rather than inferred from titles.
+Technical architecture should remain as simple as practical. Access layers must not silently become the source of truth.
 
-## 5. Empire
+## 11. Archive governance
 
-The empire is remembered as controlling most of the world, with the Dark Forest outside effective control. Worldbuilding included approximately 1,060 military cities, some at extraordinarily large population scales.
+The archive now operates with explicit ownership, provenance, temporal state, relationship confidence, knowledge-state transitions, negative knowledge, and consolidation rules.
 
-These numbers are durable worldbuilding memories but imply institutional requirements that should be tested: communication, food supply, taxation, recruitment, military command, records, governance, intelligence, succession, transport, and cultural integration.
+Core principles:
+- direct source evidence outranks elegant synthesis;
+- versions stay separate until proven otherwise;
+- relationships require provenance/status;
+- world time, project time, conversation time, and archive knowledge time are distinct;
+- update existing owners before creating duplicates;
+- preserve historical contradictions and superseded states when useful;
+- more words/files do not equal more memory;
+- unsupported gaps remain gaps.
 
-Do not invent those systems as if they were existing canon. Use them as consistency/recovery targets until explicitly established.
+Key governance files:
+- `KNOWLEDGE_OWNERSHIP_MAP.md`
+- `CANON_AND_PROVENANCE.md`
+- `RELATIONSHIPS.md`
+- `ANCHOR_GRAPH.md`
+- `TEMPORAL_MODEL.md`
+- `TEMPORAL_EVENT_TYPES.md`
+- `KNOWLEDGE_STATE_TRANSITIONS.md`
+- `KNOWLEDGE_EVENTS.md`
+- `ARCHIVE_MAINTENANCE_LOOP.md`
+- `ARCHIVE_CLEANUP_BACKLOG.md`
+- `NEGATIVE_KNOWLEDGE.md`
 
-The capital has special gravitational significance because characters can leave it physically while remaining tied to its political and social consequences.
+## 12. Historical boundary
 
-## 6. Power system
-
-The remembered world distinguishes two broad power categories:
-- Magic: transcendent, difficult to learn, beyond ordinary logic.
-- Powers: more logical and constrained, often inherited through blood.
-
-A spiritual-vessel concept exists, but exact mechanics are not sufficiently preserved. Do not fabricate stages, costs, energy sources, or compatibility rules.
-
-The blood-inheritance principle creates a potential bridge between ability and family, succession, military value, social rank, and political legitimacy. These are analytical consequences to test against actual canon.
-
-## 7. Fiction projects
-
-### Whispers of Fog / همسات الضباب
-Medieval-fantasy side project; a 20-chapter structure has been explored.
-
-### Main novel
-Major development reached at least section 9 in one phase; a 20-chapter architecture has been explored.
-
-### Strings of Fate / أوتار القدر
-A creative project with a strong visual identity. Explicitly remembered cover requirements include semi-transparent/translucent white strings, slight pale/light-emerald tint in their illumination rather than green strings, no unwanted sky-color change, preservation of composition/city/character/lighting/colors/title typography/dimensions, removal of unwanted bottom writing, improved decoration under the title, and polish that avoids generic AI aesthetics.
-
-The accessible memory is much stronger for the visual layer than for the complete narrative/lore layer; unknown story canon must not be invented.
-
-### The Last Thing to Be Forgotten
-An orchestral-operatic-cosmic concept centered on the Entity of Forgetting and the distinction between nothingness and an existent function/entity of forgetting.
-
-### Lord of the Abyss / لورد الغوامض
-Recurring dark-mythological title/concept.
-
-### Shadows of the First Creation / ظلال الخلق الأول
-Major cosmological/mythological title and anchor concept, including cover-art development.
-
-## 8. AI memory / Obsidian
-
-Long-term objective: portable external memory that survives model/application/provider changes. Obsidian is the human-readable Markdown substrate and intended source of truth.
-
-Desired memory primitives: conversations, messages, summaries, projects, characters, worlds, concepts, technologies, decisions, dates, importance, provenance, relationships, synchronization state, open questions, current versus historical state.
-
-Explored bridges and ideas include Obsidian Local REST API, Obsidian MCP servers, semantic-vault approaches, synchronization layers, Android accessibility-service approaches, Android IME/context injection, conversation-to-text export, and cross-model continuity between ChatGPT, Gemini, and potentially other models.
-
-The user prefers a minimum necessary architecture. Cloud, databases, vector stores, terminals, and automation should be added only when measured friction justifies them.
-
-## 9. Nexus / Hermes / technical ecosystem
-
-Nexus is an evolving family of agent/server experiments. Treat different repositories/generations as distinct unless explicitly linked. Recurring themes: Node.js, Google GenAI SDK, MCP, persistent memory, tool routing, agent orchestration, gateway/external cognition, remote deployment.
-
-Hermes work included Dockerfile, hermes.yaml, northflank.yaml, docker-compose.yml, deploy.sh, README_ARABIC.md, NORTHFLANK_SETUP.md, knowledge_os.py, and GitHub Actions deployment concepts. Topics included browser/tool limitations, storage, embeddings, local sentence-transformers, hosted embeddings, and hybrid architectures.
-
-Deployment research includes Fly.io, Northflank, Oracle Cloud free tier, Docker, and GPU hosting. A Fly.io attempt encountered an organization CPU-core limit. Cost and practical simplicity recur as constraints.
-
-## 10. Creative AI / visual standards
-
-Explored areas include cinematic neural-network visuals, anime/manhwa visuals, cosmic/mythological artwork, character portraits, book covers, negative-space/minimal compositions, visual storytelling, music-generation prompts, voice generation, and AI-built web experiences.
-
-Quality criteria: composition, lighting logic, typography, material behavior, atmospheric integration, narrative purpose, polish, and avoidance of generic AI aesthetics. For constrained edits, protected elements must remain protected; unrelated changes count as regressions.
-
-## 11. Web / product concepts
-
-Explored dark novel websites, Noir-novels.com, WordPress, Netlify, HTML RPG interfaces, original progression systems inspired by Solo Leveling/Nano Machine, AI image tools, tutoring systems, agent operating systems, and personal AI-memory systems.
-
-## 12. Research / reading
-
-Long-form interests: AI/technology, literature/writing, philosophy/psychology, politics/geopolitics. Preferred reading duration roughly 25–45 minutes; free access strongly preferred.
-
-## 13. Lessons governing future archive work
-
-### Evidence beats elegance
-A direct historical scene or user statement outranks a beautiful synthesis. When source evidence contradicts a current model, update the model rather than protecting the model.
-
-### Versions must remain separate
-Shared names, powers, or motifs are not proof of identity across project generations.
-
-### Causality matters more than lists
-A character record is incomplete if it does not preserve what changed because of the character's choices and relationships.
-
-### Mystery is not a substitute for structure
-Depth must coexist with clarity, pacing, causality, and emotional movement.
-
-### More files are not more memory
-New value must come from a fact, relationship, decision, historical state change, source, consequence, correction, or high-value unresolved question.
-
-### Update existing nodes before adding new ones
-When new information belongs to an existing concept, revise/merge the existing record and propagate the delta to relationships/timeline instead of creating duplicate summaries.
-
-## 14. Archive state model
-
-Every important node should expose:
-- content;
-- provenance;
-- confidence;
-- temporal state;
-- project/version scope;
-- relationships;
-- consequences;
-- open questions;
-- supersession/replacement history.
-
-Recommended states: confirmed, strongly supported, working model, inferred, speculative, obsolete, unknown.
-
-## 15. Historical boundary
-
-This file is a synthesis of information currently accessible to the assistant. It is not a verbatim export of every historical conversation ever exchanged. Full raw history should be imported and preserved separately when available; distilled memory must remain traceable back to evidence.
+This file is a synthesis of context currently accessible to the assistant. It is not a verbatim export of every historical conversation. Raw conversations should remain separate from distilled memory when available, and distilled claims should remain traceable to evidence.
