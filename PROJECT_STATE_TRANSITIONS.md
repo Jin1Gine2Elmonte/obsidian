@@ -8,6 +8,27 @@ Track meaningful changes in projects: emergence, expansion, rewrite, correction,
 
 Projects may branch, regress, restart, or exist in several states simultaneously. This is a historical model, not a mandatory development process.
 
+## Transition record model
+A meaningful project transition should preserve, when available:
+- previous project state;
+- trigger/problem;
+- decision or creative choice that changed direction;
+- alternatives considered;
+- constraint preserved;
+- resulting state;
+- downstream effects on canon, structure, characters, technology, or workflow;
+- source/date;
+- whether the transition remains current or was later superseded.
+
+This separates **project evolution** from **fictional-world chronology**. A project rewrite may change how a character is represented without becoming an event inside the fictional universe.
+
+Related ownership:
+- `DECISIONS_AND_LESSONS.md` — decision/experiment owner;
+- `HISTORICAL_EVOLUTION_MAP.md` — broad evolution of recurring ideas;
+- `INTENT_AND_DISCARDED_PATHS.md` — rejected or superseded directions;
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — changes in knowledge status;
+- `TIMELINE.md` — broad archive/project chronology.
+
 ## Fiction projects
 ### Jin / cosmological universe
 Observed trajectory: recurring character/concept -> meta-fictional expansion -> multiple versions -> broader cosmology -> unresolved continuity architecture.
@@ -51,10 +72,23 @@ Observed trajectory: notes repository -> external memory substrate -> structured
 A project transition is strongest when there is:
 1. an explicit user statement of change;
 2. a dated source;
-3. a replacement/correction;
-4. a resulting downstream change.
+3. a decision/creative choice explaining the change;
+4. a replacement/correction;
+5. a resulting downstream change.
 
 Do not infer a transition simply because a later file looks different.
+
+## Decision-to-state propagation
+When a verified project decision changes direction, recheck:
+- project state;
+- affected canon or artifacts;
+- relevant versions/branches;
+- relationships and causal maps;
+- timelines where the project-generation history matters;
+- navigation summaries;
+- discarded-path and negative-knowledge records.
+
+A project decision is not automatically a fictional event. The two should be linked only when the evidence establishes that relationship.
 
 ## Preservation rule
 When a project changes direction, keep the old state if it explains why the current state exists. Do not rewrite history into a clean linear narrative.
