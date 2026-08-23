@@ -1,31 +1,35 @@
-# World Systems Atlas
+# World Systems Atlas — Navigation Layer
+
+> This file is a map into the world-system owners, not a second canonical database.
 
 ## Empire
-The imperial civilization controls most of the known world. It is simultaneously a political structure, military machine, geographic network, and source of family authority.
+Broad world-system anchor: imperial control, approximate scale of 1,060 military cities, and macro boundary conditions.
 
-Known scale: approximately 1,060 military cities have been established in the worldbuilding. Some cities can reach extraordinarily large populations by the world's scale.
+Canonical detail: `WORLD/EMPIRE.md`
+Derived logistics: `WORLD/IMPERIAL_LOGISTICS.md`
+Institutional recovery: `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md`
+Capital/court: `WORLD/CAPITAL_AND_COURT.md`
 
 ## Dark Forest
-A dangerous and mysterious region outside effective imperial control. Its narrative value is not merely geographic. It represents the limit of centralized authority and therefore creates a space where imperial assumptions, law, information, and power may fail.
+Broad anchor: dangerous region outside effective imperial control.
 
-## City network
-Military cities are numbered and form part of the empire's administrative/military infrastructure. The scale suggests a civilization capable of enormous logistics, population movement, resource extraction, and centralized authority.
+Canonical detail: `WORLD/DARK_FOREST.md`
+Imperial boundary analysis: `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md`
 
 ## Power system
-### Magic
-Transcendent, difficult to learn, and beyond ordinary logic. Its rarity and difficulty should produce social consequences: who teaches it, who fears it, who controls knowledge of it, and how institutions react to people who use it.
+Broad distinction: Magic, inherited Powers, and the spiritual-vessel concept.
 
-### Powers
-More logical and constrained than magic. Often inherited through blood. This creates a natural connection between ability, lineage, family politics, inheritance, status, and identity.
+Canonical detail: `WORLD/POWER_SYSTEM.md`
+Political consequences: `WORLD/POWER_POLITICS.md`
+Memory/recovery: `WORLD/POWER_SYSTEM_MEMORY_DENSITY.md`
 
-### Spiritual vessel
-A structural component of the power system. Future canon should define whether it is a container, interface, organ, metaphysical structure, or another mechanism.
+## City network
+Numbered military cities belong to the empire/world-system layer. Scale implications are analytical until explicitly established by source evidence.
 
-## Power-system design principle
-Power should create narrative pressure. A strong ability is interesting when it changes choices, relationships, institutions, risks, costs, and identity—not merely when it increases combat statistics.
+See: `WORLD/EMPIRE.md`, `WORLD/IMPERIAL_LOGISTICS.md`
 
-## Worldbuilding scale principle
-Large numbers should imply systems. A world with 1,060 military cities cannot behave like a village map. Geography, communication, administration, supply, warfare, migration, taxation, information flow, and political delegation must eventually reflect the stated scale.
+## Design / consistency questions
+The former material in this file that discussed institutional consequences, scale implications, and narrative-design principles is retained conceptually through the specialized analytical/recovery nodes and `DECISIONS_AND_LESSONS.md` rather than acting as a second world-system owner.
 
-## Mystery principle
-The unknown should have boundaries. Even when a region or force is mysterious, the reader benefits from knowing what is reliably observable, what is disputed, what is forbidden knowledge, and what is genuinely unknowable.
+## Canon boundary
+Do not treat this navigation file as proof of institutional mechanics that have not been recovered. Macro anchors may be strong while detailed machinery remains partial.
