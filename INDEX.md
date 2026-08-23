@@ -49,6 +49,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` — concrete current-context memory recovered into the vault with explicit provenance and non-canon status.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
