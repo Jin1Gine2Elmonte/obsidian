@@ -17,6 +17,8 @@ Define the canonical home for each kind of information so the archive can grow w
 | event chronology | `TIMELINE.md` or project timeline | state-transition node |
 | world-state change | `WORLD/WORLD_STATE_TRANSITIONS.md` | affected-node references |
 | version-to-version change | version-transition ledger | lattice / project-state references |
+| scene-level evidence and transitions | `WORLD/SCENE_RECOVERY_MATRIX.md` | canonical/entity references |
+| motive evidence / psychological recovery targets | `WORLD/MOTIVE_RECOVERY.md` | scene-level references; never silently canonicalized |
 | canonical claim | `CANON_AND_PROVENANCE.md` + domain canonical owner | source/evidence references |
 | contradiction | `WORLD/CANON_CONFLICTS.md` or project conflict owner | affected-node warnings |
 | unsupported interpretation / unsafe assumption | `NEGATIVE_KNOWLEDGE.md` | local warning only when necessary |
@@ -70,6 +72,10 @@ Define the canonical home for each kind of information so the archive can grow w
 - `WORLD/ADAM_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/ADAM_INTERWORLD_MODEL.md` — travel-mechanics investigation.
 - `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md` — Jin-version recognition investigation.
+
+### Scene / motive recovery
+- `WORLD/SCENE_RECOVERY_MATRIX.md` — scene-level evidence and transition extraction.
+- `WORLD/MOTIVE_RECOVERY.md` — motive/psychological recovery targets and evidence boundaries.
 
 ### Strings of Fate
 - `STRINGS_OF_FATE/CANON.md` — confirmed project canon.
