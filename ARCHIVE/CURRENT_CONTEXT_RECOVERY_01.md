@@ -77,7 +77,26 @@ Status rule:
 
 ---
 
-# II. Other fiction projects and title memory
+# II. Narrative-project stage memory
+
+The durable context contains more than project names. It includes **development-stage traces** that should remain separate from finished canon:
+
+- One main-novel planning cycle targeted a **20-chapter** structure.
+- Another remembered side-novel direction, **Whispers of Fog / همسات الضباب**, was also planned around a medieval-fantasy structure of approximately 20 chapters.
+- A separate drafting stage of a novel had already passed the first eight sections and entered section nine, indicating that at least one version had moved from concept/worldbuilding into sustained prose production.
+- The exact mapping between these drafting stages, titles, and Jin variants is not sufficiently preserved to merge them. They are therefore retained as project-stage evidence only.
+- This distinction matters because chapter counts and drafting stages describe the **project's production state**, not the fictional chronology.
+
+## Recurrent narrative-development pattern
+A remembered pattern across projects is:
+
+`idea -> world premise -> character architecture -> mythology/power expansion -> chapter/section planning -> prose drafting -> diagnosis of gaps -> revision`
+
+The user's later self-diagnosis identified a recurring imbalance: mystery/depth could become stronger while clarity, pacing, causal progression, and emotional movement remained weaker. This became an explicit craft correction target rather than an argument to reduce mystery itself.
+
+---
+
+# III. Other fiction projects and title memory
 
 The following projects/titles are present in durable context and should be preserved as independent recovery targets until project membership is verified:
 
@@ -91,7 +110,7 @@ The following projects/titles are present in durable context and should be prese
 
 ---
 
-# III. Cosmological memory
+# IV. Cosmological memory
 
 Recurring concepts that must remain separated until provenance is recovered:
 
@@ -110,7 +129,7 @@ A particularly important preserved philosophical idea concerns the **Entity of F
 
 ---
 
-# IV. Strings of Fate memory beyond the current archive frame
+# V. Strings of Fate memory beyond the current archive frame
 
 - The project title is **أوتار القدر / Strings of Fate**.
 - The remembered cover composition includes a city, a central character, a sky, title typography, decorative material beneath/around the title, and luminous string-like elements.
@@ -121,7 +140,7 @@ A particularly important preserved philosophical idea concerns the **Entity of F
 
 ---
 
-# V. Creative practice memory
+# VI. Creative practice memory
 
 The user's enduring creative preferences include:
 
@@ -141,7 +160,7 @@ A major self-diagnosed writing gap was that mystery/depth improved faster than c
 
 ---
 
-# VI. Visual / art memory
+# VII. Visual / art memory
 
 The conversation history includes repeated work on:
 - anime and manhwa character design;
@@ -155,9 +174,14 @@ The conversation history includes repeated work on:
 
 A recurring constraint is that modifications should be local and deliberate rather than causing an image model to redesign the entire composition.
 
+## Page/comic workflow memory
+- One staged comic experiment involved generating pages sequentially rather than treating the whole story as a single image.
+- The user explicitly corrected a stylistic drift when a first page felt too Ghibli-adjacent and asked for closer adherence to the intended series style in a later page.
+- This is retained as a workflow/correction memory, not a claim about the final canonical art style of every project.
+
 ---
 
-# VII. Music / audio memory
+# VIII. Music / audio memory
 
 The user has also explored:
 - AI-generated songs;
@@ -170,7 +194,7 @@ Detailed prompt history, versions, musical direction, and rejected alternatives 
 
 ---
 
-# VIII. AI/model ecosystem memory
+# IX. AI/model ecosystem memory
 
 Recurring model/tool interests include:
 - ChatGPT;
@@ -190,7 +214,7 @@ The user values investigations that explore multiple plausible failure modes rat
 
 ---
 
-# IX. Nexus / Hermes / agent infrastructure memory
+# X. Nexus / Hermes / agent infrastructure memory
 
 ### NEXUS
 - NEXUS has been envisioned as a sovereign/central agent architecture or server family.
@@ -209,7 +233,7 @@ The user values investigations that explore multiple plausible failure modes rat
 
 ---
 
-# X. External memory / cross-model continuity memory
+# XI. External memory / cross-model continuity memory
 
 The user's broader objective is to preserve a coherent knowledge identity across models such as ChatGPT, Gemini, Qwen, and other AI systems.
 
@@ -229,7 +253,7 @@ A persistent architectural principle is that no access mechanism should silently
 
 ---
 
-# XI. Deployment / infrastructure memory
+# XII. Deployment / infrastructure memory
 
 Historical technical environments and experiments include:
 - Docker;
@@ -247,7 +271,7 @@ A specific historical failure remembered from deployment work: Fly.io reported a
 
 ---
 
-# XII. Web / app / personal software project memory
+# XIII. Web / app / personal software project memory
 
 The user has explored:
 - WordPress;
@@ -259,11 +283,23 @@ The user has explored:
 - deployment scripts and repository automation;
 - GitHub Actions and structured repository workflows.
 
-These are historical project anchors and should not be merged merely because they all involve web development.
+## RPG/web concept memory
+- A remembered creative/technical direction was an HTML RPG-style site inspired by progression systems such as Solo Leveling/Nano Machine-like interfaces.
+- The site concept involved turning narrative/game concepts into an interactive system rather than keeping them purely as prose.
+- Exact implementation and final architecture require historical recovery.
 
 ---
 
-# XIII. Decision / thinking memory
+# XIV. Naming / terminology memory
+
+- The user has repeatedly worked on fictional names, titles, and terminology rather than treating names as incidental labels.
+- One explicit linguistic investigation concerned the distinction between translating **خالد** as a meaning (everlasting/immortal) and rendering **Khalid** as a personal name/transliteration.
+- Fictional title decisions often carry metaphysical or thematic implications and should therefore remain recoverable as project decisions, not merely final strings.
+- Replaced names and title evolution are important negative-history targets because they can reveal project boundaries and rewrite stages.
+
+---
+
+# XV. Decision / thinking memory
 
 The user repeatedly prefers:
 - deep analysis before generation;
@@ -279,7 +315,7 @@ The user repeatedly prefers:
 
 ---
 
-# XIV. Recovery warning
+# XVI. Recovery warning
 
 This pass is deliberately **broader and more concrete** than a normal orientation summary, but it remains a current-context reconstruction rather than a transcript export.
 
