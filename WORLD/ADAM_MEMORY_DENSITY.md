@@ -1,46 +1,44 @@
-# Adam — Memory-Density Extraction
+# Adam — Memory-Density Record
 
-## Core remembered identity
-Adam is remembered as a traveler between worlds and a follower of Jin. His importance therefore lies less in a standalone biography and more in his position inside the inter-world structure surrounding Jin.
+## Ownership
+Canonical identity lives in `WORLD/ADAM.md`.
+This file owns only **memory completeness, evidence strength, and retrieval gaps** for Adam.
 
-## Structural role
-Adam potentially connects:
-- Jin to other worlds;
-- local stories to the cosmic layer;
-- observation to participation;
-- loyalty to independent agency;
-- world-travel to continuity across otherwise separate settings.
-
-These are structural questions, not complete canon.
-
-## What is confirmed
+## Strongly preserved evidence
 - Adam travels between worlds.
-- Adam is a follower of Jin.
+- Adam follows Jin.
 
-## What remains unresolved
-- how Adam met Jin;
-- why he follows Jin;
-- whether the relationship is loyalty, ideology, debt, affection, dependence, fear, or another force;
-- what worlds Adam can access;
-- whether world travel is a power, technology, condition, or consequence of Jin's system;
-- Adam's personal goal;
-- Adam's limitations;
-- whether Adam knows Jin's other versions;
-- whether Adam can recognize a particular Jin across variants;
-- whether Adam changes from world to world;
-- what Adam believes about fictional reality.
+These points are already represented by the canonical identity owner and are intentionally not expanded here.
 
-## Recovery strategy
-Future conversation imports should search not only for "Adam" but for scenes involving:
-- travel;
-- portals or world transitions;
-- following Jin;
-- conversations with Jin;
-- discoveries about different worlds;
-- moments where Adam disagrees with Jin;
-- moments where Adam acts independently.
+## Medium-confidence structural memory
+The accessible memory repeatedly places Adam at the boundary between individual-world stories and a broader multi-world context. This is an archival hypothesis, not proof that Adam has an explicit cosmological office.
 
-A follower who never chooses is structurally shallow. Historical scenes should determine whether Adam actually functions as an autonomous character or primarily as a witness/bridge.
+## Major missing evidence
+- first appearance / first meeting with Jin;
+- why Adam follows Jin;
+- whether the relationship is voluntary, ideological, emotional, dependent, fearful, or otherwise motivated;
+- exact worlds visited;
+- travel mechanism and constraints;
+- what Adam remembers across world transitions;
+- whether Adam recognizes different Jin variants;
+- whether Adam's behavior changes between worlds;
+- independent goals and decisions;
+- limits, failures, injuries, or costs;
+- exact beliefs about fiction/reality;
+- scenes establishing disagreement or separation from Jin.
 
-## Canon rule
-Do not invent a detailed backstory for Adam from the limited current memory. Preserve the follower/traveler core and recover the rest from source material.
+## Highest-value recovery evidence
+Prioritize scenes containing:
+1. Adam meeting Jin;
+2. Adam choosing to follow or not follow;
+3. a world transition;
+4. Adam reacting to a changed Jin;
+5. Adam contradicting Jin;
+6. Adam acting without Jin;
+7. Adam revealing knowledge that crosses world boundaries.
+
+## Memory-quality rule
+A future transcript should increase this record by adding evidence, chronology, version assignment, contradiction resolution, or a new recovery target. Restating Adam's basic identity is not progress.
+
+## Canon boundary
+Do not use missing detail to generate a backstory. Until source material appears, preserve uncertainty rather than manufacture a complete Adam.
