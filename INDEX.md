@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, and working methods** in a form that humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, and the lessons produced by actual work** in a form that humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -51,6 +51,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
 - `KNOWLEDGE_EVENTS.md`
+- `LESSON_PROVENANCE_MAP.md` — evidence and change lineage behind durable lessons.
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
@@ -115,6 +116,8 @@ See:
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
 - `TEMPORAL_EVENT_TYPES.md` — how world, project, and knowledge events differ.
 - `REASONING_ARCHITECTURE.md` — cross-domain reasoning and collaboration model.
+- `DECISIONS_AND_LESSONS.md` — durable lessons and decisions.
+- `LESSON_PROVENANCE_MAP.md` — why those lessons became durable.
 
 ## Graph principle
 
@@ -137,6 +140,7 @@ A change is valuable only when it adds at least one of:
 - a resolved contradiction
 - a useful open question
 - a new operational capability
+- a lesson backed by real work or repeated evidence
 
 More words alone do not qualify.
 
