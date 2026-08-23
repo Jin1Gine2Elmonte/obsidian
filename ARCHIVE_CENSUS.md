@@ -1,73 +1,88 @@
 # Archive Census
 
 ## Purpose
-A maintenance inventory of the durable knowledge captured in this repository. This document exists to prevent attention collapse onto one project and to reveal duplication or missing domains.
+A high-level inventory of durable knowledge currently captured in this repository, used to prevent attention from collapsing onto one project and to detect where the archive is adding structure without adding evidence.
 
-## Current domains
-1. creator / collaboration architecture
-2. creative methodology
-3. fictional universe
-4. cosmology
-5. characters
-6. world systems
-7. fiction projects
-8. visual art / cover direction
+## Major domains
+1. Creator / collaboration architecture
+2. Creative methodology
+3. Fictional universe
+4. Cosmology
+5. Characters
+6. World systems
+7. Fiction projects
+8. Visual art / cover direction
 9. AI memory architecture
-10. conversation archival model
-11. Nexus
-12. Hermes
-13. MCP / agent integration
-14. deployment / infrastructure
-15. model evaluation
-16. web / product experiments
-17. cross-model context portability
-18. research / reading interests
-19. decisions / lessons
-20. open loops
-21. relationship graph
-22. provenance / canon control
-23. archive operations
+10. Nexus
+11. Hermes
+12. MCP
+13. Deployment / infrastructure
+14. Model evaluation
+15. Web/product experiments
+16. Cross-model context portability
+17. Research / reading interests
+18. Decisions / lessons
+19. Open loops / unresolved questions
+20. Relationship graph
+21. Version/identity control
+22. Scene-level recovery
 
-## High-value project anchors
-- Strings of Fate / أوتار القدر
-- Whispers of Fog / همسات الضباب
-- The Last Thing to Be Forgotten
-- Shadows of the First Creation / ظلال الخلق الأول
-- Lord of the Abyss / لورد الغوامض
-- Nexus
-- Hermes
-- Obsidian memory architecture
+## High-value world anchors
+- Jin / Gin / Gene
+- Jin variants
+- Jin child-history branch
+- Jin ↔ Almont
+- Jin ↔ Ryota identity audit
+- Adam
+- Almont
+- Ryota
+- Arisa
+- Benjamin
+- Garthin
+- Empire
+- Capital / court
+- Dark Forest
+- Magic
+- inherited Powers
+- spiritual vessel
 
-## Known archive design corrections
-Earlier expansion rounds created multiple overlapping protocol/specification files. The canonical conversation-archive specification is now `CONVERSATION_ARCHIVE_SPEC_V2.md`; the older duplicate `CONVERSATION_ARCHIVE_SPEC.md` has been removed rather than left to compete with it.
+## High-value cosmology anchors
+- Existence Sublime
+- Entity of Forgetting
+- Primordial Rift
+- Shadows of the First Creation
+- Abyss
+- Corruption
+- Curse of the Ancients
+- Blood family
+- Dreams of the Inverted Universe
 
-The repository should prefer editing an existing authoritative node over multiplying near-duplicates.
+## Current major ambiguity
+The Jin/Ryota identity relationship is unresolved and is now explicitly isolated in `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`. This is intentionally treated as a high-priority evidence problem rather than silently reconciled.
 
-## Expansion rule
-A future addition should be justified by at least one of:
-- new fact
-- new entity
-- new relationship
-- state change
-- decision
-- rejected alternative
-- causal explanation
-- constraint
-- evidence
-- consequence
-- open loop
-- operational capability
+## Expansion test
+Before adding content, ask:
+- Is this actually new evidence?
+- Is it a new entity?
+- Is it a real relationship?
+- Does it record a historical change?
+- Does it preserve a decision or its reason?
+- Does it explain a consequence?
+- Does it expose a meaningful contradiction?
+- Does it preserve a scene that changes understanding?
+- Does it resolve or sharpen an open question?
 
-Paraphrasing, renaming, and adding decorative prose do not count as knowledge growth.
+Paraphrase alone is not expansion.
 
-## Current limitation
-The assistant's accessible conversation state is a summarized memory context, not a searchable database containing every historical utterance. A census of accessible durable knowledge is possible; a literal census of all historical chat text is not.
-
-## Maintenance procedure
-Before expanding the vault:
-1. inspect the existing node with the closest semantic role;
-2. correct stale or inaccurate content;
-3. merge duplicates where appropriate;
-4. preserve superseded material only when historically useful;
-5. add new nodes only after the above checks;
-6. update the index and relationship graph when the architecture changes.
+## Retrieval priority
+When historical conversation source becomes available, prioritize:
+1. Jin/Ryota identity resolution.
+2. Jin variant registry.
+3. Arisa death scene and aftermath.
+4. Almont/Ryota father-son scenes.
+5. Jin/Almont relationship scenes.
+6. Adam/Jin meeting and interworld travel scenes.
+7. Garthin scenes demonstrating the hidden contradiction.
+8. Power-system demonstrations in actual scenes.
+9. Empire/capital institutional scenes.
+10. Cosmological scenes connecting the human and cosmic layers.
