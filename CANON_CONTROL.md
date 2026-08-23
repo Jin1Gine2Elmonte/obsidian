@@ -1,35 +1,9 @@
-# Canon Control
+# Canon Control — Navigation Pointer
 
-This vault must distinguish what is known from what is merely possible.
+The canonical definitions for canon/status, provenance, confidence, contradiction handling, relationship status, temporal status, and supersession now live in:
 
-## Status classes
+`CANON_AND_PROVENANCE.md`
 
-### CANONICAL
-Explicitly established by the user or confirmed by project source material.
+Use that file as the single governance source of truth.
 
-### WORKING
-Currently intended, but still subject to revision.
-
-### HISTORICAL
-Previously intended, tested, or believed, but superseded or abandoned.
-
-### SPECULATIVE
-A hypothesis or creative possibility not yet accepted as canon.
-
-### DERIVED
-An interpretation inferred from repeated patterns rather than explicitly stated.
-
-### UNKNOWN
-Not enough information exists. Do not fill the gap by invention.
-
-## Supersession
-When a later decision changes an earlier decision, preserve the earlier record and mark it historical. Never erase meaningful evolution.
-
-## Creative canon
-A fictional fact becomes canonical when explicitly established. A plausible implication is not automatically canon.
-
-## Technical canon
-A proposed architecture is not a working system until implementation evidence exists. A repository containing experimental code should not be described as production-ready merely because its README says so.
-
-## Memory canon
-A summary describes available evidence; it does not manufacture evidence. The vault should always expose uncertainty where it exists.
+This note remains only as a compatibility/navigation pointer for older links and agents. It intentionally contains no second status taxonomy.
