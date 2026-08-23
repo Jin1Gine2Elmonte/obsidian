@@ -36,6 +36,19 @@ Across durable context, Jin can occupy several functions depending on project/ve
 
 These are broad recurring roles, not proof that every version possesses all of them simultaneously.
 
+## Meta-fiction / imaginative ontology
+A recurring Jin framework treats imagination as more than a metaphor: it can behave as a layer/place whose apparent non-physical status does not prevent consequences in human reality. This premise is one reason Jin's fictional awareness matters structurally rather than serving as a decorative twist.
+
+In some remembered formulations Jin's relationship with fiction allows him to operate at the boundary between character and creator-like agency. This should remain version-scoped until individual source passages establish which formulation belongs to which project.
+
+## Emotional / human counterpressure
+Jin's extraordinary agency does not automatically erase emotional consequence. A recurring creative tension is that a character capable of overwhelming reality can still encounter questions of choice, attachment, identity, causality, and the meaning of action. These pressures are part of the reason his stories are not intended to become pure power-scaling narratives.
+
+## Family-history branch safeguard
+A durable branch of the user's fictional history contains a child/young figure who witnesses Arisa's death, leaves/escapes, later returns to the capital because his political position and future influence make the capital consequential, and continues a long pattern of rebellion, disappearance, and return against Almont. Another durable summary attributes this branch to Ryota. The archive therefore preserves the branch without assigning the child identity globally.
+
+The exact relationship between this child-history branch and Jin remains unresolved and is owned by `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+
 ## Version boundary
 The user has explicitly discussed multiple iterations/versions of Jin. The complete genealogy is not currently preserved. Therefore:
 - every distinct version should become its own node when recovered;
