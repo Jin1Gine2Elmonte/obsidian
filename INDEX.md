@@ -50,6 +50,16 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
 - `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` — concrete current-context memory recovered into the vault with explicit provenance and non-canon status.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_02.md` — second concrete context-recovery pass.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_03.md` — third pass covering operational/device/workflow context.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_04.md` — fourth pass covering research, reading, naming, tool workflow, and cross-domain context.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_05.md` — creative seeds and smaller conceptual fragments.
+- `ARCHIVE/CROSS_DOMAIN_MEMORY_RECOVERY_01.md` — cross-project thematic/structural links.
+- `ARCHIVE/COLLABORATION_CORRECTION_HISTORY_01.md` — historical correction patterns in the collaboration.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_08.md` — everyday project ecosystem, reading/research, naming, workflow, and continuity context.
+- `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — prompt, model-behavior, agent, MCP, Nexus, and Hermes engineering history.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_06.md` — cross-domain memory recovery pass.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_07.md` — collaboration correction/history pass.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
