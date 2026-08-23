@@ -1,7 +1,7 @@
 # Archive Health Check
 
 ## Purpose
-A compact validation surface for the external-memory system. This file does not own project facts; it records structural health criteria and current known risks.
+A compact validation surface for the external-memory system. This file does not own project facts; it records structural health criteria and the current known risks.
 
 ## Integrity dimensions
 
@@ -56,19 +56,30 @@ Highest-impact current recovery areas:
 - global cosmological relations;
 - full Strings of Fate story history.
 
-## Current known risks
+## Consolidation completed in current phase
+The following root/domain nodes have been narrowed or reassigned so they no longer compete with specialized owners:
 
+- `MEMORY.md` — orientation layer rather than duplicate governance/detail store.
+- `FICTION.md` — high-level fiction map rather than canonical character/world owner.
+- `COSMOLOGY.md` — high-level cosmology map rather than competing cosmology canon.
+- `PROJECTS.md` — project-state/navigation layer rather than duplicate project lore.
+- `TECH_STACK.md` — technical navigation/history layer rather than duplicate project implementation notes.
+- `CANON_CONTROL.md` — pointer/quick gate; `CANON_AND_PROVENANCE.md` is the canonical provenance/status owner.
+- character/world `*_MEMORY_DENSITY.md` nodes — evidence-strength and recovery-gap records rather than identity duplicates.
+
+## Current known risks
 1. The archive is rich in distilled context but does not yet contain a verbatim import of every historical conversation.
-2. Some root-level legacy documents may still contain older summaries that need ownership review.
-3. The Jin/Ryota conflict remains unresolved.
-4. The complete Jin version genealogy remains missing.
-5. Cosmological project membership remains partially unresolved.
+2. The Jin/Ryota conflict remains unresolved.
+3. The complete Jin version genealogy remains missing.
+4. Some detailed character relationships remain under-recovered, especially Adam and Garthin.
+5. Cosmological project membership and hierarchy remain partially unresolved.
 6. Strings of Fate has much stronger visual memory than narrative-memory recovery.
+7. Some specialized nodes may still contain useful historical prose that should be checked when raw transcripts are imported; do not delete it merely for textual similarity.
 
 ## Pass criteria
 A future maintenance pass should be considered healthy when:
 - no important concept has competing current truths;
-- stale summaries are marked or narrowed;
+- stale summaries are marked, narrowed, or retired safely;
 - high-impact conflicts have explicit owners;
 - major relationships carry status/provenance;
 - knowledge changes are traceable;
