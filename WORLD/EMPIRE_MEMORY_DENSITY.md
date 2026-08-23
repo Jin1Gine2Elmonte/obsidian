@@ -1,36 +1,49 @@
-# Empire — Memory-Density Extraction
+# Empire — Memory-Density Record
 
-## Core remembered scale
-The empire is remembered as controlling most of the world, with the Dark Forest standing outside effective control. Worldbuilding included approximately 1,060 military cities, and some cities were assigned extraordinarily large populations, reaching hundreds of millions within the fictional scale.
+## Ownership
+Canonical world identity and declared scale live in `WORLD/EMPIRE.md`.
+This file owns only **what is strongly remembered, what is weakly remembered, and what still requires source recovery**.
 
-## Why scale matters
-Such scale cannot remain decorative. If the empire is genuinely continental/world-spanning at the established scale, its institutions require corresponding systems for communication, transport, taxation, military command, supply, records, succession, local governance, intelligence, cultural integration, and rebellion/suppression. These are logical consequences to investigate, not retroactive canon.
+## Strongly preserved evidence
+- The empire controls most of the world in the remembered setting.
+- The Dark Forest remains outside effective imperial control.
+- Approximately 1,060 military cities were part of the established worldbuilding.
+- Some city populations were imagined at extraordinary scale, reaching hundreds of millions.
 
-## Military-city model
-The remembered numbered military cities imply an unusually centralized or systematized state. Their numbering should eventually be separated into administrative identity, military function, geographic position, population, strategic value, relationship to the capital, relationship to the Dark Forest, and known historical events. No invented city registry should be treated as canon until recovered or explicitly created.
+## Weak / derived interpretations
+The scale implies major communication, supply, administration, military, records, succession, and intelligence systems. These are consistency consequences, not recovered institutional facts.
 
-## Capital
-The capital is a recurring point of gravity. Characters can formally occupy important positions there while repeatedly escaping its social/political pressure. This creates a distinction between the capital as physical place and the capital as a mechanism of authority.
+The capital is a recurring point of gravity for political and family pressure. This is a durable structural pattern, but exact court mechanisms remain unrecovered.
 
-## Imperial control versus unknown territory
-The Dark Forest is remembered as a dangerous, mysterious region beyond effective imperial control. The strongest structural value of this relationship is that the empire's claim to totality has a boundary. The boundary can function geographically, politically, psychologically, and epistemically.
+## Major missing evidence
+- city-numbering logic;
+- exact administrative hierarchy;
+- military command hierarchy;
+- capital/court organization;
+- communication speed and method;
+- taxation and resource flows;
+- food and military supply systems;
+- provincial governance;
+- imperial law;
+- succession machinery;
+- intelligence/policing;
+- political factions;
+- exact reason the Dark Forest cannot be controlled;
+- official imperial doctrine about the Forest;
+- relation between imperial institutions and inherited Powers/Magic.
 
-## Almont's position
-Almont is not merely a character inside the empire; he embodies its highest political authority in the remembered setting. Therefore his family conflicts can have systemic consequences even when the original scene is intimate.
+## Highest-value recovery evidence
+Prioritize concrete material involving:
+1. a named/numbered military city;
+2. an imperial order moving through the hierarchy;
+3. a governor or military commander;
+4. a capital court scene;
+5. a succession decision;
+6. an expedition or policy concerning the Dark Forest;
+7. a logistics or communications constraint shown in action.
 
-## Research targets
-- administrative hierarchy
-- capital structure
-- military hierarchy
-- city numbering logic
-- communications speed
-- taxation and food supply
-- noble/official classes
-- succession mechanisms
-- imperial law
-- policing and intelligence
-- official doctrine about the Dark Forest
-- what the empire cannot know or control
+## Memory-quality rule
+Do not use derived realism questions to overwrite the declared fictional scale. The archive should recover the user's actual solution rather than replace it with generic historical assumptions.
 
-## Canon safety
-The extraordinary population and city numbers are established worldbuilding memories, but exact logistics and institutional consequences remain reconstruction areas rather than invented facts.
+## Canon boundary
+Exact institutional mechanics remain unknown until source material establishes them.
