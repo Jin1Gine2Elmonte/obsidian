@@ -53,6 +53,19 @@ Connect durable lessons to the work, failures, corrections, and archive changes 
 **Changed:** relationship matrix, causal maps, propagation rules.
 **Prevents:** preserving endpoints while losing the structure that gives them meaning.
 
+## Reasoning-evolution bridge
+The lessons above do not automatically become universal reasoning laws. When repeated work shows that a lesson changes the preferred reasoning architecture, record the causal bridge here while keeping the current principle itself in `REASONING_ARCHITECTURE.md`.
+
+Examples of the bridge:
+- **Volume is not memory** -> changed the reasoning goal from maximizing remembered content to maximizing information density, provenance, and retrieval value.
+- **Review before expansion** -> changed the workflow from generation-first to review/ownership-first.
+- **Evidence beats elegant synthesis** -> strengthened explicit separation between observation, interpretation, and speculation.
+- **Similarity is not identity** -> made version-scoping and project-scoping prerequisites for inference.
+- **Relationships deserve first-class status** -> shifted analysis from isolated entities toward relational and causal structures.
+- **Complexity must earn its place** -> shifted architecture toward minimum sufficient structure and demonstrated need.
+
+This section records how the reasoning model evolved from experience. It does not replace the reasoning model itself.
+
 ## Meta-lesson
 A durable lesson should remain linked to the evidence pattern that produced it. When future work contradicts a lesson, update the lesson's confidence or scope rather than silently preserving it as universal law.
 
