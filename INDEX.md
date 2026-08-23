@@ -72,6 +72,14 @@ Contains deeper operational/status records and future atomic knowledge nodes. It
 
 This directory contains reconstruction of the Jin-related world material: Jin and variants, Almont and the imperial family, the empire, Garthin, Adam, Dark Forest, power system, causal maps, relationship recovery, motive recovery, and scene-evidence matrices. Remembered facts are preserved while missing scene-level canon remains marked as recovery work.
 
+For Jin specifically:
+- `WORLD/JIN_CORE.md` — broad identity.
+- `WORLD/JIN_VARIANTS.md` — variant registry.
+- `WORLD/JIN_VERSION_LATTICE.md` — relationships among variants.
+- `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
+- `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
+- `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness and gaps.
+
 ### Cosmology reconstruction
 `COSMOS/`
 
