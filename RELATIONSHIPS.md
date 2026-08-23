@@ -1,54 +1,101 @@
 # Relationship Matrix
 
-This file records relationships as first-class knowledge. A relationship can be more informative than either endpoint.
+## Purpose
+Relationships are first-class knowledge. Each relationship must carry an epistemic status so analytical language is not mistaken for canon.
 
-## Creator <-> creative universe
-The user's creative methodology emphasizes internally generated mythology, contradiction, atmosphere, and psychological depth. The fictional universe therefore acts as an extension of a broader artistic philosophy rather than as a collection of disconnected lore entries.
+## Status labels
+- `CANON` — explicitly established.
+- `SUPPORTED` — repeatedly supported and internally consistent.
+- `INFERRED` — structural consequence or analysis.
+- `SPECULATIVE` — hypothesis.
+- `UNKNOWN` — not sufficiently recovered.
+- `UNRESOLVED` — competing supported records exist.
 
-## Jin <-> imagination
-Jin is connected to the premise that imagination can have effective reality without conventional physical existence. This relationship is central to the universe's meta-fictional architecture.
+## Creator ↔ creative universe — `SUPPORTED`
+The user's creative methodology emphasizes internally generated mythology, contradiction, atmosphere, and psychological depth. This describes a recurring creative relationship, not a literal in-world relation.
 
-## Jin <-> Existence Sublime
-Jin's cosmic role places the character near the highest ontological layers of the setting. Exact hierarchy should remain open until canon is specified.
+## Jin ↔ imagination — `CANON` (broad durable premise)
+Jin is connected to the premise that imagination can have effective influence despite not being ordinary physical reality.
 
-## Entity of Forgetting <-> AI memory
-The fictional Entity of Forgetting and the real-world AI-memory project are conceptually adjacent but must not be conflated. One explores forgetting as metaphysics; the other explores preventing loss of accumulated human-AI knowledge.
+## Jin ↔ fictional awareness — `CANON` (broad durable premise)
+Jin is associated with awareness of fictional existence/boundaries.
 
-## Obsidian <-> AI memory
-Obsidian is the proposed durable substrate. AI memory is the functional layer that indexes, retrieves, and applies the knowledge.
+## Jin ↔ reality control — `CANON` (broad durable premise)
+Jin is associated with extraordinary reality-level agency. Exact power limits remain version-specific/unknown.
 
-## Obsidian <-> GitHub
-GitHub provides versioning and remote persistence for the Markdown archive. The vault should remain understandable even outside GitHub.
+## Jin ↔ Existence Sublime — `UNKNOWN`
+The concepts are both high-order cosmological anchors, but no sufficiently direct source currently establishes their exact hierarchy or relationship.
 
-## AI memory <-> MCP
-MCP is a potential access/interaction layer. It should not become the authoritative storage layer unless explicitly chosen.
+## Jin ↔ Almont/Ryota branch — `UNRESOLVED`
+A durable memory conflict makes the exact identity/continuity relation uncertain. See `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` and `WORLD/CANON_CONFLICTS.md`.
 
-## Nexus <-> memory
-Nexus concepts repeatedly return to persistent memory, external cognition, tool routing, and agent orchestration. Memory is not an accessory; it is a structural component of the agent system.
+## Jin ↔ Adam — `CANON` (broad relationship)
+Adam is remembered as a follower of Jin and as a traveler between worlds. The emotional/political depth of that relationship remains unknown.
 
-## Nexus <-> Gateway
-A previously explored architecture uses an external Gateway as a cognition port between an AI interface and an autonomous Nexus system. The key principle is separation of interface and internal cognition while allowing controlled consultation.
+## Entity of Forgetting ↔ The Last Thing to Be Forgotten — `CANON`
+The Entity of Forgetting is a central concept in that orchestral-operatic-cosmic work.
 
-## Hermes <-> deployment
-Hermes work connects agent behavior to real deployment concerns: Docker, Northflank, storage, embeddings, browser/tool limitations, and workflow automation.
+## Entity of Forgetting ↔ absolute nothingness — `CANON` (philosophical boundary)
+The durable premise is that an existent entity cannot literally be identical to absolute nothingness because manifestation makes it existent.
 
-## Garthin <-> creative philosophy
-Garthin embodies the principle that a character's moral meaning should emerge from contradiction and behavior instead of explicit moral classification.
+## Entity of Forgetting ↔ AI memory — `INFERRED / CONCEPTUAL`
+The fictional concept and the real memory project are conceptually adjacent, but they are separate systems and must never be treated as one canon.
 
-## Almont <-> Ryota
-Their relationship carries authority, inheritance, rebellion, family trauma, political position, and identity. It is a major human-scale counterweight to the universe's cosmological ideas.
+## Entity of Forgetting ↔ Primordial Rift — `UNKNOWN`
 
-## Empire <-> Dark Forest
-The Dark Forest defines the spatial and epistemic limit of imperial control. The relationship creates tension between centralized authority and the genuinely unknown.
+## Entity of Forgetting ↔ Existence Sublime — `UNKNOWN`
 
-## Blood inheritance <-> power
-Inherited Powers connect biological/familial lineage to political status, personal identity, and historical obligation.
+## Entity of Forgetting ↔ Jin — `UNKNOWN`
 
-## Mystery <-> clarity
-They are not opposites. Effective mystery depends on a stable layer of things the reader can understand while other layers remain unresolved.
+## Obsidian ↔ AI memory — `SUPPORTED`
+Obsidian is the proposed durable human-readable substrate; AI memory is the broader functional/knowledge layer around it.
 
-## Scale <-> realism
-The empire's stated scale creates an obligation for logistics, communication, bureaucracy, and political structure to reflect that size. Large numbers should create systems, not merely impressive descriptions.
+## Obsidian ↔ GitHub — `SUPPORTED`
+GitHub is being used as versioned remote persistence for the Markdown archive; the knowledge model remains conceptually independent of GitHub.
 
-## Canon <-> speculation
-Future archive updates must label whether a relationship is confirmed, inferred, speculative, or retired.
+## AI memory ↔ MCP — `SUPPORTED`
+MCP is an access/interaction layer explored for exposing memory to models. It is not the authoritative store by itself.
+
+## Nexus ↔ memory — `SUPPORTED`
+Persistent memory, external cognition, tool routing, and orchestration repeatedly appear as structural components of Nexus work.
+
+## Nexus ↔ Gateway — `SUPPORTED / HISTORICAL`
+An explored architecture separates interface and internal cognition through an external gateway. Exact current implementation depends on project generation.
+
+## Hermes ↔ deployment — `SUPPORTED`
+Hermes work connects agent behavior with Docker, Northflank, storage/embeddings, tooling constraints, and deployment workflows.
+
+## Garthin ↔ creative philosophy — `SUPPORTED / CHARACTERIZATION PRINCIPLE`
+Garthin embodies the recurring preference for moral complexity expressed through behavior and contradiction rather than explanatory moral labeling. This does not establish plot continuity with other characters.
+
+## Almont ↔ Ryota — `SUPPORTED` (relationship exists; details version-sensitive)
+Their remembered relationship includes authority, inheritance, rebellion, emotional deprivation, political pressure, departure, and return. The exact identity relation to Jin remains unresolved.
+
+## Empire ↔ Almont — `CANON`
+Almont is remembered as the emperor and central authority figure of the imperial branch.
+
+## Empire ↔ Dark Forest — `CANON / SUPPORTED`
+The Dark Forest is remembered as dangerous territory outside effective imperial control, creating a boundary to imperial reach.
+
+## Blood inheritance ↔ Powers — `CANON` (broad system level)
+Powers can be inherited through blood at the broad durable level. Exact inheritance mechanics remain unknown.
+
+## Blood family ↔ Almont dynasty — `UNKNOWN`
+The archive must not assume these are identical without explicit evidence.
+
+## Mystery ↔ clarity — `SUPPORTED / CRAFT PRINCIPLE`
+The user's craft diagnosis treats mystery and depth as requiring a stable layer of clarity, pacing, causality, and emotional movement.
+
+## Scale ↔ realism — `INFERRED`
+The stated imperial scale logically creates pressure for corresponding institutions/logistics. These consequences are analytical until source conversations establish them.
+
+## Canon ↔ speculation — `SUPPORTED / ARCHIVE RULE`
+All new relationships should be labeled by epistemic state. A relationship never becomes canonical merely because it appears repeatedly in analytical notes.
+
+## Maintenance rule
+When a source changes a relationship:
+1. update its status;
+2. update the owning endpoint nodes;
+3. update conflicts if needed;
+4. propagate only verified changes;
+5. preserve superseded states when historically meaningful.
