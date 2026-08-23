@@ -1,57 +1,72 @@
 # AI Memory Architecture
 
+## Ownership
+This file owns the **technical architecture and operating assumptions** of the external AI-memory system. It does not own fiction canon, project facts, or detailed archive rules.
+
 ## Vision
-The long-term objective is a portable external memory layer that survives changes in AI models, applications, and providers. Obsidian is the primary source of truth. Hosted services, when used, should be minimal bridges/gateways rather than the authoritative storage layer.
+Build a portable external memory layer that survives changes in AI models, applications, and providers. Obsidian remains the human-readable source of truth; MCP/API/gateway layers are access mechanisms, not authoritative storage.
 
 ## Target environment
-The user has specifically explored Obsidian on Android with long-term memory accessible by ChatGPT, Gemini, Qwen, and other AI systems through MCP.
+The user has explored Obsidian on Android with long-term memory exposed to ChatGPT, Gemini, Qwen, and other AI systems through MCP and related bridges.
 
-## Desired knowledge model
-The memory system should represent:
-- conversations
-- messages
-- summaries
-- projects
-- characters
-- worlds
-- concepts
-- technologies
-- decisions
-- dates
-- importance
-- provenance
-- relationships
-- synchronization state
+## System boundary
+The architecture has four conceptual layers:
 
-The goal is not merely keyword retrieval. The archive should preserve semantic relationships and explain why a fact matters.
+1. **Evidence layer** — raw conversations and source material when available.
+2. **Knowledge layer** — structured Markdown entities, projects, relationships, decisions, chronology, and canon.
+3. **Retrieval layer** — indexes, semantic search, graph navigation, and context assembly.
+4. **Access layer** — MCP, APIs, plugins, agents, Android interaction mechanisms, and other clients.
+
+The repository is durable only when the knowledge layer remains usable without the access layer.
+
+## Knowledge model
+The memory system needs to represent at minimum:
+- conversations and messages;
+- entities and projects;
+- worlds and concepts;
+- decisions and changes;
+- dates and temporal state;
+- provenance;
+- relationships;
+- synchronization state.
+
+Detailed ownership and epistemic rules live elsewhere:
+- `KNOWLEDGE_OWNERSHIP_MAP.md`
+- `CANON_AND_PROVENANCE.md`
+- `ARCHIVE_PROTOCOL.md`
+- `CONVERSATION_ARCHIVE_SPEC_V2.md`
 
 ## Retrieval philosophy
-A useful memory system should distinguish:
-1. Stable facts.
-2. Current decisions.
-3. Historical experiments.
-4. Speculative ideas.
-5. Abandoned approaches.
-6. Relationships between concepts.
-7. Source/provenance.
+Retrieval should assemble the smallest context that preserves the meaning required for the current task. A retrieval system should be able to distinguish current state from historical state and evidence from synthesis.
 
-When information changes, preserve the historical state when it is useful rather than silently replacing it.
+It should preferentially follow anchor and relationship edges before falling back to broad keyword dumps.
+
+## Update flow
+```text
+conversation/source
+    -> capture
+    -> normalize
+    -> identify entities and project/version
+    -> extract evidence
+    -> update canonical owner
+    -> propagate dependent changes
+    -> update indexes/retrieval views
+    -> record superseded state where necessary
+```
+
+The archive-maintenance rules governing this flow are defined in `ARCHIVE_MAINTENANCE_LOOP.md`.
 
 ## Obsidian role
-Obsidian is the human-readable knowledge substrate. It should remain the canonical source of truth. AI access requires a bridge such as a local API, MCP server, plugin, or synchronization mechanism.
-
-The user prefers avoiding unnecessary cloud storage and unnecessary terminal/Termux complexity. The simplest genuinely workable architecture should win.
+Obsidian is the durable, human-readable substrate. A hosted service may provide a bridge or retrieval layer, but must not silently become the canonical store.
 
 ## Cross-model continuity
-A recurring objective is continuity between ChatGPT, Gemini, Qwen, and other models. Conversation exports can be transformed into durable Markdown records. The resulting vault should be readable by both humans and machines.
+The same knowledge model should be consumable by ChatGPT, Gemini, Qwen, and other systems. Model-specific prompts or adapters may change; the underlying knowledge should not need to be rewritten for each model.
 
-## Android direction
-The user has explored Android accessibility-service and input-method approaches that could automatically provide relevant context to AI applications. This is a possible interaction layer, not the canonical memory store.
+## Android interaction layer
+The user has explored accessibility-service and IME approaches for injecting relevant context into AI applications. These are interface strategies only; they do not own memory state.
 
-## Possible data flow
-AI conversation -> capture/export -> normalization -> entity/project extraction -> Markdown notes -> links/indexes -> semantic retrieval -> AI context.
+## Architecture constraint
+Prefer the simplest architecture that actually satisfies the requirement. Complexity is justified by measurable retrieval, synchronization, provenance, or automation needs—not by theoretical elegance alone.
 
-The archive should remain useful even if semantic search or an MCP gateway is temporarily unavailable.
-
-## Design principle
-The memory system should behave more like a knowledge graph expressed through Markdown than a folder full of disconnected summaries. High-impact concepts become anchor nodes; related material links back to them.
+## Failure tolerance
+The vault should remain useful when semantic search, MCP, a bridge server, or a particular AI provider is unavailable. No single access mechanism should become a single point of failure for the accumulated knowledge.
