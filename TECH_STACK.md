@@ -1,26 +1,50 @@
-# Technical Projects & Stack
+# Technical Projects & Stack — Navigation Layer
 
-## Recurring interests
-GitHub, Obsidian, MCP, OpenClaw, Gemini, ChatGPT, DeepSeek, GLM, NVIDIA Nemotron, Google GenAI SDK, Docker, Node.js, React, Firestore, PostgreSQL, vector search, sentence-transformers, rclone, Telegram bots, WordPress, Netlify, Tachiyomi, Android automation, image generation, video generation, audio/music generation, voice generation.
+> This file owns the high-level map of technical interests/projects and where their detailed records belong. It is not the canonical owner of implementation details.
 
-## Nexus
-Nexus is an evolving family of agent/server experiments. Do not assume every Nexus repository is the same generation. Common themes include an omni-server, Node.js services, Google GenAI SDK, MCP, persistent memory, tool routing, agent orchestration, and remote deployment.
+## Core technical domains
 
-## Hermes
-Hermes work included Hermes CLI/YAML and deployment-oriented files including Dockerfile, hermes.yaml, northflank.yaml, docker-compose.yml, deploy.sh, README_ARABIC.md, NORTHFLANK_SETUP.md, knowledge_os.py, and GitHub Actions deployment concepts.
+### External AI memory / Obsidian
+Purpose: portable memory across AI models and applications.
 
-Known discussion areas included browser/tool limitations, storage strategies, embeddings, local sentence-transformers, hosted embeddings, and hybrid designs.
+Architecture owner: `AI_MEMORY_ARCHITECTURE.md`.
+Archive governance: `KNOWLEDGE_OWNERSHIP_MAP.md`, `ARCHIVE_MAINTENANCE_LOOP.md`.
 
-## Deployment history
-Explored Fly.io, Northflank, Oracle Cloud free tier, Docker, and GPU hosting. One Fly.io attempt encountered an organization limit on CPU cores per machine.
+### Nexus
+Purpose: evolving family of agent/server, orchestration, memory, tool-routing, and gateway experiments.
 
-The recurring operational constraint is cost and unnecessary complexity. A technically impressive system is not useful if it introduces infrastructure that does not materially improve the objective.
+Generation rule: different repositories/iterations remain distinct until evidence links them.
 
-## Web and product experiments
-The user has explored a dark novel website, Noir-novels.com, WordPress, Netlify, HTML RPG interfaces, progression systems inspired by Solo Leveling/Nano Machine, AI image tools, tutoring tools, agent operating systems, and personal memory infrastructure.
+### Hermes
+Purpose: agent/deployment and knowledge-system experiments.
 
-## AI model interest
-The user closely follows frontier models and agent capabilities, including reasoning, autonomy, multimodality, persistent memory, local inference, tool use, and creative generation. Models and systems mentioned over time include DeepSeek, GLM, Nemotron, Gemini, ChatGPT, Suno, Vidu, and Nano Banana.
+Historical implementation included CLI/YAML, Docker, Northflank, storage, embeddings, tool constraints, and workflow automation.
 
-## Creative AI quality bar
-The user expects intentional composition, lighting, atmosphere, typography, material behavior, narrative purpose, and polish. Generic AI aesthetics are considered a failure when the task calls for a distinctive artistic result.
+### MCP / bridges / Android interaction
+MCP, local APIs, plugins, synchronization, Android accessibility services, and IME/context injection are **access layers** around durable knowledge rather than canonical storage.
+
+### Model ecosystem
+Recurring exploration includes Gemini, ChatGPT, DeepSeek, GLM, Nemotron, Google GenAI SDK, image/video/audio generation, voice generation, and agentic systems.
+
+Model-specific experiments should be kept separate from durable knowledge unless they create a stable project requirement or decision.
+
+### Deployment / infrastructure
+Historical exploration includes Fly.io, Northflank, Oracle Cloud, Docker, GPU hosting, rclone, and related deployment approaches.
+
+Operational rule: cost, reliability, practical simplicity, and actual utility outrank theoretical architectural complexity.
+
+### Web / application experiments
+Historical exploration includes WordPress, Netlify, dark novel websites, HTML RPG interfaces, React/Firestore concepts, Tachiyomi, and related personal applications.
+
+## Technical constraints / lessons
+
+- A technically larger architecture is not automatically better.
+- Persistent memory should remain usable if a particular MCP server, semantic search system, provider, or hosted service disappears.
+- External access layers should never silently replace the source of truth.
+- New infrastructure should solve a demonstrated bottleneck or requirement.
+
+## Detailed-history boundary
+For detailed deployment incidents, repository artifacts, model comparisons, code, or experiments, use the project-specific technical records rather than expanding this overview.
+
+## Cross-project principle
+Technical systems and fictional concepts may share vocabulary (memory, forgetting, agents, worlds, reality), but conceptual similarity does not create technical or fictional continuity.
