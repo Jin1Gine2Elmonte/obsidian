@@ -4,12 +4,17 @@
 Ryota is remembered as Emperor Almont's son and one of the most emotionally important figures in the imperial family branch.
 
 ### Durable history
-- Witnessed the death of Arisa.
+- Witnessed the death of Arisa in one durable summary of the family branch.
 - Escaped afterward.
 - Later returned to the capital because the importance of his position and future influence made permanent disappearance difficult.
 - Lived in sustained rebellion against Almont.
 - Repeatedly left the capital or disappeared into other lands through official or unofficial routes.
 - His relationship with his father lacked ordinary familial warmth.
+
+### Identity safeguard
+Another durable memory separately describes a child/young **Jin** as the witness of Arisa's death followed by escape, return, rebellion, and repeated departures. The current archive does not have source-level evidence proving that this Jin and Ryota are the same identity/version. See `JIN_RYOTA_IDENTITY_AUDIT.md`.
+
+Until resolved, this page preserves the Ryota-specific history without absorbing the separate Jin statement into it.
 
 ### Structural meaning
 Ryota's movements are not only travel. They connect family conflict to geography, political position, inheritance, and identity.
@@ -29,9 +34,10 @@ This pattern should be treated as a recovered structural pattern, not as a claim
 - How Almont treated him before versus after the death.
 - Whether Ryota ever genuinely wanted succession.
 - What he wanted instead.
+- Whether the child-history witness named Jin belongs to Ryota's identity in the same project/version.
 
 ## Arisa
-Arisa is remembered as Almont's wife and Ryota's mother. Her death is a foundational family rupture.
+Arisa is remembered as Almont's wife and, in the Ryota family branch, Ryota's mother. Her death is a foundational family rupture.
 
 ### Importance
 Arisa should not be reduced to a plot-death placeholder. The archive needs to recover her own personality, beliefs, relationship to Almont, relationship to Ryota, political position, and the meaning her presence had before the rupture.
