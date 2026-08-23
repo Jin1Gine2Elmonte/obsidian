@@ -1,12 +1,15 @@
 # The Empire — Macro World System
 
+## Ownership
+This is the **canonical macro-world owner** for the empire: declared scale, scope of control, military-city concept, and high-confidence structural facts. Memory completeness belongs in `EMPIRE_MEMORY_DENSITY.md`; derived logistics belong in `IMPERIAL_LOGISTICS.md`; institutional recovery targets belong in `IMPERIAL_INSTITUTIONAL_MODEL.md`; capital-specific material belongs in `CAPITAL_AND_COURT.md`.
+
 ## Scale
 The empire is remembered as controlling essentially the known world outside the Dark Forest. Earlier worldbuilding established approximately **1,060 military cities**. Some individual cities were imagined at populations reaching hundreds of millions.
 
 These figures are part of the user's established fictional scale. They should not be silently reduced to realistic medieval numbers; instead, the worldbuilding challenge is to make institutions capable of supporting the declared scale.
 
-## Consequences of scale
-A state of this size implies systems that should exist whether or not the original text named them explicitly:
+## Structural implications
+A state of this size implies systems such as:
 - multi-layer command structures;
 - long-distance communication;
 - taxation/resource flows;
@@ -14,19 +17,19 @@ A state of this size implies systems that should exist whether or not the origin
 - provincial governance;
 - appointment/removal systems;
 - records and census mechanisms;
-- roads or alternative transport;
+- transportation networks or alternatives;
 - supply chains;
 - succession protocols;
 - mechanisms for suppressing or negotiating local power.
 
-These are **structural consequences**, not recovered canon. Future conversation material should determine which were actually designed by the user.
+These are **structural consequences**, not recovered canon. Exact implementation belongs in the derived/institutional files until source material establishes it.
 
 ## Military-city architecture
-The numbering of cities is distinctive. Future retrieval should recover:
+The numbering of cities is distinctive. Future retrieval should establish:
 - whether numbers are permanent identities or operational designations;
 - who assigns numbers;
 - whether cities have ranks/functions;
-- whether the numbering is geographic, military, chronological, or administrative;
+- whether numbering is geographic, military, chronological, or administrative;
 - whether populations are stable or extraordinary by design;
 - how city governors relate to Almont;
 - how armies move between cities.
@@ -34,25 +37,32 @@ The numbering of cities is distinctive. Future retrieval should recover:
 ## Imperial contradiction
 The empire's near-global reach exists alongside the Dark Forest, which represents a geographical and epistemic boundary to centralized imperial knowledge/control.
 
-That contrast can become an important structural principle:
-**the empire is vast, but not total.**
+**The empire is vast, but not total.**
 
 ## Almont and the state
-Almont is not merely a person standing above the empire. His family decisions and personal legacy exist inside an institution capable of governing an enormous territory. The archive should therefore link personal events to institutional consequences whenever the original conversations establish them.
+Almont is not merely a person standing above the empire. His family decisions and personal legacy exist inside an institution capable of governing an enormous territory. The archive should link personal events to institutional consequences only when the original conversations establish or strongly support those consequences.
+
+## Cross-links
+- Memory completeness: `WORLD/EMPIRE_MEMORY_DENSITY.md`.
+- Derived scale/logistics: `WORLD/IMPERIAL_LOGISTICS.md`.
+- Institutional recovery: `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md`.
+- Capital/court: `WORLD/CAPITAL_AND_COURT.md`.
+- Almont: `WORLD/ALMONT.md`.
+- Dark Forest boundary: `WORLD/DARK_FOREST.md` and `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md`.
 
 ## Future recovery axes
-- capital/court
-- military hierarchy
-- city numbering system
-- political factions
-- provincial divisions
-- economy/resources
-- communication
-- transportation
-- imperial law
-- succession
-- rebellion
-- treatment of the Dark Forest
-- military doctrine
-- relationship between empire and inherited Powers
-- relationship between empire and Magic users
+- capital/court;
+- military hierarchy;
+- city numbering system;
+- political factions;
+- provincial divisions;
+- economy/resources;
+- communication;
+- transportation;
+- imperial law;
+- succession;
+- rebellion;
+- treatment of the Dark Forest;
+- military doctrine;
+- relationship between empire and inherited Powers;
+- relationship between empire and Magic users.
