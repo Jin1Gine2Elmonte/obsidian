@@ -23,15 +23,16 @@ Convert deduplication rules into concrete maintenance actions. This is a work qu
 ## Tier 1 — world systems
 ### Empire
 Canonical owner: `WORLD/EMPIRE.md`.
-- `WORLD/EMPIRE_MEMORY_DENSITY.md` now owns only memory strength and recovery gaps.
+- `WORLD/EMPIRE_MEMORY_DENSITY.md` owns only memory strength and recovery gaps.
 - `WORLD/IMPERIAL_LOGISTICS.md` remains derived/analytical.
 - `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md` remains recovery/consistency targets.
 - `WORLD/CAPITAL_AND_COURT.md` owns capital-specific material.
+- `WORLD_SYSTEMS.md` is now navigation only; it must not reintroduce institutional detail.
 
 ### Dark Forest
 Canonical owner: `WORLD/DARK_FOREST.md`.
 - `WORLD/DARK_FOREST_MEMORY_DENSITY.md` should remain evidence/completeness focused.
-- Boundary analysis belongs in `DARK_FOREST_IMPERIAL_BOUNDARY.md` or as links from the canonical node.
+- Boundary analysis belongs in `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md` or as links from the canonical node.
 
 ### Power system
 Canonical owner: `WORLD/POWER_SYSTEM.md`.
@@ -64,7 +65,7 @@ Ownership remains split by function:
 
 ### Cosmology
 - Individual files own individual cosmological definitions.
-- `COSMOS/COSMOLOGY_MEMORY_DENSITY.md` now owns only memory completeness, project-membership uncertainty, and recovery gaps.
+- `COSMOS/COSMOLOGY_MEMORY_DENSITY.md` owns only memory completeness, project-membership uncertainty, and recovery gaps.
 - `NEGATIVE_KNOWLEDGE.md` owns unsafe global assumptions.
 - Thematic resemblance is not a canonical edge.
 
@@ -75,6 +76,7 @@ Canonical ownership:
 - `HISTORICAL_EVOLUTION_MAP.md` — recurring idea evolution.
 - `INTENT_AND_DISCARDED_PATHS.md` — rejected/abandoned reasoning.
 - `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions.
+- `ARCHIVE_EVOLUTION_FROM_GIT.md` — repository evolution proven by Git history.
 
 ## Tier 5 — technical memory
 ### AI memory architecture
@@ -84,6 +86,17 @@ Canonical ownership:
 - `ARCHIVE_MAINTENANCE_LOOP.md` owns maintenance lifecycle.
 - Technical architecture files should link to these instead of restating canon/provenance rules.
 
+## Tier 6 — root navigation layers
+The following files are intentionally navigation/atlas layers, not competing owners:
+- `FICTION.md`
+- `COSMOLOGY.md`
+- `WORLD_SYSTEMS.md`
+- `CREATIVE_PROJECTS_DEEP.md`
+- `PROJECTS.md`
+- `TECH_STACK.md`
+
+Their job is to orient and point. Domain details belong to specialized owners.
+
 ## Completed consolidation in this pass
 - Adam memory-density node reduced to evidence/gaps rather than identity duplication.
 - Empire memory-density node reduced to memory strength/recovery rather than world-system duplication.
@@ -91,9 +104,17 @@ Canonical ownership:
 - Cosmology memory-density node reduced to evidence gaps rather than repeating individual cosmology definitions.
 - Strings of Fate truth-audit node reduced to evidence-boundary information rather than acting as a second canon or design document.
 - AI memory architecture reduced to technical architecture rather than re-stating archive governance.
+- FICTION converted to navigation layer.
+- COSMOLOGY converted to navigation layer.
+- PROJECTS converted to project-state/navigation layer.
+- TECH_STACK converted to technical navigation/state layer.
+- WORLD_SYSTEMS converted to world-system navigation layer.
+- CREATIVE_PROJECTS_DEEP converted to conceptual/project navigation layer.
+- CANON_CONTROL demoted to compatibility pointer; `CANON_AND_PROVENANCE.md` is the sole canonical governance owner.
+- Git-evidenced repository history captured in `ARCHIVE_EVOLUTION_FROM_GIT.md`.
 
 ## Next cleanup rule
-When a memory-density node contains canonical identity prose already owned elsewhere, move the prose into the owner only if it is genuinely stronger/new evidence; otherwise replace it with a compact pointer and recovery information.
+When a memory-density or navigation node contains canonical prose already owned elsewhere, move the prose into the owner only if it is genuinely stronger/new evidence; otherwise replace it with a compact pointer and recovery information.
 
 ## Completion definition
 Cleanup is complete for a node when:
