@@ -13,33 +13,36 @@ The goal is not simply to store facts. The goal is to preserve **identity, struc
 ### Working memory
 `MEMORY.md`
 
-High-density durable synthesis. It should contain the minimum set of information needed to orient a future AI without pretending to be a transcript.
+High-density durable orientation. It is not a transcript and not the owner of every detail.
 
-### Domain knowledge
-- `FICTION.md`
-- `COSMOLOGY.md`
+### Domain / navigation layer
+- `FICTION.md` — fiction navigation and legacy orientation.
+- `COSMOLOGY.md` — cosmology navigation and legacy orientation.
 - `WORLD_SYSTEMS.md`
 - `CHARACTERS.md`
 - `CREATIVE_PROJECTS_DEEP.md`
-- `PROJECTS.md`
-- `TECH_STACK.md`
+- `PROJECTS.md` — project-state/navigation layer.
+- `TECH_STACK.md` — technical navigation/state layer.
 
 ### Graph / semantics
 - `ANCHOR_GRAPH.md`
 - `RELATIONSHIPS.md`
 - `MEMORY_SCHEMA.md`
-- `CANON_CONTROL.md`
-- `CANON_AND_PROVENANCE.md`
+- `CANON_AND_PROVENANCE.md` — canonical evidence/status owner.
+- `CANON_CONTROL.md` — pointer to canonical control rules.
 - `KNOWLEDGE_OWNERSHIP_MAP.md`
 
-### Memory operations
+### Memory / recovery operations
 - `ARCHIVE_PROTOCOL.md`
 - `CONTEXT_LAYERS.md`
 - `ARCHIVE_CENSUS.md`
 - `ARCHIVE_DEDUPLICATION_AUDIT.md`
 - `ARCHIVE_CLEANUP_BACKLOG.md`
+- `ARCHIVE_HEALTH_CHECK.md`
 - `ARCHIVE_MAINTENANCE_LOOP.md`
-- `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification
+- `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
+- `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
+- `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets for each priority.
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
@@ -47,6 +50,7 @@ High-density durable synthesis. It should contain the minimum set of information
 - `TEMPORAL_EVENT_TYPES.md`
 - `PROJECT_STATE_TRANSITIONS.md`
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
+- `KNOWLEDGE_EVENTS.md`
 - `DECISIONS_AND_LESSONS.md`
 - `NEGATIVE_KNOWLEDGE.md`
 
@@ -58,7 +62,7 @@ Contains deeper operational/status records and future atomic knowledge nodes. It
 ### World reconstruction
 `WORLD/`
 
-This directory contains high-density reconstruction of the Jin universe: Jin and his variants, Almont and the imperial family, the empire, Garthin, Adam, the Dark Forest, the power system, causal maps, relationship recovery, motive recovery, and scene-recovery matrices. These notes are intentionally conservative: remembered facts are preserved, while missing scene-level canon remains marked as a recovery target.
+This directory contains reconstruction of the Jin-related world material: Jin and variants, Almont and the imperial family, the empire, Garthin, Adam, Dark Forest, power system, causal maps, relationship recovery, motive recovery, and scene-evidence matrices. Remembered facts are preserved while missing scene-level canon remains marked as recovery work.
 
 ### Cosmology reconstruction
 `COSMOS/`
@@ -75,6 +79,7 @@ A dedicated project branch containing the currently recoverable memory about «�
 The vault distinguishes:
 - canonical user statements
 - confirmed repository/source state
+- strongly supported material
 - current state
 - historical state
 - working interpretation
@@ -83,7 +88,7 @@ The vault distinguishes:
 - retired ideas
 - unknowns
 
-See `CANON_CONTROL.md`, `CANON_AND_PROVENANCE.md`, and `KNOWLEDGE_OWNERSHIP_MAP.md`.
+The canonical evidence/status owner is `CANON_AND_PROVENANCE.md`.
 
 ## Editing principle
 
@@ -91,14 +96,17 @@ See `CANON_CONTROL.md`, `CANON_AND_PROVENANCE.md`, and `KNOWLEDGE_OWNERSHIP_MAP.
 
 ## Current maintenance mode
 
-The archive is in **consolidation mode** as well as reconstruction mode. New information must be placed under an explicit owner, and existing overlapping files should be narrowed, linked, merged, or retired when appropriate.
+The archive is in **consolidation + source-recovery mode**. New information must be placed under an explicit owner, and existing overlapping files should be narrowed, linked, merged, or retired when appropriate.
 
 See:
 - `KNOWLEDGE_OWNERSHIP_MAP.md` — where each class of information belongs.
-- `ARCHIVE_DEDUPLICATION_AUDIT.md` — what counts as useful vs harmful repetition.
-- `ARCHIVE_CLEANUP_BACKLOG.md` — concrete node-by-node cleanup work.
-- `ARCHIVE_MAINTENANCE_LOOP.md` — how changes propagate through the archive.
-- `KNOWLEDGE_STATE_TRANSITIONS.md` — why a knowledge claim changed state.
+- `ARCHIVE_DEDUPLICATION_AUDIT.md` — useful vs harmful repetition.
+- `ARCHIVE_CLEANUP_BACKLOG.md` — concrete cleanup.
+- `ARCHIVE_MAINTENANCE_LOOP.md` — change propagation.
+- `ARCHIVE_HEALTH_CHECK.md` — structural health.
+- `HIGH_IMPACT_RECOVERY_ORDER.md` — what evidence matters most.
+- `RECOVERY_EVIDENCE_PIPELINE.md` — how recovery should affect the graph.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
 - `TEMPORAL_EVENT_TYPES.md` — how world, project, and knowledge events differ.
 
 ## Graph principle
