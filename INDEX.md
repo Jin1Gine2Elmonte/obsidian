@@ -46,6 +46,11 @@ High-density durable synthesis. It should contain the minimum set of information
 
 Contains deeper operational/status records and future atomic knowledge nodes. It should grow by adding genuinely useful nodes, not by duplicating root-level documents.
 
+### World reconstruction
+`WORLD/`
+
+This directory contains high-density reconstruction of the Jin universe: Jin and his variants, Almont and the imperial family, the empire, Garthin, Adam, the Dark Forest, the power system, causal maps, relationship recovery, and scene-recovery matrices. These notes are intentionally conservative: remembered facts are preserved, while missing scene-level canon remains marked as a recovery target.
+
 ### Project-specific memory
 `STRINGS_OF_FATE/`
 
