@@ -24,6 +24,7 @@ Status rule:
 - Jin can function as protagonist, observer, creator-like agent, causal disruptor, cosmological actor, or bridge between worlds depending on project/version.
 - The user has repeatedly treated multiple Jin versions as significant enough that their identities, powers, chronology, memories, and relationships must not be flattened.
 - The complete genealogy of these versions is not currently available; historical extraction remains required.
+- A remembered main-novel planning direction used a roughly **20-chapter** architecture; earlier drafting had progressed through the first eight sections and into a ninth section in one stage. These are project-stage memories, not universal structure for all Jin stories.
 
 ## Almont / imperial family
 - Almont is remembered as an emperor/sovereign and tyrannical father figure in the imperial-family branch.
@@ -36,6 +37,7 @@ Status rule:
 - The son repeatedly leaves/disappears into other lands and later returns because his position/future influence makes the capital politically consequential.
 - Returning does not equal reconciliation.
 - The remembered relationship is harsh and lacks conventional warmth, but lack of warmth should not be converted into proof that all attachment is absent.
+- A remembered side-novel planning direction also used a roughly **20-chapter medieval-fantasy** architecture; this must remain project-specific until the exact title/version is recovered.
 
 ## Arisa / rupture
 - Arisa's death is remembered as a pivotal trauma in the child-history branch.
@@ -79,9 +81,9 @@ Status rule:
 
 The following projects/titles are present in durable context and should be preserved as independent recovery targets until project membership is verified:
 
-- **همسات الضباب / Whispers of Fog** — a side novel/project remembered as dark medieval fantasy.
+- **همسات الضباب / Whispers of Fog** — a side novel/project remembered as dark medieval fantasy; one planning pass targeted roughly 20 chapters.
 - **Lord of the Abyss** — a recurring title/creative project.
-- **Shadows of the First Creation / ظلال الخلق الأول** — major dark-cosmic title/anchor.
+- **Shadows of the First Creation / ظلال الخلق الأول** — major dark-cosmic title/anchor; also associated with a cover-art/worldbuilding direction.
 - **Dreams of the Inverted Universe** — recurring cosmological/fiction title.
 - **The Last Thing to Be Forgotten** — linked in memory to the Entity of Forgetting concept, but should retain its project boundary.
 - **Strings of Fate / أوتار القدر** — dedicated project with a strong visual identity and additional narrative/thematic material that remains under-recovered.
