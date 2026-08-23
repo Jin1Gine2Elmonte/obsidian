@@ -76,8 +76,17 @@ A previous answer, architecture, or interpretation should be revised when eviden
 
 A correction should preserve useful history while clearly changing the current state.
 
+## Reasoning evolution
+These principles are not treated as axioms that appeared fully formed. Their durability can increase through repeated work, failure, correction, and cross-domain recurrence. The causal history behind durable reasoning lessons is recorded in `LESSON_PROVENANCE_MAP.md`, while the current reasoning principles remain here.
+
+A recurring lesson should influence this architecture only when:
+1. it is supported by more than a single local incident or has unusually strong evidence;
+2. its scope is understood;
+3. its practical consequence is clear;
+4. applying it improves outcomes without creating a larger failure elsewhere.
+
 ## Relationship to archive governance
-This node defines reasoning preferences. Canon/provenance rules belong to `CANON_AND_PROVENANCE.md`; ownership rules belong to `KNOWLEDGE_OWNERSHIP_MAP.md`; historical knowledge transitions belong to `KNOWLEDGE_STATE_TRANSITIONS.md`.
+This node defines reasoning preferences. Canon/provenance rules belong to `CANON_AND_PROVENANCE.md`; ownership rules belong to `KNOWLEDGE_OWNERSHIP_MAP.md`; historical knowledge transitions belong to `KNOWLEDGE_STATE_TRANSITIONS.md`; lesson evidence and reasoning evolution belong to `LESSON_PROVENANCE_MAP.md`.
 
 ## Quality test
 A reasoning artifact is stronger when it:
