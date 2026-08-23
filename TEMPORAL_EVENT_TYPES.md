@@ -1,9 +1,9 @@
 # Temporal Event Types
 
-The archive must distinguish three histories that can share a date but are not the same event:
+The archive distinguishes three histories that can share a date but are not the same event.
 
 ## 1. WORLD EVENT
-An event that happens inside the fictional world.
+An event inside a fictional world.
 
 Examples:
 - Arisa's death.
@@ -35,13 +35,20 @@ Examples:
 
 Knowledge events require source/archive-time context.
 
+## Event identity
+An event record should never be identified only by a date. Its identity is the tuple:
+
+`event_class + source_context + project/version + world_context + affected_entities`
+
+This prevents a later conversation discussing an older fictional event from being misread as a new world event.
+
 ## Why this matters
 One conversation can describe an old world event while simultaneously creating a new project state and a new archival interpretation. These must not collapse into one timestamp.
 
 ## Event record minimum
 When evidence permits, record:
-- event type;
-- source/conversation time;
+- event class;
+- archive/source time;
 - project generation;
 - world time;
 - entities affected;
@@ -49,7 +56,8 @@ When evidence permits, record:
 - successor state;
 - evidence;
 - confidence/canon state;
-- downstream nodes requiring propagation.
+- downstream nodes requiring propagation;
+- knowledge-event id when the event changes archival understanding.
 
 ## Jin / Almont / Ryota safety
 A statement made today about a childhood event may refer to an older project generation. Do not use conversation date to place the childhood event after a later project rewrite.
