@@ -23,6 +23,10 @@ Almont's wife. Her death is a major traumatic event in the family branch.
 ### Ryota
 Almont's son. The accessible memory records a relationship marked by rebellion, emotional harshness, distance, and lack of conventional warmth.
 
+A durable history describes the son repeatedly leaving or disappearing from the capital, sometimes by formal routes, and later returning because his position and future influence make the capital politically consequential. His returns do not imply reconciliation. The cycle of departure and return is itself part of the relationship's history.
+
+The son's long-running resistance is not preserved as a single rebellion. It is better understood as an accumulated conflict involving authority, identity, inherited position, freedom, recognition, and family distance.
+
 ### Benjamin
 Adviser connected to Almont. The current memory does not preserve enough detail for a full character biography; future imports should recover his political influence, loyalty, methods, and relationship to the family.
 
@@ -33,9 +37,14 @@ Almont is remembered as tyrannical. This should not be flattened into a generic 
 - What does he believe authority requires?
 - How does he rationalize cruelty?
 - Does he distinguish political utility from personal attachment?
-- What does Ryota perceive that subjects do not?
+- What does the son perceive that subjects do not?
 
 These are recovery questions rather than hidden canon.
+
+## Fatherhood / authority tension
+The family conflict is important precisely because Almont is both father and sovereign. A confrontation therefore carries two simultaneous pressures: private recognition and public authority. The archive should preserve both layers rather than reducing the relationship to either politics or family trauma alone.
+
+The remembered family environment is harsh and lacks conventional warmth. This should not automatically be interpreted as proof that every trace of attachment or concern is absent; the emotional architecture remains a recovery target.
 
 ## Ryota relationship
 The durable memory indicates a long-running conflict rather than a single disagreement. Ryota repeatedly resists, leaves, disappears, or returns, while Almont remains the father and sovereign against whom this rebellion is defined.
@@ -68,7 +77,7 @@ Until source-level conversation evidence resolves the relationship between those
 2. His relationship with Arisa before her death.
 3. His reaction to Arisa's death.
 4. His relationship with the son/child in the relevant version.
-5. The reasons for the repeated rebellion.
+5. The reasons for the repeated rebellion/departure/return pattern.
 6. Succession and political expectations.
 7. Benjamin's influence.
 8. The empire's administrative machinery.
