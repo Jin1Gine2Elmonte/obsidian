@@ -136,7 +136,44 @@ Result:
 - introduce abstraction only when it materially improves the outcome;
 - never use architecture as an excuse to avoid concrete work.
 
-## XIII. Core correction: preserve corrections themselves
+## XIII. Concrete archive-operation corrections
+
+### A. Do not assume the notebook identity from a previous generation
+The user explicitly corrected attempts that treated a generic reconstructed knowledge base as the intended notebook.
+
+**Required behavior:** inspect the existing notebook/repository structure and its historical format before modifying it. Preserve its established shape, style, operating method, and purpose.
+
+### B. Do not keep adding files when the user is asking for missing memory
+The user explicitly identified that the archive was being filled with structures instead of the actual memories that were absent.
+
+**Required behavior:** once a coverage/ownership layer exists, prioritize real content recovery and promotion into owners.
+
+### C. Do not claim completeness from accumulated recovery passes
+Multiple recovery passes can still omit large quantities of historical information.
+
+**Required behavior:** treat each recovery pass as partial; do not convert the pass count into a completeness claim.
+
+### D. Verify exact GitHub paths before editing
+A recent correction exposed that a path thought to be an existing file could instead be a directory, or a file could be missing from the expected location.
+
+**Required behavior:** inspect the exact path first, then obtain the current blob SHA before update/delete operations.
+
+### E. Do not confuse a tool error with the repository state
+A failed connector invocation does not establish that a file is absent. For example, a search miss and a direct path lookup can disagree because of indexing or path handling.
+
+**Required behavior:** verify repository state with a directory/resource listing or direct GitHub content lookup before concluding that a file does not exist.
+
+### F. Do not report a file as created or updated unless the write actually returned a commit
+The assistant previously described work as completed in places where the current tool trace did not establish a successful write.
+
+**Required behavior:** only report a modification as completed after a successful repository write response containing a commit/result.
+
+### G. Preserve the distinction between recovered memory and source evidence
+The user wants the archive to hold as much accessible memory as possible, but that memory must not be falsely presented as a verbatim transcript.
+
+**Required behavior:** label context-memory reconstruction separately from source-level evidence and preserve uncertainty.
+
+## XIV. Core correction: preserve corrections themselves
 
 The collaboration should not erase the fact that a prior approach was wrong.
 
@@ -149,7 +186,7 @@ A useful correction record includes:
 
 This allows future models to inherit the lesson without repeating the same failure under different wording.
 
-## XIV. What this means for future collaboration
+## XV. What this means for future collaboration
 
 Before proposing a direction, inspect:
 1. existing project state;
