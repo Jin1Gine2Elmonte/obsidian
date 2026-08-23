@@ -5,7 +5,9 @@ The richest historical memory is often embedded in scenes rather than summaries.
 ## Scene as an event-transition unit
 A recovered scene should not be stored only as description. Treat it as a transition unit:
 
-`preceding state -> pressure/trigger -> action -> immediate consequence -> new state`
+`preceding state -> pressure/trigger -> decision/motive -> action -> immediate consequence -> new state`
+
+The scene must preserve both **what happened** and the strongest available evidence for **why it happened**.
 
 Then record what changed in:
 - identity;
@@ -17,6 +19,16 @@ Then record what changed in:
 
 This allows one recovered scene to feed the timeline, causal map, relationship state, version lattice, canon ledger, and knowledge-event history without copying the scene into each file.
 
+## Motivation evidence model
+For every meaningful decision or action, distinguish:
+
+- `stated_motive` — explicitly spoken or directly stated by the source;
+- `demonstrated_motive` — strongly supported by repeated behavior across scenes;
+- `inferred_motive` — an interpretation that explains behavior but is not established;
+- `unknown_motive` — the archive currently cannot establish why the action occurred.
+
+A motive must never be promoted to canon merely because it creates an elegant psychological explanation.
+
 ## Jin scenes
 Recover:
 - first appearance in each version;
@@ -27,7 +39,8 @@ Recover:
 - interactions with different versions;
 - scenes where another character misunderstands Jin;
 - scenes where Jin's power creates an unintended consequence;
-- scenes that explicitly connect or separate Jin versions.
+- scenes that explicitly connect or separate Jin versions;
+- decisions where Jin could have acted differently but chose not to.
 
 ## Almont scenes
 Recover:
@@ -39,7 +52,8 @@ Recover:
 - decisions showing his worldview;
 - reactions to rebellion;
 - reaction to Arisa's death;
-- response to departures and returns.
+- response to departures and returns;
+- observable behavior revealing the motive behind authority, punishment, succession, or attachment.
 
 ## Ryota / child-history scenes
 Recover:
@@ -52,7 +66,8 @@ Recover:
 - reason for return;
 - conflict with Almont after returning;
 - scenes where political duty conflicts with personal freedom;
-- any explicit evidence connecting or separating the child from Jin.
+- any explicit evidence connecting or separating the child from Jin;
+- observable evidence showing whether rebellion is driven by survival, rejection, identity formation, duty, attachment, or another motive.
 
 ## Garthin scenes
 Recover:
@@ -62,7 +77,8 @@ Recover:
 - first unmistakable act of hidden kindness;
 - who notices it;
 - whether Garthin notices himself doing it;
-- scenes where his public authority collides with private feeling.
+- scenes where his public authority collides with private feeling;
+- repeated behavioral evidence that can distinguish a coherent internal motive from an isolated reversal.
 
 ## Adam scenes
 Recover:
@@ -74,7 +90,8 @@ Recover:
 - discovery about another world;
 - discovery about Jin;
 - consequence of choosing to remain with Jin;
-- any scene showing whether Adam recognizes different Jin variants.
+- any scene showing whether Adam recognizes different Jin variants;
+- evidence of what Adam independently wants and what could cause him to stop following Jin.
 
 ## World scenes
 Recover:
@@ -95,6 +112,11 @@ Every recovered scene should receive:
 - participants;
 - preceding state;
 - pressure/trigger;
+- decision;
+- stated motive;
+- demonstrated motive;
+- inferred motive;
+- unknown motive when applicable;
 - immediate action;
 - immediate consequence;
 - resulting state;
@@ -114,7 +136,7 @@ Prioritize scenes by **downstream change**, not by dramatic intensity:
 2. scenes that permanently change relationships;
 3. scenes that trigger major world-state changes;
 4. scenes that establish rules of powers/world mechanics;
-5. scenes that explain later decisions;
+5. scenes that explain later decisions or reveal motive through behavior;
 6. scenes that add characterization without changing larger structure.
 
 Scenes that changed later decisions have higher memory value than scenes that merely repeat existing descriptions.
