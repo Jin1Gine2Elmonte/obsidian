@@ -43,7 +43,10 @@ High-density durable synthesis. It should contain the minimum set of information
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
+- `TEMPORAL_MODEL.md`
+- `TEMPORAL_EVENT_TYPES.md`
 - `PROJECT_STATE_TRANSITIONS.md`
+- `KNOWLEDGE_STATE_TRANSITIONS.md`
 - `DECISIONS_AND_LESSONS.md`
 - `NEGATIVE_KNOWLEDGE.md`
 
@@ -80,7 +83,7 @@ The vault distinguishes:
 - retired ideas
 - unknowns
 
-See `CANON_CONTROL.md`, `ARCHIVE_PROTOCOL.md`, and `KNOWLEDGE_OWNERSHIP_MAP.md`.
+See `CANON_CONTROL.md`, `CANON_AND_PROVENANCE.md`, and `KNOWLEDGE_OWNERSHIP_MAP.md`.
 
 ## Editing principle
 
@@ -95,6 +98,8 @@ See:
 - `ARCHIVE_DEDUPLICATION_AUDIT.md` — what counts as useful vs harmful repetition.
 - `ARCHIVE_CLEANUP_BACKLOG.md` — concrete node-by-node cleanup work.
 - `ARCHIVE_MAINTENANCE_LOOP.md` — how changes propagate through the archive.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — why a knowledge claim changed state.
+- `TEMPORAL_EVENT_TYPES.md` — how world, project, and knowledge events differ.
 
 ## Graph principle
 
