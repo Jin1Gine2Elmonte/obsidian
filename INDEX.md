@@ -48,6 +48,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `ARCHIVE_MAINTENANCE_LOOP.md`
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
+- `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
@@ -124,6 +125,7 @@ See:
 - `ARCHIVE_MAINTENANCE_LOOP.md` — change propagation.
 - `ARCHIVE_HEALTH_CHECK.md` — structural health.
 - `MEMORY_COVERAGE_AUDIT.md` — what still has not reached the vault meaningfully.
+- `MEMORY_RECOVERY_MATRIX.md` — which missing domains should be recovered first and why.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — what evidence matters most.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — how recovery should affect the graph.
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
