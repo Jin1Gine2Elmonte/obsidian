@@ -1,62 +1,159 @@
 # Anchor Graph
 
-This file defines the highest-value conceptual nodes currently known. It is intentionally relational rather than alphabetical.
+## Purpose
+This is the vault's high-value relationship index. It is intentionally relational, but it must **not** imply that every edge is canonical.
+
+## Edge labels
+- `CANON` — explicitly established by the user/source.
+- `SUPPORTED` — repeated and internally consistent across sources.
+- `INFERRED` — analytical consequence or structural interpretation.
+- `SPECULATIVE` — hypothesis or creative possibility.
+- `UNKNOWN` — relationship not yet recoverable.
+
+Every edge below is labeled rather than being silently treated as fact.
 
 ## HUMAN / CREATOR
-The user's creative identity is strongly intuitive and architecture-oriented. This node connects to CREATIVE_METHOD, REASONING, PROJECTS, and all fiction anchors.
+The user's creative identity is strongly intuitive and architecture-oriented. This is a durable working characterization connected to creative-method and reasoning notes, not a fictional-canon claim.
 
 ## ANCHOR: OBSIDIAN MEMORY
 Purpose: portable external continuity.
-Connects to: AI memory, MCP, cross-model context, conversation export, Android integration, GitHub.
+Edges:
+- `SUPPORTED` -> AI memory
+- `SUPPORTED` -> cross-model context
+- `SUPPORTED` -> conversation export
+- `SUPPORTED` -> MCP/API bridge exploration
+- `SUPPORTED` -> GitHub archive
 
 ## ANCHOR: AI MEMORY
 Purpose: preserve durable knowledge across model/provider changes.
-Connects to: Obsidian, semantic retrieval, provenance, conversation normalization, MCP, Nexus.
+Edges:
+- `SUPPORTED` -> Obsidian
+- `SUPPORTED` -> semantic retrieval
+- `SUPPORTED` -> provenance
+- `SUPPORTED` -> conversation normalization
+- `SUPPORTED` -> Nexus
 
 ## ANCHOR: NEXUS
-Purpose: agent/server and external cognition experiments.
-Connects to: MCP, Gateway architecture, Google GenAI, memory, tools, remote deployment.
+Purpose: agent/server and external-cognition experiments.
+Edges:
+- `SUPPORTED` -> MCP/tool orchestration
+- `SUPPORTED` -> Google GenAI work
+- `SUPPORTED` -> memory
+- `SUPPORTED` -> remote deployment
+- `SUPPORTED` -> gateway/external-cognition concepts
 
 ## ANCHOR: HERMES
 Purpose: agent/deployment and knowledge-system experimentation.
-Connects to: Docker, Northflank, embeddings, storage, GitHub Actions, knowledge_os.py.
+Edges:
+- `SUPPORTED` -> Docker
+- `SUPPORTED` -> Northflank
+- `SUPPORTED` -> embeddings/storage experiments
+- `SUPPORTED` -> GitHub Actions
+- `SUPPORTED` -> knowledge_os.py
 
 ## ANCHOR: JIN
-Cosmic fictional anchor.
-Connects to: imagination, fictional awareness, reality control, Adam, cosmology, Existence Sublime.
+Cosmic/meta-fictional fictional anchor.
+Edges:
+- `CANON` -> imagination / fictional-awareness premise at the durable broad level
+- `CANON` -> extraordinary reality-level agency at the durable broad level
+- `CANON` -> Adam as follower/traveler relationship
+- `UNKNOWN` -> exact cosmological hierarchy
+- `UNKNOWN` -> exact relationship to Almont/Ryota child-history branch
+- `SUPPORTED` -> multiple Jin/Gin/Gene iterations exist in project history
 
 ## ANCHOR: ENTITY OF FORGETTING
 Cosmological/philosophical anchor.
-Connects to: nothingness, existence, memory, forgetting, The Last Thing to Be Forgotten, Primordial Rift.
+Edges:
+- `CANON` -> The Last Thing to Be Forgotten as a related creative work/concept
+- `CANON` -> ontological distinction from absolute nothingness
+- `UNKNOWN` -> relationship to Primordial Rift
+- `UNKNOWN` -> relationship to Existence Sublime
+- `UNKNOWN` -> relationship to Jin
+- `UNKNOWN` -> membership in the same universe as every other cosmological anchor
 
 ## ANCHOR: EXISTENCE SUBLIME
-Cosmological anchor.
-Connects to: Jin, Entity of Forgetting, Shadows of the First Creation, metaphysics of the fictional universe.
+High-order cosmological anchor with incomplete formal definition.
+Edges:
+- `SUPPORTED` -> recurring cosmological vocabulary
+- `UNKNOWN` -> hierarchy relative to Jin
+- `UNKNOWN` -> hierarchy relative to Entity of Forgetting
+- `UNKNOWN` -> relationship to Shadows of the First Creation
+- `UNKNOWN` -> relationship to Primordial Rift
 
 ## ANCHOR: SHADOWS OF THE FIRST CREATION
 Major mythology/title anchor.
-Connects to: primordial cosmology, Primordial Rift, Existence Sublime, Entity of Forgetting, cover-art direction.
+Edges:
+- `SUPPORTED` -> creation/primordial vocabulary
+- `UNKNOWN` -> exact meaning of “First Creation”
+- `UNKNOWN` -> relationship to Primordial Rift
+- `UNKNOWN` -> relationship to Entity of Forgetting
+- `UNKNOWN` -> relationship to Jin
+- `UNKNOWN` -> relationship to Existence Sublime
 
 ## ANCHOR: GARTHIN
 Character anchor.
-Connects to: rulership, brutality, hidden kindness, contradiction, psychological characterization.
+Edges:
+- `CANON` -> ruler
+- `CANON` -> brutality/monstrous behavior
+- `CANON` -> hidden/difficult-to-explain kindness as contradiction
+- `UNKNOWN` -> political relationship to Almont
+- `UNKNOWN` -> relationship to Jin
+- `UNKNOWN` -> relationship to Adam
 
 ## ANCHOR: ALMONT / ARISA / RYOTA
 Family and political anchor.
-Connects to: empire, trauma, rebellion, inheritance, authority, Dark Forest, power system.
+Edges:
+- `CANON` -> Almont as emperor/husband/father in the remembered imperial branch
+- `CANON` -> Arisa as wife and pivotal death event
+- `CANON` -> long-running father/son conflict in the durable family memory
+- `SUPPORTED` -> rebellion/departure/return pattern involving the son
+- `UNRESOLVED` -> Jin ↔ Ryota identity relation
+- `SUPPORTED` -> connection to the empire
+- `SUPPORTED` -> connection to inheritance/authority themes
 
 ## ANCHOR: DARK FOREST
 Worldbuilding anchor.
-Connects to: empire, mystery, uncontrolled territory, geography, political limits.
+Edges:
+- `CANON` -> dangerous territory outside effective imperial control
+- `SUPPORTED` -> boundary to imperial totality
+- `UNKNOWN` -> exact nature/mechanics/history
+- `UNKNOWN` -> relation to cosmological anchors
 
 ## ANCHOR: POWER SYSTEM
-Connects Magic and inherited Powers with spiritual vessels and world logic.
+Worldbuilding/system anchor.
+Edges:
+- `CANON` -> distinction between Magic and inherited Powers at the broad level
+- `SUPPORTED` -> inheritance through blood for Powers
+- `SUPPORTED` -> spiritual-vessel concept exists in the system
+- `UNKNOWN` -> detailed mechanics/costs/limits
+- `UNKNOWN` -> exact relationship to Blood family institutions
+
+## ANCHOR: STRINGS OF FATE
+Independent project boundary.
+Edges:
+- `CANON` -> dedicated creative project/title
+- `CANON` -> strong visual cover requirements preserved in dedicated archive
+- `UNKNOWN` -> plot mechanics
+- `UNKNOWN` -> cosmological membership
+- `UNKNOWN` -> relationship to Jin and other mythological anchors
 
 ## ANCHOR: CREATIVE BALANCE
-Mystery + depth must coexist with clarity + pacing + causality + emotional movement.
+A durable craft principle.
+Edges:
+- `SUPPORTED` -> mystery/depth must coexist with clarity/pacing/causality/emotional movement
 
 ## ANCHOR: ARCHITECTURAL SIMPLICITY
-All technical systems should remain as simple as possible until real requirements justify complexity.
+A durable technical-design preference.
+Edges:
+- `SUPPORTED` -> prefer minimal architecture until requirements justify complexity
 
-## Relationship rule
-When future notes introduce a concept that repeatedly generates other concepts, promote it here as a new anchor and add explicit relationships rather than burying it inside a generic summary.
+## Promotion rule
+A new repeated concept becomes an anchor when it repeatedly generates distinct relationships or decisions. A thematic resemblance alone never creates a canonical edge.
+
+## Maintenance rule
+When a source changes an edge:
+1. update the edge label;
+2. update the owning node;
+3. update conflict/negative knowledge if necessary;
+4. propagate only verified downstream changes;
+5. preserve the previous edge state when historically meaningful.
