@@ -7,22 +7,28 @@ Define the canonical home for each kind of information so the archive can grow w
 
 | Information type | Canonical owner | Secondary representation allowed |
 |---|---|---|
-| broad durable user memory | `MEMORY.md` | project-specific references |
-| project purpose/state | `PROJECTS.md` | dedicated project README |
+| broad durable user memory | `MEMORY.md` | project-specific pointers |
+| cross-domain reasoning model | `REASONING_ARCHITECTURE.md` | local task references |
+| writing/artistic method | `CREATIVE_METHOD.md` | project-specific constraints |
+| project purpose/state | `PROJECTS.md` | dedicated project README/state notes |
 | major recurring concept | `ANCHOR_GRAPH.md` | owning node |
 | character identity | character node | memory-density / relationship references |
 | character relationship | relationship node | causal/state-map references |
 | event chronology | `TIMELINE.md` or project timeline | state-transition node |
 | world-state change | `WORLD/WORLD_STATE_TRANSITIONS.md` | affected-node references |
-| canonical claim | `WORLD/CANON_LEDGER.md` or project `CANON.md` | source/evidence references |
-| contradiction | `WORLD/CANON_CONFLICTS.md` | affected-node warnings |
+| canonical claim | `CANON_AND_PROVENANCE.md` + domain canonical owner | source/evidence references |
+| contradiction | `WORLD/CANON_CONFLICTS.md` or project conflict owner | affected-node warnings |
 | unsupported interpretation / unsafe assumption | `NEGATIVE_KNOWLEDGE.md` | local warning only when necessary |
-| source recovery target | recovery matrix | local question list |
+| source recovery target | recovery matrix / `RECOVERY_EVIDENCE_PIPELINE.md` | local question list |
 | exact transcript | raw archive layer when available | extracted evidence references |
 | derived consistency implication | analytical/derived file | canonical-node reference |
 | project generation/change | `PROJECT_STATE_TRANSITIONS.md` | timeline reference |
 | rejected/superseded direction | `INTENT_AND_DISCARDED_PATHS.md` + historical state | affected project node |
 | memory completeness / strength | domain `*_MEMORY_DENSITY.md` | never treated as canon owner |
+| repository evolution | `ARCHIVE_EVOLUTION_FROM_GIT.md` + Git history | knowledge-event reference |
+| durable lesson / decision / experiment | `DECISIONS_AND_LESSONS.md` | `LESSON_PROVENANCE_MAP.md` |
+| lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
+| navigation/atlas summary | root navigation files | pointers only; never a competing owner |
 
 ## Domain owners
 
@@ -71,6 +77,9 @@ Define the canonical home for each kind of information so the archive can grow w
 - `STRINGS_OF_FATE/PROJECT_FRAME.md` — speculative design questions.
 - `STRINGS_OF_FATE/RESEARCH_MATRIX.md` — recovery plan.
 - `STRINGS_OF_FATE/VISUAL_IDENTITY.md` — visual canon.
+
+### Navigation layers
+`FICTION.md`, `COSMOLOGY.md`, `WORLD_SYSTEMS.md`, and `CREATIVE_PROJECTS_DEEP.md` are navigation/atlas surfaces only. They may summarize anchors, but they must not become competing canonical owners.
 
 ## One-source-of-truth principle
 A summary file may link to a canonical node. It should not silently become a second canonical owner.
