@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, lessons, and repository history** in a form that humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, lessons, and repository history** in a form humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -59,7 +59,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `TEMPORAL_MODEL.md`
 - `TEMPORAL_EVENT_TYPES.md`
 - `PROJECT_STATE_TRANSITIONS.md`
-- `DECISIONS_AND_LESSONS.md`
+- `DECISIONS_AND_LESSONS.md` — decisions, lessons, and technical experiment lineage.
 - `NEGATIVE_KNOWLEDGE.md`
 
 ### Archive directory
@@ -127,9 +127,10 @@ See:
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
 - `TEMPORAL_EVENT_TYPES.md` — how world, project, and knowledge events differ.
 - `REASONING_ARCHITECTURE.md` — cross-domain reasoning and collaboration model.
-- `DECISIONS_AND_LESSONS.md` — durable lessons and decisions.
+- `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, and experiment lineage.
 - `LESSON_PROVENANCE_MAP.md` — why those lessons became durable.
 - `ARCHIVE_EVOLUTION_FROM_GIT.md` — what the repository's own history proves.
+- `TECHNICAL_OPEN_LOOPS.md` — open architecture and retrieval work.
 
 ## Graph principle
 
