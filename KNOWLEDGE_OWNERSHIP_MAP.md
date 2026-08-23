@@ -16,6 +16,7 @@ Define the canonical home for each kind of information so the archive can grow w
 | character relationship | relationship node | causal/state-map references |
 | event chronology | `TIMELINE.md` or project timeline | state-transition node |
 | world-state change | `WORLD/WORLD_STATE_TRANSITIONS.md` | affected-node references |
+| version-to-version change | version-transition ledger | lattice / project-state references |
 | canonical claim | `CANON_AND_PROVENANCE.md` + domain canonical owner | source/evidence references |
 | contradiction | `WORLD/CANON_CONFLICTS.md` or project conflict owner | affected-node warnings |
 | unsupported interpretation / unsafe assumption | `NEGATIVE_KNOWLEDGE.md` | local warning only when necessary |
@@ -36,6 +37,7 @@ Define the canonical home for each kind of information so the archive can grow w
 - `WORLD/JIN_CORE.md` — broad identity.
 - `WORLD/JIN_VARIANTS.md` — variant registry.
 - `WORLD/JIN_VERSION_LATTICE.md` — variant-to-variant relationships.
+- `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — identity conflict.
 - `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness.
 
