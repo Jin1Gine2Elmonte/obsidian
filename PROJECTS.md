@@ -1,77 +1,107 @@
-# Project Atlas — Corrected
+# Project Atlas — Navigation and State Map
+
+> This file owns **project identity, purpose, current state, generation/history pointers, and major open loops**. It is not the canonical owner of detailed fiction lore or technical implementation notes.
 
 ## Obsidian Memory
-Current repository: `Jin1Gine2Elmonte/obsidian`. Purpose: durable external memory and knowledge substrate. The repository is intended to become a serious portable archive rather than a simple notes folder. Obsidian is intended to remain the primary human-readable source of truth, with MCP/API/bridge layers providing AI access.
+Purpose: durable external memory and knowledge substrate.
 
-### Current archive architecture
-The repository has progressively developed layers for:
-- master memory
-- fiction
-- creative methodology
-- project atlas
-- anchor graph
-- cosmology/world systems
-- relationships
-- memory schema
-- provenance/canon
-- archive protocol
-- open loops/questions
-- AI memory architecture
-- technical stack
-- deep project notes
-- Strings of Fate sub-archive
+Current state: consolidation + reconstruction.
 
-The goal is not to maximize file count. Files should exist because they represent distinct knowledge dimensions or prevent loss of important relationships.
+Canonical architecture references:
+- `INDEX.md`
+- `AI_MEMORY_ARCHITECTURE.md`
+- `KNOWLEDGE_OWNERSHIP_MAP.md`
+- `ARCHIVE_HEALTH_CHECK.md`
 
 ## Nexus
-Family of agent/server experiments. Common architecture: Node.js, Google GenAI SDK, MCP, memory, tools, orchestration, remote deployment, and gateway/external-cognition ideas. Treat different repositories/iterations as distinct generations unless explicitly linked by evidence.
+Purpose: family of agent/server and external-cognition experiments.
+
+Current state: multiple generations/iterations; do not silently merge repositories or architectures.
+
+Detailed technical material: `TECH_STACK.md` and related Nexus notes.
 
 ## Hermes
-Agent/deployment project involving Hermes CLI/YAML, Docker, Northflank, knowledge storage, embeddings, and GitHub Actions. Files and deployment artifacts have included Dockerfile, hermes.yaml, northflank.yaml, docker-compose.yml, deploy.sh, README_ARABIC.md, NORTHFLANK_SETUP.md, knowledge_os.py, and workflow configuration.
+Purpose: agent/deployment and knowledge-system experimentation.
 
-## Novel universe
-Large dark fantasy/cosmic mythology centered on Jin/Gin/Gene, Adam, Garthin, Almont, Arisa, Benjamin, Ryota, the empire, Dark Forest, Entity of Forgetting, Existence Sublime, Primordial Rift, and Shadows of the First Creation.
+Current state: multiple operational/deployment experiments involving CLI/YAML, containers, Northflank, storage, embeddings, tools, and workflows.
 
-## Whispers of Fog
-Medieval-fantasy side novel; 20-chapter structure explored.
+Detailed implementation history belongs in technical/project-specific nodes.
+
+## Jin fictional universe / world reconstruction
+Purpose: preserve and reconstruct the dark fantasy/cosmic fiction centered on Jin and its connected human, political, and cosmological branches.
+
+Current state: high-density reconstruction with unresolved identity/version boundaries.
+
+Canonical world navigation: `WORLD/`.
+
+Highest-impact open loops:
+- Jin version genealogy;
+- Jin ↔ Ryota identity;
+- human/cosmic continuity;
+- scene-level recovery for Almont/Arisa/Ryota/Garthin/Adam;
+- complete power-system mechanics;
+- cosmological hierarchy and project membership.
+
+## Whispers of Fog / همسات الضباب
+Purpose: separate medieval-fantasy side novel.
+
+Historical state: a 20-chapter structure was explored.
+
+Further state/history should be stored in project-specific notes when recovered.
 
 ## Main novel
-Early development reached at least section 9 during one phase. A 20-chapter structure has also been explored. The user's later craft diagnosis recognizes an imbalance where mystery/depth can outrun clarity and pacing.
+Purpose: major novel project.
+
+Historical state: development reached at least section 9 in one phase; a 20-chapter architecture was explored.
+
+Craft open loop: mystery/depth can outrun clarity and pacing; future revisions should treat progression, causal logic, scene purpose, rhythm, and emotional movement as first-class concerns.
 
 ## Strings of Fate / أوتار القدر
-This project needs its own high-integrity memory boundary because current accessible memory is strongest on the cover/visual phase while broader story canon is incompletely retrievable.
+Purpose: independent creative project.
 
-Confirmed visual requirements:
-- translucent/semi-transparent white strings;
-- light emerald/pale-green tint in their illumination, not plainly green strings;
-- do not change the sky color;
-- preserve city, character, lighting, main colors, composition, title typography, and dimensions;
-- remove unwanted writing at the bottom;
-- improve decoration beneath the title;
-- polish so the result does not feel generically AI-generated.
+Current recoverable state: strongest memory is visual/project-level; narrative/lore history remains incompletely recovered.
 
-Unconfirmed and therefore not to be invented as canon: protagonist, complete cast, antagonist, setting, chapter structure, metaphysics of the strings, who can see/touch/cut them, whether they represent people/events/worlds/possibilities/causality, origin, creator, cost, rules for changing fate, exact ending, and canonical relationships to other cosmological anchors.
+Project boundary: `STRINGS_OF_FATE/`.
+
+Do not import Jin cosmology, red-string mythology, deterministic fate, time travel, fate deities, or string mechanics without source evidence.
 
 ## The Last Thing to Be Forgotten
-Orchestral-operatic-cosmic work about the Entity of Forgetting. Foundational distinction: absolute nothingness cannot literally manifest; an existent entity/function can perform an operation that absolute nothingness cannot.
+Purpose: orchestral-operatic-cosmic concept centered on the Entity of Forgetting.
 
-## Shadows of the First Creation
-Major mythological/cosmological title and anchor concept with cover-art development.
+Strongest recovered conceptual anchor: the distinction between absolute nothingness and an existent entity/function associated with forgetting.
 
-## Lord of the Abyss
-Recurring title/concept in the dark mythological setting.
+## Shadows of the First Creation / ظلال الخلق الأول
+Purpose: major mythological/cosmological title and anchor.
 
-## Dark novel website
-Explored dark novel publishing/site concepts including Noir-novels.com, WordPress, and Netlify.
+Current state: recurring high-impact concept with incomplete recovered hierarchy/mechanics.
 
-## RPG / interactive fiction
-Explored HTML RPG interfaces and progression mechanics inspired by progression-fantasy systems such as Solo Leveling/Nano Machine, while developing an original system appropriate to the user's world.
+## Lord of the Abyss / لورد الغوامض
+Purpose: recurring dark-mythological title/concept.
 
-## AI memory portability
-Continuing cross-model project: preserve context in a model-independent format so ChatGPT, Gemini, Qwen, and other systems can use the same durable knowledge. Conversation export, normalization, semantic retrieval, MCP, and Android interaction layers have all been explored.
+Current state: anchor-level memory, incomplete project-generation detail.
 
-## Project management principle
-A project should be represented by its purpose, current state, history, decisions, constraints, open loops, relationships, and next meaningful state transition. Repeating the same summary in multiple files is not considered progress.
+## Noir / novel-site direction
+Purpose: dark literary publishing/site exploration.
 
-## Historical integrity
-When a project evolves through prototypes, do not collapse all generations into one canonical system. Preserve versions, discarded directions, corrected assumptions, and provenance when they materially affect understanding.
+Historical technologies explored include WordPress and Netlify.
+
+## RPG / interactive-fiction direction
+Purpose: HTML/interactive RPG and original progression-system exploration.
+
+Historical inspiration included progression-fantasy systems, but resulting mechanics should remain project-specific and original.
+
+## Cross-project principle
+Recurring names, themes, metaphysical questions, or aesthetics do not prove canonical continuity. Project generation and source context must be established before relationships become canonical.
+
+## State model
+Projects should be tracked through meaningful transitions such as:
+`SEED -> EXPLORATION -> PROTOTYPE -> EXPANSION -> REVISION -> STABILIZATION -> CURRENT`
+
+This is descriptive rather than mandatory. Historical states should remain recoverable.
+
+## Project governance
+- `PROJECT_STATE_TRANSITIONS.md` — state changes.
+- `HISTORICAL_EVOLUTION_MAP.md` — evolution of recurring ideas.
+- `INTENT_AND_DISCARDED_PATHS.md` — rejected/abandoned directions.
+- `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions.
+- `TIMELINE.md` — broad archive/project history.
