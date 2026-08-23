@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, lessons, and repository history** in a form humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, lessons, repository history, and the coverage gaps that still exist** in a form humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -47,6 +47,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `ARCHIVE_HEALTH_CHECK.md`
 - `ARCHIVE_MAINTENANCE_LOOP.md`
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
+- `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
@@ -59,7 +60,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `TEMPORAL_MODEL.md`
 - `TEMPORAL_EVENT_TYPES.md`
 - `PROJECT_STATE_TRANSITIONS.md`
-- `DECISIONS_AND_LESSONS.md` — decisions, lessons, and technical experiment lineage.
+- `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, and technical experiment lineage.
 - `NEGATIVE_KNOWLEDGE.md`
 
 ### Archive directory
@@ -122,6 +123,7 @@ See:
 - `ARCHIVE_CLEANUP_BACKLOG.md` — concrete cleanup.
 - `ARCHIVE_MAINTENANCE_LOOP.md` — change propagation.
 - `ARCHIVE_HEALTH_CHECK.md` — structural health.
+- `MEMORY_COVERAGE_AUDIT.md` — what still has not reached the vault meaningfully.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — what evidence matters most.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — how recovery should affect the graph.
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — why a claim changed state.
