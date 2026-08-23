@@ -15,6 +15,8 @@ The kindness should not be delivered as a speech explaining that Garthin "really
 - timing that reveals a hidden priority;
 - actions he refuses to explain.
 
+The user especially prefers that the contradiction become visible during moments of extreme violence or pressure, where a small deviation in behavior can expose an internal force the character himself may not understand.
+
 ## Why the contradiction matters
 The user's preferred characterization rejects simplistic good/evil moral labeling. Garthin therefore represents a character whose actions can be terrible while his internal motives remain complex, fragmented, or partially inaccessible even to himself.
 
@@ -26,6 +28,7 @@ This makes Garthin useful as a test of the broader creative philosophy: **meanin
 - He contains a hidden or difficult-to-explain kindness.
 - That kindness becomes visible most strongly under intense circumstances.
 - He is meant to feel psychologically layered rather than morally binary.
+- The contradiction is intended to survive alongside brutality rather than being resolved by a conventional redemption.
 
 ## What is not sufficiently recovered
 - exact kingdom/territory;
