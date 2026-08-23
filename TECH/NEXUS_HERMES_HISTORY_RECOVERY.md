@@ -44,6 +44,32 @@ The exact mapping between Hermes generations, repositories, configs, and later N
 - Swapping models should not require rewriting durable memory.
 - Complexity must answer a demonstrated requirement.
 
+## Concrete incident / investigation memory
+These are remembered from prior collaboration and remain **contextual until original logs or source conversations are recovered**.
+
+### 1. Hermes tool-availability anomaly
+Hermes was observed in environments where browser access and/or other tools were disabled. The important lesson was that an agent can appear architecturally capable on paper while behaving very differently at runtime because the actual tool surface is narrower than the nominal design.
+
+### 2. 401 investigation
+A remembered debugging branch involved an HTTP **401 Unauthorized** failure around the NEXUS/Hermes/tool-routing ecosystem. The correct diagnostic framing was not to immediately blame the language model. Possible layers included credentials/authentication, proxy configuration, routing, the upstream service, environment variables, or a tool adapter. The exact root cause is **not recovered here** and must not be invented.
+
+### 3. Same-environment / different-model behavior
+A recurring debugging situation involved models operating in an apparently shared environment but exhibiting materially different behavior. The investigation direction expanded beyond model quality to include prompt layering, context assembly, proxy behavior, model routing, tool exposure, configuration, and runtime state.
+
+### 4. Parallel-model investigation
+The user explicitly explored using multiple independent models in parallel to investigate difficult failures rather than trusting one model's diagnosis. The intent was to reduce correlated blind spots and force comparison of competing explanations.
+
+### 5. Architecture versus implementation
+NEXUS concepts sometimes became much larger than the amount of code or infrastructure actually verified. A recurring correction was therefore to distinguish:
+`idea -> architecture proposal -> prototype -> deployed implementation -> tested behavior`.
+A later conceptual architecture must not be treated as an implemented generation merely because it is more complete on paper.
+
+### 6. Memory as an external substrate
+A recurring design direction moved durable memory outside the active model. Obsidian/Markdown was treated as a human-readable persistence layer; MCP, APIs, gateways, agents, and model-specific adapters were treated as access paths rather than owners.
+
+### 7. Deployment constraints as design variables
+Northflank, Fly.io, Oracle Cloud, local GPU deployment, and other hosting routes were repeatedly evaluated against practical cost, resource, and platform constraints. These constraints were treated as architecture inputs rather than as after-the-fact inconveniences.
+
 ## Deployment incidents remembered
 - Fly.io produced an organization-level CPU limitation indicating a maximum of 4 CPU cores per machine for the relevant organization state.
 - Northflank was used/explored for Hermes and related deployments.
