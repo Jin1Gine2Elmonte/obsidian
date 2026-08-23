@@ -6,7 +6,7 @@
 
 This repository is being shaped into a model-independent knowledge system for long-term continuity across conversations, AI models, applications, creative projects, and technical experiments.
 
-The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, and the lessons produced by actual work** in a form that humans and future AI systems can both navigate.
+The goal is not simply to store facts. The goal is to preserve **identity, structure, causality, relationships, evolution, decisions, unresolved questions, evidence, reasoning patterns, working methods, lessons, and repository history** in a form that humans and future AI systems can both navigate.
 
 ## Core architecture
 
@@ -21,11 +21,11 @@ High-density durable orientation. It is not a transcript and not the owner of ev
 Cross-domain reasoning model: internal/external perspectives, Anchor Core promotion, emergent expertise, architectural simplicity, perspective switching, purpose-first analysis, and correction discipline.
 
 ### Domain / navigation layer
-- `FICTION.md` — fiction navigation and legacy orientation.
-- `COSMOLOGY.md` — cosmology navigation and legacy orientation.
-- `WORLD_SYSTEMS.md`
-- `CHARACTERS.md`
-- `CREATIVE_PROJECTS_DEEP.md`
+- `FICTION.md` — fiction navigation layer.
+- `COSMOLOGY.md` — cosmology navigation layer.
+- `WORLD_SYSTEMS.md` — world-system navigation layer.
+- `CHARACTERS.md` — legacy/optional character navigation if present.
+- `CREATIVE_PROJECTS_DEEP.md` — conceptual/project navigation layer.
 - `CREATIVE_METHOD.md` — writing/artistic method.
 - `PROJECTS.md` — project-state/navigation layer.
 - `TECH_STACK.md` — technical navigation/state layer.
@@ -35,7 +35,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `RELATIONSHIPS.md`
 - `MEMORY_SCHEMA.md`
 - `CANON_AND_PROVENANCE.md` — canonical evidence/status owner.
-- `CANON_CONTROL.md` — pointer to canonical control rules.
+- `CANON_CONTROL.md` — compatibility pointer only.
 - `KNOWLEDGE_OWNERSHIP_MAP.md`
 
 ### Memory / recovery operations
@@ -52,6 +52,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
 - `KNOWLEDGE_EVENTS.md`
 - `LESSON_PROVENANCE_MAP.md` — evidence and change lineage behind durable lessons.
+- `ARCHIVE_EVOLUTION_FROM_GIT.md` — repository evolution proven by Git history.
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
@@ -97,9 +98,11 @@ The vault distinguishes:
 
 The canonical evidence/status owner is `CANON_AND_PROVENANCE.md`.
 
+Repository evolution has an independent evidence source: Git history, summarized in `ARCHIVE_EVOLUTION_FROM_GIT.md`.
+
 ## Editing principle
 
-**Review before expansion.** Before creating a new node, inspect existing nodes for overlap. Update or merge when the information belongs to an existing concept. Create a new node only when it adds a genuinely distinct entity, relationship, decision, state, artifact, or evidence source.
+**Review before expansion.** Before creating a new node, inspect existing nodes for overlap. Update or merge when the information belongs to an existing concept. Create a new node only when it adds a genuinely distinct entity, relationship, decision, state, artifact, evidence source, or operational capability.
 
 ## Current maintenance mode
 
@@ -118,6 +121,7 @@ See:
 - `REASONING_ARCHITECTURE.md` — cross-domain reasoning and collaboration model.
 - `DECISIONS_AND_LESSONS.md` — durable lessons and decisions.
 - `LESSON_PROVENANCE_MAP.md` — why those lessons became durable.
+- `ARCHIVE_EVOLUTION_FROM_GIT.md` — what the repository's own history proves.
 
 ## Graph principle
 
@@ -141,6 +145,7 @@ A change is valuable only when it adds at least one of:
 - a useful open question
 - a new operational capability
 - a lesson backed by real work or repeated evidence
+- a verifiable repository-history fact
 
 More words alone do not qualify.
 
@@ -148,4 +153,4 @@ More words alone do not qualify.
 
 **Continuity should survive the model.**
 
-Models may change. Applications may change. Agents may change. The user's accumulated knowledge, projects, fictional worlds, reasoning patterns, decisions, and creative identity should remain portable.
+Models may change. Applications may change. Agents may change. The user's accumulated knowledge, projects, fictional worlds, reasoning patterns, decisions, creative identity, and the history of how the archive evolved should remain portable.
