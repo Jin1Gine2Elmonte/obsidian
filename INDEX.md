@@ -30,16 +30,20 @@ High-density durable synthesis. It should contain the minimum set of information
 - `MEMORY_SCHEMA.md`
 - `CANON_CONTROL.md`
 - `CANON_AND_PROVENANCE.md`
+- `KNOWLEDGE_OWNERSHIP_MAP.md`
 
 ### Memory operations
 - `ARCHIVE_PROTOCOL.md`
 - `CONTEXT_LAYERS.md`
 - `ARCHIVE_CENSUS.md`
+- `ARCHIVE_DEDUPLICATION_AUDIT.md`
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
+- `PROJECT_STATE_TRANSITIONS.md`
 - `DECISIONS_AND_LESSONS.md`
+- `NEGATIVE_KNOWLEDGE.md`
 
 ### Archive directory
 `ARCHIVE/`
@@ -70,6 +74,10 @@ The vault distinguishes:
 - unknowns
 
 See `CANON_CONTROL.md` and `ARCHIVE_PROTOCOL.md`.
+
+## Ownership principle
+
+Every knowledge type should have a primary owner. Use `KNOWLEDGE_OWNERSHIP_MAP.md` before creating a new node. A secondary file may reference a fact, but should not silently become a second canonical source by copying an entire existing summary.
 
 ## Editing principle
 
