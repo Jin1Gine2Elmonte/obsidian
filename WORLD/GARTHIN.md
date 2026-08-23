@@ -1,5 +1,8 @@
 # Garthin — Contradictory Ruler Anchor
 
+## Ownership
+This is the **canonical identity owner** for Garthin: durable identity and defining contradiction. Memory completeness belongs in `GARTHIN_MEMORY_DENSITY.md`; relationship structure belongs in `GARTHIN_RELATIONAL_ARCHITECTURE.md`.
+
 ## Core memory
 Garthin is remembered as a ruler who can be brutal and monstrous while carrying an obscure internal spark of kindness. The important quality is not redemption; it is contradiction.
 
@@ -37,8 +40,13 @@ This makes Garthin useful as a test of the broader creative philosophy: **meanin
 - ending/fate;
 - whether he is in the same universe generation as every other Garthin mention.
 
+## Cross-links
+- Memory completeness: `WORLD/GARTHIN_MEMORY_DENSITY.md`.
+- Relationship architecture: `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md`.
+- Broader world causality: `WORLD/CAUSAL_EXTRACTION.md`.
+
 ## Recovery priorities
-Search future conversation material for scenes rather than only descriptions. Garthin's real character is likely encoded in actions: who he spares, who he punishes, what he notices, what he hides, and what he does when no political benefit exists.
+Recover scenes rather than only descriptions. Garthin's real character is likely encoded in actions: who he spares, who he punishes, what he notices, what he hides, and what he does when no political benefit exists.
 
 ## Canon protection
 Do not turn the phrase "hidden kindness" into a generic redemption arc. The durable memory does not establish that Garthin becomes good. It establishes a contradiction that must remain alive unless the user later changes it.
