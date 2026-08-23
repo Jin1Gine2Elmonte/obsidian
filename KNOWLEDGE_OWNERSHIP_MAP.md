@@ -7,30 +7,82 @@ Define the canonical home for each kind of information so the archive can grow w
 
 | Information type | Canonical owner | Secondary representation allowed |
 |---|---|---|
-| broad durable user memory | `MEMORY.md` | project-specific nodes |
+| broad durable user memory | `MEMORY.md` | project-specific references |
 | project purpose/state | `PROJECTS.md` | dedicated project README |
 | major recurring concept | `ANCHOR_GRAPH.md` | owning node |
 | character identity | character node | memory-density / relationship references |
-| character relationship | relationship node | causal map reference |
-| event chronology | `TIMELINE.md` or project timeline | state transition node |
-| world-state change | `WORLD_STATE_TRANSITIONS.md` | affected node references |
-| canonical claim | `CANON_LEDGER.md` or project `CANON.md` | source/evidence node |
-| contradiction | `CANON_CONFLICTS.md` | affected nodes |
-| unsupported interpretation | `NEGATIVE_KNOWLEDGE.md` when unsafe | local speculative section |
+| character relationship | relationship node | causal/state-map references |
+| event chronology | `TIMELINE.md` or project timeline | state-transition node |
+| world-state change | `WORLD/WORLD_STATE_TRANSITIONS.md` | affected-node references |
+| canonical claim | `WORLD/CANON_LEDGER.md` or project `CANON.md` | source/evidence references |
+| contradiction | `WORLD/CANON_CONFLICTS.md` | affected-node warnings |
+| unsupported interpretation / unsafe assumption | `NEGATIVE_KNOWLEDGE.md` | local warning only when necessary |
 | source recovery target | recovery matrix | local question list |
 | exact transcript | raw archive layer when available | extracted evidence references |
-| derived consistency implication | analytical/derived file | canonical node reference |
+| derived consistency implication | analytical/derived file | canonical-node reference |
 | project generation/change | `PROJECT_STATE_TRANSITIONS.md` | timeline reference |
-| rejected/superseded direction | historical/negative layer | affected project node |
+| rejected/superseded direction | `INTENT_AND_DISCARDED_PATHS.md` + historical state | affected project node |
+| memory completeness / strength | domain `*_MEMORY_DENSITY.md` | never treated as canon owner |
+
+## Domain owners
+
+### Jin
+- `WORLD/JIN_CORE.md` — broad identity.
+- `WORLD/JIN_VARIANTS.md` — variant registry.
+- `WORLD/JIN_VERSION_LATTICE.md` — variant-to-variant relationships.
+- `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — identity conflict.
+- `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness.
+
+### Almont / Ryota / family
+- `WORLD/ALMONT.md` — Almont identity.
+- `WORLD/ALMONT_REIGN_PROFILE.md` — reign/institution-versus-person analysis.
+- `WORLD/ALMONT_RYOTA_RELATIONSHIP_DYNAMICS.md` — relationship dynamics.
+- `WORLD/ALMONT_RYOTA_STATE_MACHINE.md` — relationship state transitions.
+- `WORLD/RYOTA_ARISA_BENJAMIN.md` — family-system node.
+- `WORLD/ARISA_RECOVERY_NODE.md` — Arisa recovery targets.
+- `WORLD/BENJAMIN_RECOVERY_NODE.md` — Benjamin recovery targets.
+
+### Empire / Dark Forest / power
+- `WORLD/EMPIRE.md` — empire canon and broad world model.
+- `WORLD/EMPIRE_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/IMPERIAL_LOGISTICS.md` — derived consistency analysis.
+- `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md` — recovery/institutional questions.
+- `WORLD/CAPITAL_AND_COURT.md` — capital-specific knowledge.
+- `WORLD/DARK_FOREST.md` — Dark Forest canon.
+- `WORLD/DARK_FOREST_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/POWER_SYSTEM.md` — broad power-system owner.
+- `WORLD/POWER_SYSTEM_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/POWER_POLITICS.md` — institutional consequences.
+
+### Garthin / Adam
+- `WORLD/GARTHIN.md` — Garthin identity and known canon.
+- `WORLD/GARTHIN_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md` — relationship structure.
+- `WORLD/ADAM.md` — Adam identity and known canon.
+- `WORLD/ADAM_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/ADAM_INTERWORLD_MODEL.md` — travel-mechanics investigation.
+- `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md` — Jin-version recognition investigation.
+
+### Strings of Fate
+- `STRINGS_OF_FATE/CANON.md` — confirmed project canon.
+- `STRINGS_OF_FATE/MEMORY_EXPANDED.md` — directly accessible project memory.
+- `STRINGS_OF_FATE/MEMORY_TRUTH_AUDIT.md` — evidence/confidence audit.
+- `STRINGS_OF_FATE/CONVERSATION_MEMORY_INDEX.md` — source-index layer.
+- `STRINGS_OF_FATE/PROJECT_FRAME.md` — speculative design questions.
+- `STRINGS_OF_FATE/RESEARCH_MATRIX.md` — recovery plan.
+- `STRINGS_OF_FATE/VISUAL_IDENTITY.md` — visual canon.
 
 ## One-source-of-truth principle
 A summary file may link to a canonical node. It should not silently become a second canonical owner.
 
 ## Propagation rule
-When a canonical node changes, dependent summaries should be updated or explicitly marked stale. The archive should never maintain two conflicting "current truths" merely because both were once generated.
+When a canonical node changes, dependent summaries should be updated or explicitly marked stale. The archive should never maintain two conflicting current truths merely because both were once generated.
 
 ## Cross-reference style
 Prefer a short pointer such as `See [[WORLD/JIN_CORE]]` over copying the entire content of the target.
+
+## Cleanup control
+`ARCHIVE_CLEANUP_BACKLOG.md` is the concrete maintenance queue derived from this ownership map. It does not own domain knowledge.
 
 ## Exceptions
 Historical snapshots may preserve old content when the old wording itself matters for understanding project evolution. Such snapshots must be marked historical/superseded.
