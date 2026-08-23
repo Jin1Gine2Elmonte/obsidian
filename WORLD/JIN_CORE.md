@@ -1,9 +1,14 @@
 # Jin — Core Character / Meta-Narrative Anchor
 
-## Provenance status
+## Ownership
+This is the **canonical identity owner** for Jin. It should answer who/what Jin is at the broadest durable level. It should not become a duplicate transcript archive, variant registry, relationship encyclopedia, or recovery matrix.
+
+## Provenance
 - Source: durable conversation context and prior project summaries.
-- Confidence: high for the broad premises; medium/unknown for details not explicitly preserved.
-- Important rule: do not silently merge differently named or differently staged versions of Jin.
+- Confidence: high for broad premises; medium/unknown for details not explicitly preserved.
+- Memory-depth companion: `WORLD/JIN_MEMORY_DENSITY.md`.
+- Variant structure: `WORLD/JIN_VARIANTS.md` and `WORLD/JIN_VERSION_LATTICE.md`.
+- Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
 
 ## Core identity
 Jin (also remembered as Gin/Gene in different contexts) is one of the deepest recurring anchors in the user's fictional work. He is not merely a powerful protagonist. The remembered architecture places him at the intersection of fiction, imagination, reality, authorship, and cosmological agency.
@@ -13,15 +18,15 @@ A major premise associated with Jin is that imagination can function as a place 
 
 This creates a meta-fictional problem: Jin is simultaneously a character within a story and a character whose relationship to the boundaries of story/reality can itself become a subject of the story.
 
-## Capability architecture
+## Capability architecture — durable level only
 High-confidence remembered capability: reality control / reality manipulation at extraordinary scale.
 
 High-confidence conceptual property: awareness that the fictional boundary exists.
 
-Important uncertainty: the accessible memory does not preserve a single authoritative list of Jin's powers, costs, limitations, transformations, or exact ontological rank. Those must not be invented as canon.
+The archive does **not** currently preserve one authoritative list of every Jin power, cost, limitation, transformation, or ontological rank. Do not manufacture such a list here.
 
-## Narrative function
-Jin can function as:
+## Broad narrative function
+Across durable context, Jin can occupy several functions depending on project/version:
 - protagonist;
 - cosmological actor;
 - meta-fictional observer;
@@ -29,50 +34,42 @@ Jin can function as:
 - bridge between imagination and reality;
 - anchor connecting otherwise separate worlds.
 
-His significance is therefore structural, not only combat/power-based.
+These are broad recurring roles, not proof that every version possesses all of them simultaneously.
 
-## Psychological / thematic direction
-The user's preferred characterization generally favors inner contradiction, silence, implication, and behavior over exposition. Therefore Jin should not automatically be written as a constantly declarative omnipotent figure. The important question in scenes involving Jin is often what his power cannot solve emotionally, what he chooses not to control, what he permits to happen, and how awareness of fiction changes the meaning of choice.
+## Version boundary
+The user has explicitly discussed multiple iterations/versions of Jin. The complete genealogy is not currently preserved. Therefore:
+- every distinct version should become its own node when recovered;
+- names and aliases should not be normalized away;
+- powers, relationships, chronology, and personality are version-scoped unless proven invariant;
+- a later version may supersede, branch from, rewrite, reincarnate, parallel, or otherwise relate to an earlier one only when evidence supports the edge;
+- a version must never overwrite another version merely because the shared name suggests continuity.
 
-These are analytical directions, not additional canon.
+## High-impact unresolved architecture
+1. Complete named Jin variant registry.
+2. Exact project/world membership of each variant.
+3. Exact relationship between Jin and the Almont/Ryota child-history branch.
+4. Which properties are true invariants versus version-specific traits.
+5. Which versions know about other versions.
+6. Exact continuity type: rewrite, branch, incarnation, parallel self, or another structure.
 
-## Versions / variants rule
-The user has referred to "versions of Jin" in conversation. The current accessible memory confirms that multiple iterations/versions exist, but does not preserve a complete version registry. Therefore:
-- each distinct version should become its own node when its defining differences are recovered;
-- names should not be normalized away;
-- powers, relationships, chronology, and personality should be recorded per version;
-- a variant should never overwrite another variant;
-- a later version should be marked as superseding/branching from an earlier one only when evidence exists.
-
-## Questions for recovery
-- What are the named versions of Jin?
-- Which version belongs to which world/project?
-- Which version knows he is fictional?
-- Which version can directly control reality?
-- Are the versions alternate timelines, separate ontological instances, rewrites, reincarnations, or creative iterations?
-- What remains invariant across versions?
-- What changes between versions?
-- Which Jin is canonical for each project?
-- Which relationships are shared across versions?
-- Does one version know about the others?
-
-## Relationship neighborhood
-- Jin ↔ Adam: Adam is remembered as a follower/traveler connected to Jin.
-- Jin ↔ imagination: foundational relationship.
-- Jin ↔ fictional awareness: foundational relationship.
-- Jin ↔ reality: extraordinary agency.
-- Jin ↔ Existence Sublime: likely cosmologically adjacent, but exact hierarchy remains unknown.
-- Jin ↔ broader cosmology: recurring anchor, exact relationships must be recovered rather than inferred.
+## Cross-links
+- Adam: `WORLD/ADAM.md` and `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md`.
+- Almont: `WORLD/ALMONT.md` and `WORLD/JIN_ALMONT_RELATIONSHIP.md`.
+- Ryota identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+- Causality: `WORLD/CAUSAL_MAP.md` and `WORLD/CAUSAL_EXTRACTION.md`.
+- Cosmology: `COSMOS/COSMOLOGY_MEMORY_DENSITY.md`.
 
 ## Preservation directive
-Future imports mentioning Jin should extract exact wording around:
-1. identity;
-2. version/variant;
-3. power;
+When historical conversation material is imported, extract the local context around every Jin statement and assign, when possible:
+1. identity/version;
+2. project/world;
+3. power/capability;
 4. chronology;
 5. relationship;
-6. motivation;
-7. psychological state;
-8. scene/event;
-9. canonical status;
-10. what was later changed or rejected.
+6. motive/psychological state;
+7. scene/event;
+8. canonical status;
+9. what changed later;
+10. source evidence.
+
+A summary is never stronger than a direct user statement or source-level scene.
