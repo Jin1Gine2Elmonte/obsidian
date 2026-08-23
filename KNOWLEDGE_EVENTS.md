@@ -19,7 +19,7 @@ A chronological ledger for events that change the archive's understanding, not e
 ## Current high-impact knowledge events
 
 ### KE-001 — Recognition of archive overgrowth
-The archive was initially expanded through many summaries. The repeated user feedback established that volume without genuine information gain was not progress. This led to deduplication, ownership, and consolidation rules.
+The archive was initially expanded through many summaries. Repeated feedback established that volume without genuine information gain was not progress. This led to deduplication, ownership, and consolidation rules.
 
 Class: `CORRECTION`
 
@@ -36,11 +36,11 @@ Recurring names and concepts were recognized as potentially reused across differ
 Class: `RECLASSIFICATION`
 
 ### KE-004 — Recognition of multi-clock chronology
-The archive now distinguishes conversation time, project-generation time, and fictional-world time. A later conversation can discuss an earlier project or an earlier fictional event.
+The archive now distinguishes conversation time, project-generation time, fictional-world time, and archive knowledge time. A later conversation can discuss an earlier project or an earlier fictional event without changing the original event's place in the world.
 
 Class: `DISCOVERY` / `RECLASSIFICATION`
 
-### KE-005 — Separation of world events from knowledge events
+### KE-005 — Separation of world, project, and knowledge events
 A death in a story, a rewrite of the story, and a correction to the archive are different event types and must not share one undifferentiated timeline.
 
 Class: `RECLASSIFICATION`
@@ -57,6 +57,28 @@ Class: `CORRECTION`
 
 ### KE-008 — Strings of Fate evidence boundary
 The accessible memory for Strings of Fate was recognized as strongly visual/project-level but incomplete at plot/cosmology level. Unsupported mechanics must remain unsupported rather than being supplied from the title or from other worlds.
+
+Class: `RECLASSIFICATION`
+
+### KE-009 — Memory compression / orientation split
+`MEMORY.md` was narrowed into a high-density orientation layer. Detailed governance, ownership, temporal rules, relationship confidence, and maintenance behavior remain in specialized canonical operational nodes.
+
+Class: `OWNERSHIP_CHANGE` + `CORRECTION`
+
+Reason: prevent the persistent-memory file from becoming a second copy of the entire archive.
+
+### KE-010 — Root fiction/cosmology documents demoted to navigation layers
+`FICTION.md` and `COSMOLOGY.md` were converted from competing detail-heavy summaries into navigation/atlas layers. Specialized world, character, project, and cosmology nodes now own detailed claims.
+
+Class: `OWNERSHIP_CHANGE` + `RECLASSIFICATION`
+
+### KE-011 — Archive-wide health model
+A dedicated `ARCHIVE_HEALTH_CHECK.md` was introduced to test ownership, provenance, temporal integrity, identity safety, relationship status, historical preservation, deduplication, and source-recovery priority as measurable dimensions.
+
+Class: `DISCOVERY` / `OWNERSHIP_CHANGE`
+
+### KE-012 — Knowledge-change history becomes first-class
+The archive now records not only what is currently believed, but how a claim changed state: discovery, correction, split, merge, reclassification, ownership change, supersession, recovery, and propagation.
 
 Class: `RECLASSIFICATION`
 
