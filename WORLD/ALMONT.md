@@ -15,7 +15,7 @@ The tension between these levels is important: the same man who controls enormou
 
 ## Family architecture
 ### Arisa
-Almont's wife. Her death is a major traumatic event in the history connected to Ryota.
+Almont's wife. Her death is a major traumatic event in the family branch.
 
 ### Ryota
 Almont's son. The accessible memory records a relationship marked by rebellion, emotional harshness, distance, and lack of conventional warmth.
@@ -47,18 +47,18 @@ The relationship therefore intersects:
 - emotional deprivation;
 - geographic separation and return.
 
-## Arisa's death
-The death of Arisa is a pivotal event. The remembered state is that it is witnessed by Ryota and becomes tied to subsequent escape and later return to the capital.
+## Arisa's death — identity safeguard
+Arisa's death is preserved as a pivotal event in the child-history material, followed by escape and eventual return to the capital. One durable summary describes the witness as Ryota; another separately describes the child/young witness as Jin. This discrepancy is now explicitly tracked in `JIN_RYOTA_IDENTITY_AUDIT.md`.
 
-The exact circumstances, perpetrator, political context, and Almont's immediate reaction are not sufficiently preserved here and must not be invented.
+Until source-level conversation evidence resolves the relationship between those names/versions, this file must not silently identify every child-history reference as Ryota.
 
 ## Future recovery priorities
 Recover exact material about:
 1. Almont's dialogue.
 2. His relationship with Arisa before her death.
 3. His reaction to Arisa's death.
-4. His relationship with Ryota in childhood.
-5. The reasons for Ryota's repeated rebellion.
+4. His relationship with the son/child in the relevant version.
+5. The reasons for the repeated rebellion.
 6. Succession and political expectations.
 7. Benjamin's influence.
 8. The empire's administrative machinery.
