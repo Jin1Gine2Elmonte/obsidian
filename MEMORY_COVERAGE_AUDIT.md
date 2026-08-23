@@ -4,9 +4,9 @@
 
 This document is a **coverage map**, not a claim that the vault now contains the user's complete history.
 
-It exists because the archive has undergone substantial structural engineering while a large amount of durable conversational knowledge still has not been transferred into owned knowledge nodes.
+The archive has undergone substantial structural engineering and multiple context-recovery passes. Several high-impact owners have now been deepened, but a large amount of durable conversational knowledge still requires historical extraction.
 
-The central distinction is:
+The central distinction remains:
 
 `accessible memory/context` ≠ `knowledge already represented in Obsidian` ≠ `raw historical conversation evidence`.
 
@@ -25,10 +25,9 @@ A topic listed here may be known in current context while still being absent, un
 ### Jin ecosystem
 Status: PARTIAL + RAW-EVIDENCE NEEDED.
 
-Known coverage gaps include:
+Recent enrichment now preserves more of Jin's meta-fictional architecture, emotional counterpressure, and the child-history safeguard, but major recovery gaps remain:
 - complete named Jin/Gin/Gene variant catalog;
 - variant-specific biographies;
-- childhood/history branches;
 - exact project membership for each version;
 - version-specific powers and limits;
 - version-specific appearances and visual identities;
@@ -36,7 +35,6 @@ Known coverage gaps include:
 - scenes establishing identity boundaries;
 - scenes establishing Jin's fictional awareness;
 - concrete reality-altering events;
-- emotional failures/limitations despite cosmic agency;
 - exact relations between Jin, Adam, Almont, Ryota, Arisa, Benjamin, Garthin, and other characters;
 - Jin's evolving relationship with imagination, fiction, reality, creation, and choice;
 - early versions that may predate the currently preserved cosmic interpretation.
@@ -47,7 +45,7 @@ Existing structural owners:
 ### Almont / Arisa / Ryota / Benjamin / imperial family
 Status: PARTIAL + RAW-EVIDENCE NEEDED.
 
-Missing or shallow areas include:
+Recent enrichment now preserves the repeated departure/return pattern and the father/sovereign dual pressure more explicitly. Missing or shallow areas remain:
 - pre-Arisa-death family state;
 - Arisa's own characterization, motives, behavior, and relationships;
 - exact circumstances of Arisa's death;
@@ -57,8 +55,7 @@ Missing or shallow areas include:
 - first rebellion;
 - escape circumstances;
 - time outside the capital;
-- reason for return;
-- each later departure/return cycle;
+- each later departure/return cycle and its distinct cause;
 - Benjamin's independent motives and knowledge;
 - concrete dialogue and scene consequences;
 - political consequences of family conflict;
@@ -69,7 +66,7 @@ Existing owners include Almont identity, relationship dynamics, state machine, f
 ### Garthin
 Status: PARTIAL.
 
-Missing depth includes:
+Recent enrichment now makes the behavioral contradiction explicit at the canonical owner level: brutality and difficult-to-explain kindness should coexist without automatic redemption. Missing depth includes:
 - scenes establishing authority;
 - specific brutality scenes;
 - specific kindness scenes;
@@ -84,7 +81,7 @@ Existing owners: `WORLD/GARTHIN.md`, relational architecture, memory-density, sc
 ### Adam
 Status: PARTIAL.
 
-Missing depth includes:
+Recent enrichment now preserves Adam's role as follower/companion and the possibility that his interworld position may matter for distinguishing Jin versions, without assuming that he recognizes every version. Missing depth includes:
 - origin;
 - first meeting with Jin;
 - world-crossing scenes;
@@ -101,10 +98,10 @@ Existing owners: Adam identity, interworld model, Jin-variant discrimination, sc
 ### Imperial world / 1,060 military cities
 Status: PARTIAL.
 
-Known but underdeveloped areas:
+The high-confidence scale is already preserved directly in `WORLD/EMPIRE.md`: approximately 1,060 military cities, with some imagined city populations reaching hundreds of millions, and control over essentially the known world outside the Dark Forest. Missing areas remain:
 - geography;
 - city network;
-- population distribution;
+- population distribution beyond declared examples;
 - supply/logistics;
 - administration;
 - taxation;
@@ -153,7 +150,7 @@ Missing:
 
 ## II. Cosmology and metaphysics
 
-Status: PARTIAL / SHALLOW across most anchors.
+Status: PARTIAL / SHALLOW across most anchors, but several anchors now have dedicated nodes with guarded conceptual definitions.
 
 Durable names/concepts known in memory include:
 - Abyss;
@@ -167,8 +164,10 @@ Durable names/concepts known in memory include:
 - Dreams of the Inverted Universe;
 - The Last Thing to Be Forgotten.
 
+`COSMOS/ENTITY_OF_FORGETTING.md` now preserves the strongest philosophical distinction: absolute nothingness cannot literally manifest as an entity without ceasing to be nothingness. Specific abilities, hierarchy, and plot remain unconfirmed.
+
 Major missing layer:
-- precise definitions;
+- precise definitions for every anchor;
 - hierarchy;
 - ontological status;
 - project membership;
@@ -181,11 +180,11 @@ Existing owner: `COSMOS/` plus project-specific nodes.
 
 ## III. Strings of Fate
 
-Status: PARTIAL + RAW-EVIDENCE NEEDED.
+Status: PARTIAL + RAW-EVIDENCE NEEDED, with **substantial visual/project memory already preserved**.
 
-Known areas include visual identity, cover constraints, title, aesthetic direction, and some project framing.
+`STRINGS_OF_FATE/` currently contains a dedicated canon, expanded memory, conversation-memory index, truth audit, project frame, research matrix, and visual identity layer. The cover constraints and visual philosophy are therefore meaningfully represented.
 
-Potentially missing:
+Still missing or under-recovered:
 - complete story premise;
 - characters;
 - world;
@@ -194,11 +193,9 @@ Potentially missing:
 - relationship structure;
 - discarded versions;
 - progression through conversations;
-- exact visual history;
-- all detailed cover-edit decisions;
-- prompts and rationale behind visual constraints.
-
-Existing owners: `STRINGS_OF_FATE/`.
+- full visual prompt/edit history;
+- complete rationale behind visual decisions;
+- any original transcript passages establishing the narrative layer.
 
 ## IV. Other fictional projects and titles
 
@@ -228,7 +225,7 @@ For each project the archive should recover:
 
 ## V. Creative method and writing practice
 
-Status: PARTIAL.
+Status: PARTIAL, with the canonical method layer now substantially enriched from recovered context.
 
 Known enduring patterns include:
 - dark/gothic/philosophical fantasy;
@@ -241,7 +238,8 @@ Known enduring patterns include:
 - concern for clarity/pacing versus mystery;
 - scene-level consequences for abstract ideas;
 - rejection of obvious cultural imitation;
-- separation of creative generation and critical evaluation.
+- separation of creative generation and critical evaluation;
+- visual continuity and surgical editing as part of creative continuity.
 
 Missing historical layer:
 - when each principle appeared;
@@ -254,269 +252,11 @@ Missing historical layer:
 
 Existing owners: `REASONING_ARCHITECTURE.md`, `DECISIONS_AND_LESSONS.md`, `LESSON_PROVENANCE_MAP.md`, `CREATIVE_METHOD.md`.
 
-## VI. Visual art / image-generation history
+## VI–XIX
 
-Status: SHALLOW.
+The remaining domains retain their previously recorded partial/shallow states and continue to depend heavily on historical source recovery: visual art history, music/audio, AI/model history, NEXUS/Hermes infrastructure, cross-model memory architecture, web/app experiments, local-AI constraints, research/reading history, naming/terminology, creative-tool workflows, decision history, negative knowledge, cross-project patterns, and historical collaboration identity.
 
-Known categories include:
-- anime/manhwa character design;
-- manga/page creation;
-- Ghibli-influenced visual experiments;
-- cover art;
-- cinematic/hyper-realistic prompts;
-- character edits;
-- color and lighting constraints;
-- preservation of unchanged elements during edits;
-- Strings of Fate cover work;
-- fantasy/world visualizations.
-
-Missing:
-- full prompt history;
-- image-to-image editing history;
-- why specific visual decisions were made;
-- discarded visual directions;
-- style evolution;
-- recurring composition preferences;
-- actual visual canon per project.
-
-## VII. Music and audio
-
-Status: SHALLOW / largely UNREPRESENTED.
-
-Known areas include:
-- song-generation prompts;
-- creating a song prompt for a girlfriend;
-- emotional/location framing for music;
-- use of AI music/voice tools.
-
-Missing:
-- prompt versions;
-- musical direction;
-- stylistic references;
-- rejected versions;
-- relationship between song ideas and fiction/projects;
-- audio-tool experiments.
-
-## VIII. AI model and agent history
-
-Status: PARTIAL.
-
-Known ecosystem includes experiments/interest in:
-- ChatGPT;
-- Gemini;
-- DeepSeek;
-- GLM;
-- Nemotron;
-- Google GenAI SDK;
-- model comparisons;
-- parallel-model review;
-- agent systems;
-- reasoning behavior differences;
-- provider-specific limitations.
-
-Missing:
-- specific model-selection decisions;
-- comparative tests;
-- observed behavioral differences;
-- prompts that produced important breakthroughs;
-- failures and corrections;
-- reasons for preferring one model/tool over another;
-- historical model/version context.
-
-## IX. NEXUS / Hermes / agent infrastructure
-
-Status: PARTIAL.
-
-Known themes include:
-- NEXUS OMNI-SERVER;
-- Hermes agent;
-- MCP;
-- gateways;
-- external cognition;
-- tool orchestration;
-- memory systems;
-- deployment;
-- YAML/config architecture;
-- Docker;
-- Northflank;
-- Fly.io;
-- cloud/GPU experiments;
-- proxy/tool availability issues.
-
-Missing:
-- complete architecture generations;
-- exact repositories/files used at each stage;
-- deployment incidents;
-- error history;
-- model-routing decisions;
-- architecture rewrites;
-- what was actually successful versus merely proposed.
-
-## X. Memory architecture and cross-model continuity
-
-Status: STRUCTURALLY STRONG / HISTORICALLY PARTIAL.
-
-Existing architecture is mature, but missing historical detail includes:
-- how the memory idea started;
-- major architectural pivots;
-- failed memory approaches;
-- attempts to share context between Gemini/ChatGPT/other models;
-- Android accessibility/IME ideas;
-- MCP/OpenClaw experiments;
-- exact retrieval failures;
-- what worked in practice versus theory.
-
-Existing owners: `AI_MEMORY_ARCHITECTURE.md`, `TECHNICAL_OPEN_LOOPS.md`, `DECISIONS_AND_LESSONS.md`.
-
-## XI. Web / software / app experiments
-
-Status: SHALLOW.
-
-Known categories include:
-- WordPress;
-- Netlify;
-- dark novel websites;
-- HTML RPG website/interface ideas;
-- React/Firestore concepts;
-- Tachiyomi and extension structure;
-- personal application experiments;
-- deployment and hosting experiments.
-
-Missing historical records:
-- exact goals;
-- iterations;
-- implementation details;
-- failures;
-- design decisions;
-- URLs/repos when relevant;
-- what was abandoned and why.
-
-## XII. Hardware / local-AI / deployment constraints
-
-Status: SHALLOW.
-
-Known areas include local-model considerations, phone/tablet constraints, RAM/storage limitations, Ryzen/RTX planning, Android environment, cloud GPU considerations, and hosting restrictions.
-
-Missing:
-- exact decision history;
-- benchmarks/tests;
-- model-size experiments;
-- actual successful configurations;
-- reasons for abandoning specific approaches.
-
-## XIII. Research / learning / reading interests
-
-Status: SHALLOW.
-
-Known durable interests include:
-- AI and technology;
-- literature and writing;
-- philosophy and psychology;
-- politics/geopolitics;
-- long-form reading;
-- research into contemporary AI systems and tools.
-
-Missing historical layer:
-- specific readings;
-- ideas taken from them;
-- research rabbit holes;
-- conclusions;
-- recurring questions;
-- sources that influenced projects.
-
-## XIV. Language / naming / terminology work
-
-Status: SHALLOW.
-
-Known areas include:
-- name analysis;
-- Arabic/English meaning versus transliteration;
-- fictional naming;
-- project titles;
-- terminology design.
-
-Missing:
-- historical naming decisions;
-- replaced names;
-- why names changed;
-- naming conventions by project.
-
-## XV. Creative-tool workflow
-
-Status: SHALLOW.
-
-Known tool ecosystem has included image, video, voice, music, model, deployment, and writing tools.
-
-Missing:
-- preferred workflows;
-- prompt templates;
-- successful tool combinations;
-- failure patterns;
-- criteria for choosing tools;
-- history of switching tools/models.
-
-## XVI. Decision history across domains
-
-Status: PARTIAL.
-
-The archive now records the methodology for decisions, but many original decisions are not individually captured.
-
-Recovery should cover:
-- major writing decisions;
-- worldbuilding decisions;
-- project renames/restructures;
-- architecture changes;
-- tool choices;
-- deployment choices;
-- memory-system choices;
-- creative rejections;
-- major changes in priorities.
-
-## XVII. Negative knowledge / rejected paths
-
-Status: PARTIAL.
-
-Some major rejected paths are represented, but the full history of abandoned ideas is not.
-
-The recovery target is not only "what was rejected" but:
-- what was proposed;
-- why it looked attractive;
-- why it failed;
-- what evidence killed it;
-- what survived from it;
-- whether it may become useful later in a different context.
-
-## XVIII. Cross-project invariant patterns
-
-Status: PARTIAL and intentionally cautious.
-
-Potential recurring patterns include:
-- creation / erasure;
-- existence / absence;
-- memory / forgetting;
-- reality / fiction;
-- identity / versions;
-- authority / rebellion;
-- violence / tenderness;
-- freedom / control;
-- knowledge / mystery;
-- individual / system;
-- enormous scale / intimate human consequence.
-
-These must remain **cross-project patterns**, not shared canon, until source evidence establishes project membership.
-
-## XIX. User reasoning/collaboration identity
-
-Status: STRUCTURALLY PRESENT / HISTORICALLY UNDEREXTRACTED.
-
-Current model already preserves internal/external reasoning, Anchor Core, emergent expertise, architectural simplicity, perspective switching, purpose-first analysis, and correction discipline.
-
-What is still missing is the historical evidence trail:
-- conversations that produced each principle;
-- experiments that refined it;
-- cases where it failed;
-- boundaries where a principle should not apply;
-- evolution of the collaboration model over time.
+The multiple context-recovery passes have added substantial detail to these areas, but they should not be marked recovered merely because a recovery file exists.
 
 ## XX. The most important missing layer: raw conversations
 
@@ -536,7 +276,7 @@ The current vault should **not** be described as a complete copy of the user's c
 
 It is a rapidly improving **external memory architecture containing a partial reconstruction**.
 
-The next high-value operation is therefore not indefinite creation of more framework files. It is systematic historical extraction across the coverage domains above, with raw evidence preserved separately from distilled knowledge.
+The recovery passes have increased the amount of preserved durable context, but the highest-value unresolved work is still historical extraction and integration into the correct owners.
 
 ## Coverage principle
 
