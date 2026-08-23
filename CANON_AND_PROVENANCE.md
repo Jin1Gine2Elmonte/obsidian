@@ -1,51 +1,82 @@
-# Canon, Provenance, and Confidence
+# Canon, Provenance, Confidence & Status — Canonical Governance Owner
 
-The vault must distinguish what is established from what is inferred.
+> This is the single canonical governance owner for epistemic status, provenance, confidence, contradictions, and supersession.
 
-## Canon levels
+## Status classes
 
-### Canonical
-Directly established by the user or by a confirmed repository/source state.
+### CANONICAL
+Explicitly established by the user or confirmed by project/source evidence.
 
-### Strongly supported
-Repeated across multiple conversations or sources and internally consistent.
+### STRONGLY_SUPPORTED
+Repeated across reliable sources and internally consistent, but not necessarily backed by one decisive scene.
 
-### Working model
-A useful synthesis or interpretation that explains several facts but may still change.
+### WORKING
+A current synthesis/model used for orientation but still open to revision.
 
-### Speculative
+### DERIVED
+An analytical implication inferred from established material rather than directly stated.
+
+### SPECULATIVE
 A hypothesis, creative extrapolation, or unresolved interpretation.
 
-### Obsolete
-A former state retained only because it explains history.
+### HISTORICAL / SUPERSEDED
+A previous state retained because it explains project or knowledge evolution but is not current.
+
+### UNKNOWN
+Insufficient evidence. Do not fill the gap by invention.
 
 ## Provenance
-Every important fact should ideally carry a source such as:
-- user statement
-- conversation summary
-- repository file
-- commit
-- external reference
-- creative inference
+Important claims should identify their strongest available source:
+- direct user statement;
+- historical conversation/transcript;
+- conversation summary;
+- repository/file state;
+- commit/version evidence;
+- external reference;
+- analytical inference.
+
+A summary is evidence about what was remembered, not proof that the underlying claim was originally stated.
 
 ## Confidence
-Confidence should reflect evidence, not how elegant an explanation sounds.
+Confidence reflects evidence quality, not elegance or usefulness.
 
-Suggested values: `high`, `medium`, `low`.
+Suggested levels: `high`, `medium`, `low`.
 
 ## Contradictions
 When two records conflict:
-1. Do not silently pick one.
-2. Preserve both statements.
-3. Identify their dates/context.
-4. Determine whether one superseded the other.
-5. Mark the current state explicitly.
+1. preserve both claims;
+2. identify context/time/project/version;
+3. classify the conflict;
+4. determine whether one superseded the other;
+5. mark the current state explicitly;
+6. propagate only verified changes.
+
+Active conflict owner: `WORLD/CANON_CONFLICTS.md`.
 
 ## Creative canon
-Fictional material should additionally distinguish:
-- established canon
-- draft canon
-- idea bank
-- abandoned possibility
+Fictional material should also distinguish:
+- established canon;
+- draft/current working canon;
+- derived implications;
+- idea-bank material;
+- abandoned/rejected directions.
 
-This prevents old brainstorming from silently becoming world law.
+A plausible implication is not automatically canon.
+
+## Technical canon
+A proposed architecture is not a working system until implementation evidence exists. Experimental repositories should not be described as production systems merely because a plan or README says so.
+
+## Memory canon
+A memory synthesis must expose its uncertainty and preserve its provenance. It must not manufacture missing transcripts, scenes, or decisions.
+
+## Relationship status
+Relationships are first-class claims and must carry status/provenance. The fact that two nodes are conceptually adjacent does not make the relationship canonical.
+
+## Temporal status
+A claim may be current in archive time while referring to a historical project state or fictional-world event. Use the temporal model to prevent these clocks from collapsing.
+
+## Supersession
+When later evidence changes a claim, preserve the prior state as historical/superseded when it explains evolution. Never erase meaningful history merely to produce a cleaner current summary.
+
+## Single-source-of-truth rule
+This file owns governance definitions. `CANON_CONTROL.md` is a navigation pointer only. Project/world nodes own their actual facts; governance files do not become duplicate lore summaries.
