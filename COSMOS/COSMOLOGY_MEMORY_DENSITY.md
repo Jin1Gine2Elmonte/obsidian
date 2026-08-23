@@ -1,9 +1,10 @@
-# Cosmology — Memory-Density Extraction
+# Cosmology — Memory-Density Record
 
-## Purpose
-Capture what survives in memory about the user's large-scale mythology without pretending that names alone define a complete cosmology.
+## Ownership
+This file owns **memory completeness and recovery gaps** for the cosmology layer. Canonical definitions belong to the individual cosmology nodes; project membership belongs to the relevant project; speculation must remain explicitly labeled.
 
-## Confirmed anchors
+## Strongest preserved memory
+The current durable context establishes these recurring anchors:
 - Existence Sublime / الوجود الأبهى
 - Entity of Forgetting / كيان النسيان
 - Primordial Rift
@@ -14,45 +15,30 @@ Capture what survives in memory about the user's large-scale mythology without p
 - Blood family
 - Dreams of the Inverted Universe
 
-## What is genuinely strong
-The Entity of Forgetting contains a particularly strong preserved philosophical distinction: absolute nothingness cannot itself manifest as an entity without ceasing to be nothingness. This gives the concept an ontological boundary rather than merely an aesthetic label.
+The strongest philosophical memory is the Entity of Forgetting distinction: absolute nothingness cannot literally manifest as an entity without becoming something that exists. That statement should be preserved at the Entity of Forgetting node rather than repeated as cosmology-wide lore.
 
-Jin is repeatedly associated with the boundary between fiction, imagination, and reality. Multiple Jin iterations exist, making identity and continuity themselves part of the architecture.
+## Missing evidence — highest impact
+1. Explicit project membership for each cosmological anchor.
+2. Direct statements defining relationships among the anchors.
+3. Formal cosmological hierarchy, if one exists.
+4. Exact meaning and mechanism of the Primordial Rift.
+5. Exact meaning of Existence Sublime.
+6. Exact nature of the Shadows of the First Creation.
+7. Exact role of Corruption and Curse of the Ancients.
+8. Whether Blood family is a specific family, faction, metaphysical category, or repeated motif.
+9. Whether Dreams of the Inverted Universe is a project, state, setting, or title.
 
-## What is not yet strong enough
-The archive does not currently preserve a definitive hierarchy placing these anchors relative to one another. It does not safely establish that every anchor belongs to one universe, one timeline, one cosmological layer, or one project.
+## Interpretation boundary
+Names and thematic resemblance are insufficient evidence for a common universe. A relation becomes durable only when a source explicitly establishes it or when a later user-confirmed structure makes it clear.
 
-## High-value cosmological questions
-### Creation
-- What counts as the first creation?
-- What existed before it?
-- Does creation mean matter, consciousness, worlds, stories, laws, or existence itself?
+## Recovery method
+When source material is recovered:
+- assign project/version first;
+- extract the local definition;
+- record explicit edges only;
+- update the owning cosmology node;
+- propagate verified relationships to the graph;
+- record contradictions instead of silently choosing one interpretation.
 
-### Rift
-- What exactly was ruptured?
-- Did the Rift create separation between worlds, versions, states of existence, or concepts?
-- Is it an event, location, condition, or permanent law?
-
-### Existence Sublime
-- Is it a level of being, a state, an ontological category, a realm, or something else?
-- What qualifies as existing at that level?
-
-### Forgetting
-- Is forgetting a process, force, entity, law, or transformation?
-- Can something remain existent while no longer being remembered?
-
-### Shadows
-- Are the Shadows historical remnants, beings, echoes, versions, or metaphorical consequences of the First Creation?
-
-### Corruption
-- Is Corruption a force, process, state, infection, consequence, or post-event condition?
-- Is it connected to power, reality, world-generation, or identity?
-
-### Curse of the Ancients
-- Is it inherited, imposed, awakened, historical, cosmological, or personal?
-
-## Version hazard
-A concept may have been introduced in one project generation and later reused in another. Historical evidence must assign a project/version before establishing global cosmological membership.
-
-## Memory strategy
-When a future conversation defines one relation explicitly, update the smallest affected cosmological node and then propagate the verified edge. Do not use thematic resemblance to infer the rest of the hierarchy.
+## Quality rule
+This file should become **shorter and more precise** as the cosmology is recovered: verified definitions move to their owning nodes; unresolved gaps remain here; repeated summaries do not.
