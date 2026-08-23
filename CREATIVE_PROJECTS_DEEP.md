@@ -1,46 +1,52 @@
-# Deep Creative Project Ledger
+# Creative Projects Deep Map — Navigation Layer
 
-## Primary novel universe
-The central fictional ecosystem combines dark fantasy, cosmic metaphysics, political power, psychological contradiction, and meta-fiction. It should be treated as a connected world-building graph rather than a stack of isolated story ideas.
+> This file maps the deep conceptual structure of the projects. It is not a second owner for character canon, world mechanics, or archive governance.
 
-### Structural layers
-1. Human layer: trauma, family, desire, fear, authority, rebellion.
-2. Political layer: empire, military cities, power inheritance, institutions, territorial control.
-3. Supernatural layer: Magic, Powers, spiritual vessels, curses, corruption.
-4. Cosmological layer: Abyss, Primordial Rift, Existence Sublime, Entity of Forgetting, Shadows of the First Creation.
-5. Meta-fictional layer: imagination, fictional awareness, reality control, authorship/existence questions.
+## Primary fictional ecosystem
+The major fictional material spans human/psychological, political, supernatural, cosmological, and meta-fictional layers. These layers should be treated as a navigable conceptual architecture, while project membership and continuity remain evidence-dependent.
 
-The strongest stories can move between these layers without losing the emotional reality of the human layer.
+World reconstruction: `WORLD/`
+Cosmology reconstruction: `COSMOS/`
+Project generations: `PROJECTS.md`, `PROJECT_STATE_TRANSITIONS.md`
 
-## Thematic engine
-Recurring themes include:
-- existence versus absence
-- memory versus forgetting
-- inherited identity versus self-definition
-- authority versus rebellion
-- violence versus tenderness
-- control versus freedom
-- reality versus fiction
-- knowledge versus mystery
-- creation versus erasure
-- individual psychology versus systems of power
+## Recurring conceptual axes
+- existence vs absence;
+- memory vs forgetting;
+- inherited identity vs self-definition;
+- authority vs rebellion;
+- violence vs tenderness;
+- control vs freedom;
+- reality vs fiction;
+- knowledge vs mystery;
+- creation vs erasure;
+- individual psychology vs systems of power.
 
-These themes should not appear only as explicit dialogue. They should become visible through institutions, character choices, consequences, architecture, geography, and the rules of the supernatural world.
+These are cross-project thematic anchors, not proof that all projects share one universe.
 
-## Garthin model
-Garthin is an example of the user's preferred characterization technique: contradiction without easy redemption. His hidden kindness has more impact when it remains partly incomprehensible even to him. The reader should discover it through behavior before receiving any interpretation.
+## High-value character/world intersections
+### Garthin
+Character canon: `WORLD/GARTHIN.md`
+Relationship structure: `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md`
 
-## Almont / Ryota model
-The Almont-Ryota axis provides a human-scale study of power inherited through blood. Political authority and family authority overlap, making rebellion simultaneously personal and structural. Arisa's death acts as a traumatic pivot whose consequences extend beyond the immediate scene.
+### Almont / Ryota
+Character/family canon and recovery: `WORLD/ALMONT.md`, `WORLD/RYOTA_ARISA_BENJAMIN.md`
+Relationship architecture: `WORLD/ALMONT_RYOTA_RELATIONSHIP_DYNAMICS.md`
+Identity conflict: `WORLD/CANON_CONFLICTS.md`, `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`
 
-## Dark Forest model
-The Dark Forest is valuable because it challenges the empire's assumption that everything can be categorized, controlled, and administrated. It can function as geographic unknown, political limit, epistemic limit, and symbolic counterweight to centralized authority.
+### Dark Forest
+Canon: `WORLD/DARK_FOREST.md`
+Boundary analysis: `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md`
 
-## Fiction quality standard
-A large lore system must eventually express itself in scenes. Every important abstract idea should be capable of creating at least one concrete consequence: a decision, conflict, ritual, institution, relationship, fear, cost, taboo, or visual image.
+## Creative method and quality
+Writing/artistic method belongs to `CREATIVE_METHOD.md`.
+Cross-domain reasoning belongs to `REASONING_ARCHITECTURE.md`.
+Lessons extracted from actual work belong to `DECISIONS_AND_LESSONS.md` and `LESSON_PROVENANCE_MAP.md`.
 
-## Cover-art principle
-When editing an established cover, constraints are part of the design. Preserve what is explicitly fixed; modify only the targeted element. A successful edit changes the requested feature while maintaining the identity and visual balance of the original work.
+## Constraint preservation
+Established visual/narrative constraints remain owned by their specific project nodes, especially `STRINGS_OF_FATE/`.
 
-## Revision principle
-Do not reward a scene for being mysterious merely because it is difficult to understand. Reward it for creating productive uncertainty while preserving enough orientation for the reader to care about what remains unknown.
+## Revision rule
+A difficult scene is not valuable merely because it is obscure. Mystery should create productive uncertainty while preserving the orientation required for causal and emotional movement.
+
+## Canon boundary
+This file summarizes relationships among creative layers. It must not convert thematic resemblance, analytical consequence, or design principle into fictional canon.
