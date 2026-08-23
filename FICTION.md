@@ -1,54 +1,62 @@
-# Fiction Archive
+# Fiction Archive — Navigation Layer
 
-## Aesthetic
-Dark, gothic, philosophical fantasy. Psychological intensity, silence, contradiction, violence, mystery, morally gray forces, intimate emotional detail. Avoid direct moralizing. Reveal ideas through behavior and scenes.
+> This file is an orientation map, not the canonical owner of every fictional detail.
 
-## Core universe
-Imagination can be a realm without ordinary physical existence while still influencing humans. Jin/Gin/Gene is connected to fictional awareness and reality control.
+## What belongs here
+A compact map of the user's major fictional domains, recurring anchors, and the locations of their authoritative notes.
 
-### Cosmology
-- Existence Sublime (الوجود الأبهى)
-- Entity of Forgetting (كيان النسيان)
-- Primordial Rift
-- Shadows of the First Creation (ظلال الخلق الأول)
-- Abyss
-- Corruption
-- Curse of the Ancients
-- Blood family
-- Noir
-- Dreams of the Inverted Universe
+## Core recurring domains
 
-### Entity of Forgetting
-Absolute nothingness cannot literally manifest, because manifestation makes something existent. The Entity of Forgetting therefore exists as a distinct entity/function capable of accomplishing a task that absolute nothingness cannot perform. The concept is central to The Last Thing to Be Forgotten.
+### Jin / meta-fiction
+Jin/Gin/Gene is a major recurring cosmic/meta-fictional anchor associated with fictional awareness, imagination, and extraordinary reality agency.
 
-### Characters
-**Jin/Gin/Gene:** cosmic character with awareness of fictional existence and control over reality.
+Canonical detail: `WORLD/JIN_CORE.md`
+Versions: `WORLD/JIN_VARIANTS.md`, `WORLD/JIN_VERSION_LATTICE.md`
+Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`
 
-**Adam:** traveler between worlds and follower of Jin.
+### Almont imperial-family branch
+Almont, Arisa, Ryota, and Benjamin form the core family/political branch. The branch contains an active Jin/Ryota identity ambiguity that must remain unresolved until source evidence appears.
 
-**Garthin:** ruler whose brutality coexists with a hidden, difficult-to-understand spark of kindness. Show the contradiction through action, not exposition.
+Canonical detail: `WORLD/ALMONT.md` and related `WORLD/` relationship/state nodes.
 
-**Emperor Almont:** tyrant and central imperial figure.
+### Adam
+Traveler between worlds and follower of Jin.
 
-**Arisa:** Almont's wife; her death is a major traumatic event in the family history.
+Canonical detail: `WORLD/ADAM.md`
 
-**Benjamin:** adviser to Almont.
+### Garthin
+Ruler defined by brutality coexisting with a difficult-to-explain hidden kindness; contradiction must not be flattened into redemption.
 
-**Ryota:** Almont's son; related history includes witnessing Arisa's death, fleeing, later returning to the capital because of the importance of his future position, persistent rebellion against his father, emotional distance, and repeated departures into other lands.
+Canonical detail: `WORLD/GARTHIN.md`
 
-## World
-The empire controls most of the world. The Dark Forest is dangerous, mysterious, and outside effective imperial control. Worldbuilding has included approximately 1,060 military cities, some with extraordinarily large populations.
+### Empire / Dark Forest / Powers
+The empire, Dark Forest, and power system form the principal world-system layer.
 
-## Powers
-Magic is transcendent and difficult to learn, beyond ordinary logic. Powers are more logical and limited, often inherited through blood. A spiritual vessel is part of the system.
+Canonical owners:
+- `WORLD/EMPIRE.md`
+- `WORLD/DARK_FOREST.md`
+- `WORLD/POWER_SYSTEM.md`
+
+## Cosmology
+Recurring cosmological anchors include Existence Sublime, Entity of Forgetting, Primordial Rift, Shadows of the First Creation, Abyss, Corruption, Curse of the Ancients, Blood family, and Dreams of the Inverted Universe.
+
+Canonical / recovery atlas: `COSMOLOGY.md`
+Memory-density/recovery: `COSMOS/COSMOLOGY_MEMORY_DENSITY.md`
+
+Do not assume that recurring cosmological names all belong to one project generation.
 
 ## Projects
-- Whispers of Fog (همسات الضباب): medieval fantasy side project; 20-chapter structure explored.
-- Main novel: early development reached at least section 9 in one phase; 20-chapter structure explored.
-- Strings of Fate (أوتار القدر): cover direction emphasizes translucent white strings with a subtle light-emerald glow while preserving the existing composition and colors.
-- The Last Thing to Be Forgotten: orchestral-operatic-cosmic concept centered on the Entity of Forgetting.
-- Lord of the Abyss (لورد الغوامض).
-- Shadows of the First Creation (ظلال الخلق الأول).
+- `Whispers of Fog / همسات الضباب`
+- Main novel
+- `Strings of Fate / أوتار القدر`
+- `The Last Thing to Be Forgotten`
+- `Lord of the Abyss / لورد الغوامض`
+- `Shadows of the First Creation / ظلال الخلق الأول`
+
+Project states and generations: `PROJECTS.md`, `PROJECT_STATE_TRANSITIONS.md`, `HISTORICAL_EVOLUTION_MAP.md`.
 
 ## Craft diagnosis
-Mystery and depth have sometimes outpaced clarity and pacing. When revising, diagnose whether the problem is progression, causal logic, scene purpose, rhythm, or emotional movement before adding more mystery.
+A recurring craft issue is imbalance between mystery/depth and clarity/pacing. Revision should test causality, information flow, scene purpose, rhythm, and emotional movement before adding more mystery.
+
+## Canon safety
+This file should not become a second canonical database. When a detailed claim belongs to a specialized node, link to the owner rather than restating it.
