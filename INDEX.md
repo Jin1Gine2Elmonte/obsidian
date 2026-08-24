@@ -49,18 +49,14 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` — concrete current-context memory recovered into the vault with explicit provenance and non-canon status.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_02.md` — second concrete context-recovery pass.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_03.md` — third pass covering operational/device/workflow context.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_04.md` — fourth pass covering research, reading, naming, tool workflow, and cross-domain context.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_05.md` — creative seeds and smaller conceptual fragments.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_08.md` — everyday project ecosystem, reading/research, naming, workflow, and continuity context.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_10.md` — surrounding interests, workflow, tools, terminology, and project context.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_11.md` — micro-memory: small but potentially high-value details and cross-links.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` through `_11.md` — concrete current-context recovery passes, with explicit provenance/non-canon boundaries.
 - `ARCHIVE/CROSS_DOMAIN_MEMORY_RECOVERY_01.md` — cross-project thematic/structural links.
 - `ARCHIVE/COLLABORATION_CORRECTION_HISTORY_01.md` — historical correction patterns in the collaboration.
 - `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — prompt, model-behavior, agent, MCP, Nexus, and Hermes engineering history.
 - `ARCHIVE/CREATIVE_MEDIA_HISTORY_01.md` — visual, manga, music/audio, naming, and creative-media workflow history.
+- `ARCHIVE/CREATIVE_CONCEPT_EVOLUTION_RECOVERY_01.md` — evolution of recurring conceptual axes across projects.
+- `ARCHIVE/IDEA_LINEAGE_RECOVERY_01.md` — how recurring ideas branch, transform, and migrate between projects/contexts.
+- `ARCHIVE/GENERAL_INTERESTS_RESEARCH_RECOVERY_01.md` — durable knowledge interests, research/reading patterns, and naming/language preferences.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
