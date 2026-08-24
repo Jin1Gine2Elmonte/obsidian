@@ -5,6 +5,12 @@ Preserve how ideas changed, not merely the latest form of an idea.
 
 This document is a reconstruction from currently accessible memory. It is not a verbatim transcript and must not be treated as one.
 
+## Complementary lineage record
+Detailed idea-lineage tracking now lives in:
+- `ARCHIVE/IDEA_LINEAGE_RECOVERY_01.md`
+
+That record tracks recurring ideas through `SEED -> FIRST RECOGNIZED FORM -> REFORMULATION -> BRANCH -> PROJECT/DOMAIN USE -> CURRENT STATUS` without inventing dates or causal ancestry.
+
 ## 1. Recurrent creative nucleus
 The earliest recoverable nucleus is a dark, psychologically layered fictional approach: mystery, contradiction, violence, silence, mythology, and characters whose motives are revealed through behavior rather than direct moral explanation.
 
