@@ -17,6 +17,9 @@ The current durable context establishes these recurring anchors:
 
 The strongest philosophical memory is the Entity of Forgetting distinction: absolute nothingness cannot literally manifest as an entity without becoming something that exists. That statement should be preserved at the Entity of Forgetting node rather than repeated as cosmology-wide lore.
 
+## Atomic recovery companion
+`WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md` preserves atomic cosmology memories, anti-collapse rules, evidence boundaries, and prioritized source-recovery targets. It should grow by verified extraction, not by speculative hierarchy.
+
 ## Missing evidence — highest impact
 1. Explicit project membership for each cosmological anchor.
 2. Direct statements defining relationships among the anchors.
