@@ -11,6 +11,7 @@ Define the canonical home for each kind of information so the archive can grow w
 | cross-domain reasoning model | `REASONING_ARCHITECTURE.md` | local task references |
 | writing/artistic method | `CREATIVE_METHOD.md` | project-specific constraints |
 | project purpose/state | `PROJECTS.md` | dedicated project README/state notes |
+| project/version generation boundaries | `PROJECT_GENERATION_SEPARATION.md` | `PROJECT_STATE_TRANSITIONS.md`, version/project nodes |
 | major recurring concept | `ANCHOR_GRAPH.md` | owning node |
 | character identity | character node | memory-density / relationship references |
 | character relationship | relationship node | causal/state-map references |
@@ -25,14 +26,12 @@ Define the canonical home for each kind of information so the archive can grow w
 | source recovery target | recovery matrix / `RECOVERY_EVIDENCE_PIPELINE.md` | local question list |
 | exact transcript | raw archive layer when available | extracted evidence references |
 | derived consistency implication | analytical/derived file | canonical-node reference |
-| project generation/change | `PROJECT_STATE_TRANSITIONS.md` | timeline reference |
-| rejected/superseded direction | `INTENT_AND_DISCARDED_PATHS.md` + historical state | affected project node |
-| memory completeness / strength | domain `*_MEMORY_DENSITY.md` | never treated as canon owner |
 | repository evolution | `ARCHIVE_EVOLUTION_FROM_GIT.md` + Git history | knowledge-event reference |
 | durable lesson / decision / experiment | `DECISIONS_AND_LESSONS.md` | `LESSON_PROVENANCE_MAP.md` |
 | lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
 | navigation/atlas summary | root navigation files | pointers only; never a competing owner |
 | cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
+| cross-domain technical architecture synthesis | `TECHNICAL_ARCHITECTURE_DEEP.md` | `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical owners |
 
 ## Domain owners
 
@@ -90,6 +89,8 @@ Define the canonical home for each kind of information so the archive can grow w
 `FICTION.md`, `COSMOLOGY.md`, `WORLD_SYSTEMS.md`, and `CREATIVE_PROJECTS_DEEP.md` are navigation/atlas surfaces only. They may summarize anchors, but they must not become competing canonical owners.
 
 `FICTION_CANON_DEEP.md` is a cross-domain fiction synthesis layer. It may preserve useful historical/working synthesis across fiction, cosmology, character, and world-system material, but specialized domain nodes remain the actual factual/canonical owners.
+
+`TECHNICAL_ARCHITECTURE_DEEP.md` is a cross-domain technical synthesis layer. It may connect architecture patterns across memory, agents, deployment, retrieval, Nexus, and Hermes, but `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical history remain the owners of their respective domains.
 
 ## One-source-of-truth principle
 A summary file may link to a canonical node. It should not silently become a second canonical owner.
