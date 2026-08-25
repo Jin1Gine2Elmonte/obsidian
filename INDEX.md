@@ -62,6 +62,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
 - `KNOWLEDGE_EVENTS.md`
+- `RECOVERY_MEMORY_LEADS.md` — high-value uncertain retrieval leads preserved without promoting them to canon.
 - `LESSON_PROVENANCE_MAP.md` — evidence and change lineage behind durable lessons.
 - `ARCHIVE_EVOLUTION_FROM_GIT.md` — repository evolution proven by Git history.
 - `QUESTIONS_AND_OPEN_LOOPS.md`
