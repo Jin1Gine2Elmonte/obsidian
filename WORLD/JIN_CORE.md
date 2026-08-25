@@ -9,6 +9,7 @@ This is the **canonical identity owner** for Jin. It should answer who/what Jin 
 - Memory-depth companion: `WORLD/JIN_MEMORY_DENSITY.md`.
 - Variant structure: `WORLD/JIN_VARIANTS.md` and `WORLD/JIN_VERSION_LATTICE.md`.
 - Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+- Atomic event recovery: `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`.
 
 ## Core identity
 Jin (also remembered as Gin/Gene in different contexts) is one of the deepest recurring anchors in the user's fictional work. He is not merely a powerful protagonist. The remembered architecture places him at the intersection of fiction, imagination, reality, authorship, and cosmological agency.
@@ -47,6 +48,8 @@ Jin's extraordinary agency does not automatically erase emotional consequence. A
 ## Family-history branch safeguard
 A durable branch of the user's fictional history contains a child/young figure who witnesses Arisa's death, leaves/escapes, later returns to the capital because his political position and future influence make the capital consequential, and continues a long pattern of rebellion, disappearance, and return against Almont. Another durable summary attributes this branch to Ryota. The archive therefore preserves the branch without assigning the child identity globally.
 
+The event sequence is extracted separately in `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md` so that event memory is not flattened into a character summary.
+
 The exact relationship between this child-history branch and Jin remains unresolved and is owned by `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
 
 ## Version boundary
@@ -69,6 +72,7 @@ The user has explicitly discussed multiple iterations/versions of Jin. The compl
 - Adam: `WORLD/ADAM.md` and `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md`.
 - Almont: `WORLD/ALMONT.md` and `WORLD/JIN_ALMONT_RELATIONSHIP.md`.
 - Ryota identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+- Atomic family events: `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`.
 - Causality: `WORLD/CAUSAL_MAP.md` and `WORLD/CAUSAL_EXTRACTION.md`.
 - Cosmology: `COSMOS/COSMOLOGY_MEMORY_DENSITY.md`.
 
