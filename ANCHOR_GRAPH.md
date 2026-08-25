@@ -9,6 +9,7 @@ This is the vault's high-value relationship index. It is intentionally relationa
 - `INFERRED` — analytical consequence or structural interpretation.
 - `SPECULATIVE` — hypothesis or creative possibility.
 - `UNKNOWN` — relationship not yet recoverable.
+- `UNRESOLVED` — a specific relationship is known to exist as a problem under active audit, but its truth/identity/state has competing or insufficient evidence.
 
 Every edge below is labeled rather than being silently treated as fact.
 
