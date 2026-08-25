@@ -42,6 +42,12 @@ The empire's near-global reach exists alongside the Dark Forest, which represent
 ## Almont and the state
 Almont is not merely a person standing above the empire. His family decisions and personal legacy exist inside an institution capable of governing an enormous territory. The archive should link personal events to institutional consequences only when the original conversations establish or strongly support those consequences.
 
+## Atomic event/state recovery
+World-level event and state recovery is maintained separately in:
+`WORLD/EVENT_ATOMIC_RECOVERY_EMPIRE_DARKFOREST_01.md`.
+
+This layer preserves declared macro-states and boundaries without turning structural implications into invented historical events.
+
 ## Cross-links
 - Memory completeness: `WORLD/EMPIRE_MEMORY_DENSITY.md`.
 - Derived scale/logistics: `WORLD/IMPERIAL_LOGISTICS.md`.
