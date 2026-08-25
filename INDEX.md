@@ -29,7 +29,9 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CREATIVE_METHOD.md` — writing/artistic method.
 - `CONCEPTUAL_FINGERPRINT.md` — cross-project recurring conceptual patterns; not a universe or canon owner.
 - `PROJECTS.md` — project-state/navigation layer.
+- `PROJECT_GENERATION_SEPARATION.md` — project/version generation boundaries and continuity safeguards.
 - `TECH_STACK.md` — technical navigation/state layer.
+- `TECHNICAL_ARCHITECTURE_DEEP.md` — deep technical architecture synthesis; not the owner of implementation details.
 - `CROSS_PROJECT_INVARIANTS.md` — cross-project invariants and recurring structures.
 
 ### Graph / semantics
@@ -105,7 +107,7 @@ Dedicated workspace owned exclusively by LM Arena. Other models, agents, and mai
 ### World reconstruction
 `WORLD/`
 
-This directory contains reconstruction of the Jin-related world material: Jin and variants, Almont and the imperial family, the empire, Garthin, Adam, Dark Forest, power system, causal maps, relationship recovery, motive recovery, and scene-evidence matrices. Remembered facts are preserved while missing scene-level canon remains marked as recovery work.
+This directory contains reconstruction of the Jin-related world material: Jin and variants, Almont and the imperial family, the empire, Garthin, Adam, Dark Forest, power system, causal maps, relationship recovery, motive recovery, and scene-evidence matrices. `WORLD/README.md` is the directory-level navigation map; specialized files remain the owners of their respective evidence domains. Remembered facts are preserved while missing scene-level canon remains marked as recovery work.
 
 For Jin specifically:
 - `WORLD/JIN_CORE.md` — broad identity.
@@ -119,7 +121,7 @@ For Jin specifically:
 ### Cosmology reconstruction
 `COSMOS/`
 
-Contains cosmological anchors and memory-density/recovery notes. Shared themes are not treated as shared canon without evidence.
+Contains individual cosmological anchor nodes plus the memory-density/recovery layer. `COSMOLOGY.md` is the navigation layer and now links the recovered anchor files directly. Shared themes are not treated as shared canon without evidence.
 
 ### Project-specific memory
 `STRINGS_OF_FATE/`
