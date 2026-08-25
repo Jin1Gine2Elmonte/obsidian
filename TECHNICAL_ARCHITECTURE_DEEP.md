@@ -1,5 +1,10 @@
 # Technical Architecture — Deep Context
 
+## Ownership
+This file is a **cross-domain technical synthesis and historical architecture context layer**. It does not compete with `AI_MEMORY_ARCHITECTURE.md` as the owner of the external-memory architecture, with `TECH_STACK.md` as the technical navigation layer, or with project-specific implementation/history nodes under `TECH/`.
+
+Use it to understand how the major technical systems and architectural ideas fit together historically. Put authoritative implementation details, incidents, and generation-specific facts in their specialized owners.
+
 ## Core strategic problem
 The user is not merely trying to build an AI chatbot. The recurring objective is to construct systems in which models can act over persistent tools, memory, projects, and external knowledge while preserving continuity across providers.
 
@@ -36,6 +41,8 @@ This separation matters because it allows:
 - auditing source material
 - human editing
 - long-term portability
+
+The durable memory architecture itself is owned by `AI_MEMORY_ARCHITECTURE.md`.
 
 ## Retrieval architecture
 A high-quality retrieval path should operate in stages:
@@ -87,3 +94,10 @@ The archive should remain legible if every external service disappears tomorrow.
 
 ## Long-term target
 The mature system can become a personal knowledge OS where models are replaceable reasoning engines and the vault is persistent world state.
+
+## Cross-links
+- `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
+- `TECH_STACK.md` — technical navigation/state layer.
+- `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` — generation/history evidence for Nexus and Hermes.
+- `TECH/TOOL_WORKFLOW_HISTORY.md` — tool and workflow history.
+- `ARCHIVE_EVOLUTION_FROM_GIT.md` — repository-history evidence.
