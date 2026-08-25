@@ -147,6 +147,20 @@ A durable technical-design preference.
 Edges:
 - `SUPPORTED` -> prefer minimal architecture until requirements justify complexity
 
+## RECOVERY-LAYER BRIDGES
+These are navigation links into the atomic recovery layer. They are **not additional canon edges**. Their purpose is to make recovered evidence discoverable from the high-value anchors without promoting the recovery layer into source authority.
+
+- `JIN` -> `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`
+- `ALMONT / ARISA / RYOTA` -> `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`
+- `ALMONT / ARISA / RYOTA` -> `WORLD/EVENT_ATOMIC_RECOVERY_ALMONT_GARTHIN_ADAM_01.md`
+- `GARTHIN` -> `WORLD/EVENT_ATOMIC_RECOVERY_ALMONT_GARTHIN_ADAM_01.md`
+- `JIN` -> `WORLD/EVENT_ATOMIC_RECOVERY_ALMONT_GARTHIN_ADAM_01.md`
+- `DARK FOREST` -> `WORLD/EVENT_ATOMIC_RECOVERY_EMPIRE_DARKFOREST_01.md`
+- `POWER SYSTEM` -> `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md`
+- `ENTITY OF FORGETTING` -> `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md`
+- `EXISTENCE SUBLIME` -> `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md`
+- `SHADOWS OF THE FIRST CREATION` -> `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md`
+
 ## Promotion rule
 A new repeated concept becomes an anchor when it repeatedly generates distinct relationships or decisions. A thematic resemblance alone never creates a canonical edge.
 
