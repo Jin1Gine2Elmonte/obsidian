@@ -53,8 +53,15 @@ Search historical conversations around:
 - childhood history;
 - version/rewrite references.
 
+## Atomic recovery bridge
+`WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md` is the current event-level extraction for the shared childhood-history sequence. It preserves the Jin/Ryota conflict instead of resolving it, and records the known sequence as separate events: witnessing Arisa's death, escape, return to the capital, sustained rebellion against Almont, repeated departures, and the family-warmth deficit.
+
+This bridge exists for **evidence navigation only**. The atomic recovery file is not source authority and does not change the resolution status of this audit. The identity audit remains the owning node for the conflict, while the atomic file remains the owning node for the extracted event sequence.
+
 ## Resolution standard
 One explicit scene is enough to split a false merge. One explicit user statement equating the names is enough to merge them for a specific project/version. Anything less should remain unresolved.
 
 ## Current operational state
 **UNRESOLVED — HIGH PRIORITY.**
+
+The unresolved state is deliberate. The next high-value operation is source-level recovery of the original passages defining the child, version, project membership, and chronology; until that evidence appears, the archive should preserve both identity hypotheses without collapse.
