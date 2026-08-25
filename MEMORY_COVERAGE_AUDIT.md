@@ -199,17 +199,50 @@ Still missing or under-recovered:
 
 ## IV. Other fictional projects and titles
 
+### Whispers of Fog / همسات الضباب
+Status: PARTIAL / project owner exists.
+
+Recovered enough to preserve that it is a separate medieval-fantasy side project and that a roughly 20-chapter structure was explored. Detailed premise, characters, scenes, world mechanics, and generation history remain incomplete.
+
+### Main novel development
+Status: PARTIAL / project owner exists.
+
+Recovered enough to preserve a roughly 20-chapter architectural phase, a stage reaching at least section 9, and the later craft diagnosis that mystery/depth could outrun clarity and pacing. Full project chronology, characters, scene history, and earlier/later structural revisions remain incomplete.
+
+### The Last Thing to Be Forgotten
+Status: SHALLOW + RAW-EVIDENCE NEEDED.
+
+A dedicated owner now exists. Current memory preserves its orchestral-operatic-cosmic direction and the Entity of Forgetting anchor, but not enough premise, character, plot, chronology, or narrative mechanism to treat the project as recovered.
+
+Owner: `PROJECTS/THE_LAST_THING_TO_BE_FORGOTTEN.md`.
+
+### Shadows of the First Creation / ظلال الخلق الأول
+Status: SHALLOW + RAW-EVIDENCE NEEDED.
+
+A dedicated owner now exists. The title and primordial/First Creation concept are preserved, but the actual mythology, cast, plot, chronology, and relation to other cosmologies remain unresolved.
+
+Owner: `PROJECTS/SHADOWS_OF_THE_FIRST_CREATION.md`.
+
+### Dreams of the Inverted Universe
+Status: SHALLOW + RAW-EVIDENCE NEEDED.
+
+A dedicated owner now exists. The current memory preserves the title and its broad inverted/reversed reality and dream/cosmology association, but not the actual mechanics, characters, plot, or chronology.
+
+Owner: `PROJECTS/DREAMS_OF_THE_INVERTED_UNIVERSE.md`.
+
+### Lord of the Abyss / لورد الغوامض
+Status: SHALLOW + RAW-EVIDENCE NEEDED.
+
+A dedicated owner now exists. The title and its dark-mythological/Abyss association are preserved, but the project's exact premise, characters, world, Abyss mechanics, chronology, and relationship to other projects remain unresolved.
+
+Owner: `PROJECTS/LORD_OF_THE_ABYSS.md`.
+
+### Other dark-fiction experiments
 Status: SHALLOW / UNREPRESENTED in many cases.
 
-Known titles/projects requiring dedicated historical recovery include, at minimum:
-- Whispers of Fog / همسات الضباب;
-- Lord of the Abyss;
-- Shadows of the First Creation;
-- Dreams of the Inverted Universe;
-- The Last Thing to Be Forgotten;
-- other dark-fiction experiments and branches whose names may only survive in conversation context.
+Known titles/projects requiring additional historical recovery may exist only as fragments in accessible context. Their names should not be invented or generalized from neighboring projects.
 
-For each project the archive should recover:
+For each project the archive should recover when evidence exists:
 - origin;
 - purpose;
 - premise;
