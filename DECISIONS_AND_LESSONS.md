@@ -67,6 +67,13 @@ A logically necessary consequence is not automatically canon. Analytical consequ
 ### L-010 — Relationships deserve first-class status
 A relationship may carry more explanatory value than either endpoint. Preserve its origin, changes, asymmetry, evidence, and consequences rather than merely listing the two entities together.
 
+### L-011 — An instruction layer should not imprison an open-ended process
+A recent memory-recovery automation was initially given a detailed execution prompt. That prompt became an unwanted constraint because it prescribed the search path, even though the intended operation was open-ended continuation driven by the live context. The durable lesson is that an autonomous recurring process can require a minimal trigger rather than a fixed mission statement when the real objective is to preserve freedom of navigation and allow the next path to emerge from current state.
+
+**Decision:** when the user's intended recurring action is intrinsically open-ended, preserve the trigger with the smallest sufficient instruction and let the current context, repository state, and active continuity determine the local work.
+
+**Status:** durable collaboration/automation lesson, scoped to open-ended continuation rather than all scheduled tasks.
+
 ## Technical experiment lineage
 
 ### T-001 — External access should not own memory
