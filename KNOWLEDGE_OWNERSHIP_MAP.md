@@ -32,6 +32,7 @@ Define the canonical home for each kind of information so the archive can grow w
 | durable lesson / decision / experiment | `DECISIONS_AND_LESSONS.md` | `LESSON_PROVENANCE_MAP.md` |
 | lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
 | navigation/atlas summary | root navigation files | pointers only; never a competing owner |
+| cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
 
 ## Domain owners
 
@@ -59,7 +60,6 @@ Define the canonical home for each kind of information so the archive can grow w
 - `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md` — recovery/institutional questions.
 - `WORLD/CAPITAL_AND_COURT.md` — capital-specific knowledge.
 - `WORLD/DARK_FOREST.md` — Dark Forest canon.
-- `WORLD/DARK_FOREST_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/POWER_SYSTEM.md` — broad power-system owner.
 - `WORLD/POWER_SYSTEM_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/POWER_POLITICS.md` — institutional consequences.
@@ -88,6 +88,8 @@ Define the canonical home for each kind of information so the archive can grow w
 
 ### Navigation layers
 `FICTION.md`, `COSMOLOGY.md`, `WORLD_SYSTEMS.md`, and `CREATIVE_PROJECTS_DEEP.md` are navigation/atlas surfaces only. They may summarize anchors, but they must not become competing canonical owners.
+
+`FICTION_CANON_DEEP.md` is a cross-domain fiction synthesis layer. It may preserve useful historical/working synthesis across fiction, cosmology, character, and world-system material, but specialized domain nodes remain the actual factual/canonical owners.
 
 ## One-source-of-truth principle
 A summary file may link to a canonical node. It should not silently become a second canonical owner.
