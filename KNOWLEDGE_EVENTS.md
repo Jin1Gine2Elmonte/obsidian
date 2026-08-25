@@ -82,6 +82,48 @@ The archive now records not only what is currently believed, but how a claim cha
 
 Class: `RECLASSIFICATION`
 
+### KE-013 — Atomic event recovery becomes a distinct memory layer
+Recent recovery work showed that character summaries were insufficient to preserve the local structure of memory. The archive therefore introduced atomic event records for the Jin/Almont/Ryota/Arisa branch and then for Almont/Garthin/Adam.
+
+Class: `OWNERSHIP_CHANGE` + `RECOVERY`
+
+Effect: character nodes remain identity owners while event nodes preserve event order, local uncertainty, consequences, and unresolved identity/version questions.
+
+### KE-014 — World-state/event separation expanded to macro systems
+The empire and Dark Forest were separated into world-state/event recovery rather than having inferred institutional consequences silently promoted to canon.
+
+Class: `RECLASSIFICATION` + `RECOVERY`
+
+Effect: declared scale and boundary facts remain distinct from derived logistics, politics, and hidden causes.
+
+### KE-015 — Power/cosmology recovery boundary hardened
+The archive confirmed that Magic, inherited Powers, and the spiritual-vessel concept are durable memory anchors, while detailed mechanics remain source-recovery targets. Likewise, recurring cosmological names are not merged into a hierarchy without direct evidence.
+
+Class: `RECLASSIFICATION`
+
+Effect: prevents title-based or motif-based cosmology invention.
+
+### KE-016 — General-interest and research memory promoted to an explicit layer
+Repeated recovery showed that reading/research patterns, naming/language concerns, and broader knowledge interests were a missing category rather than incidental metadata.
+
+Class: `OWNERSHIP_CHANGE` + `RECOVERY`
+
+Effect: these patterns can now be preserved without contaminating fictional canon or private biography.
+
+### KE-017 — Project-only titles promoted from atlas entries to historical owners
+`The Last Thing to Be Forgotten`, `Shadows of the First Creation`, `Dreams of the Inverted Universe`, and `Lord of the Abyss` were promoted from title-level project anchors to explicit historical-owner nodes with evidence boundaries and recovery targets.
+
+Class: `OWNERSHIP_CHANGE`
+
+Important boundary: creating a project owner did not imply that the project's narrative or cosmology was recovered.
+
+### KE-018 — Recovery process itself decoupled from fixed task text
+A recurring operation was scheduled as a minimal `@Thinking / جارٍ التفكير / Details` signal after it became clear that a detailed task prompt would overconstrain an intentionally open-ended process. The meaningful context must come from the live state of the archive and conversation, not from a frozen task-specific instruction.
+
+Class: `CORRECTION` + `RECLASSIFICATION`
+
+Important boundary: this is an operational scheduling decision, not a fictional or identity claim.
+
 ## Required event fields for future entries
 - event id
 - archive time
