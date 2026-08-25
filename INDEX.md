@@ -29,14 +29,20 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CREATIVE_METHOD.md` — writing/artistic method.
 - `PROJECTS.md` — project-state/navigation layer.
 - `TECH_STACK.md` — technical navigation/state layer.
+- `CROSS_PROJECT_INVARIANTS.md` — cross-project invariants and recurring structures.
 
 ### Graph / semantics
 - `ANCHOR_GRAPH.md`
 - `RELATIONSHIPS.md`
 - `MEMORY_SCHEMA.md`
+- `MEMORY_GRAPH.md` — memory graph/navigation model.
+- `MEMORY_LAYERS.md` — memory-layer model.
+- `MEMORY_OPERATIONS.md` — memory operation model.
 - `CANON_AND_PROVENANCE.md` — canonical evidence/status owner.
 - `CANON_CONTROL.md` — compatibility pointer only.
 - `KNOWLEDGE_OWNERSHIP_MAP.md`
+- `ENTITY_SYSTEM.md` — entity model.
+- `ENTITY_TEMPLATE.md` — entity template.
 
 ### Memory / recovery operations
 - `ARCHIVE_PROTOCOL.md`
@@ -49,7 +55,8 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical conversation-import specification.
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` through `_11.md` — concrete current-context recovery passes, with explicit provenance/non-canon boundaries.
+- `HIGH_IMPACT_RECOVERY_MATRIX.md` — recovery matrix by impact.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` through `_12.md` — concrete current-context recovery passes, with explicit provenance/non-canon boundaries.
 - `ARCHIVE/CROSS_DOMAIN_MEMORY_RECOVERY_01.md` — cross-project thematic/structural links.
 - `ARCHIVE/COLLABORATION_CORRECTION_HISTORY_01.md` — historical correction patterns in the collaboration.
 - `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — prompt, model-behavior, agent, MCP, Nexus, and Hermes engineering history.
@@ -65,6 +72,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `RECOVERY_MEMORY_LEADS.md` — high-value uncertain retrieval leads preserved without promoting them to canon.
 - `LESSON_PROVENANCE_MAP.md` — evidence and change lineage behind durable lessons.
 - `ARCHIVE_EVOLUTION_FROM_GIT.md` — repository evolution proven by Git history.
+- `HISTORICAL_EVOLUTION_MAP.md` — broader historical evolution map.
 - `QUESTIONS_AND_OPEN_LOOPS.md`
 - `TECHNICAL_OPEN_LOOPS.md`
 - `TIMELINE.md`
@@ -73,6 +81,10 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `PROJECT_STATE_TRANSITIONS.md`
 - `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, and technical experiment lineage.
 - `NEGATIVE_KNOWLEDGE.md`
+- `INTENT_AND_DISCARDED_PATHS.md` — intent, abandoned directions, and discarded paths.
+- `KNOWLEDGE_OPERATING_MODEL.md` — operating model for maintaining and using the knowledge system.
+- `TOTAL_MEMORY_MAP.md` — broad memory-system map.
+- `USER_WORKING_MODEL.md` — durable working model.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — current repository-wide structural audit and repair record.
 
 ### Archive directory
