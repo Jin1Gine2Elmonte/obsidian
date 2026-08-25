@@ -72,6 +72,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `PROJECT_STATE_TRANSITIONS.md`
 - `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, and technical experiment lineage.
 - `NEGATIVE_KNOWLEDGE.md`
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — current repository-wide structural audit and repair record.
 
 ### Archive directory
 `ARCHIVE/`
@@ -90,6 +91,7 @@ For Jin specifically:
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
 - `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness and gaps.
+- `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md` — atomic power/cosmology recovery layer; evidence-oriented and non-canonical until source evidence is recovered.
 
 ### Cosmology reconstruction
 `COSMOS/`
@@ -101,7 +103,15 @@ Contains cosmological anchors and memory-density/recovery notes. Shared themes a
 
 A dedicated project branch containing the currently recoverable memory about «أوتار القدر» and its explicit visual/project constraints. It must not be treated as a substitute for historical transcripts.
 
-Dedicated historical project owners also exist under `PROJECTS/` for `WHISPERS_OF_FOG.md` and `MAIN_NOVEL_DEVELOPMENT.md`.
+Dedicated historical project owners exist under `PROJECTS/` for:
+- `WHISPERS_OF_FOG.md`
+- `MAIN_NOVEL_DEVELOPMENT.md`
+- `THE_LAST_THING_TO_BE_FORGOTTEN.md`
+- `SHADOWS_OF_THE_FIRST_CREATION.md`
+- `DREAMS_OF_THE_INVERTED_UNIVERSE.md`
+- `LORD_OF_THE_ABYSS.md`
+
+These are separate project owners and must not be collapsed merely because some concepts or terminology overlap.
 
 ### Technical historical memory
 - `AI_MEMORY_ARCHITECTURE.md` — durable external-memory architecture and its evolution.
