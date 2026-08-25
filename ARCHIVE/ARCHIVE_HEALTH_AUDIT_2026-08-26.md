@@ -30,20 +30,25 @@ The repository contains:
 
 They were not represented in `INDEX.md`. Because these documents define how the archive itself behaves rather than merely duplicating domain facts, they are now exposed in the index.
 
-### 5. Major ownership and relationship structures remain coherent
+### 5. A stale navigation link remained in `INDEX.md`
+`INDEX.md` referenced `CHARACTERS.md` as a legacy/optional navigation layer, but the repository has no `CHARACTERS.md` file. A direct repository lookup returned `404`.
+
+This was a genuine broken navigation reference rather than a missing knowledge domain. The stale line was removed instead of creating a placeholder file or implying that an obsolete character atlas still exists.
+
+### 6. Major ownership and relationship structures remain coherent
 `KNOWLEDGE_OWNERSHIP_MAP.md` still assigns clear primary owners for broad memory, reasoning architecture, projects, character identity, relationships, chronology, world state, canonical claims, contradictions, recovery targets, lessons, and repository evolution. `ANCHOR_GRAPH.md` uses explicit relationship states (`CANON`, `SUPPORTED`, `INFERRED`, `SPECULATIVE`, `UNKNOWN`, `UNRESOLVED`) and keeps recovery-layer bridges separate from canon edges.
 
 No safe evidence was found that justified changing a current canonical owner or merging a disputed identity. The Jin/Ryota relationship remains correctly isolated as `UNRESOLVED`.
 
-### 6. Atomic recovery is structurally linked but remains non-canonical
+### 7. Atomic recovery is structurally linked but remains non-canonical
 The atomic recovery layer is present for Jin-family events, Almont/Garthin/Adam events, Empire/Dark Forest events, and Power/Cosmology. `ANCHOR_GRAPH.md` already exposes these as recovery-layer bridges rather than canon edges. No promotion was justified during this pass.
 
-### 7. The repository remains source-limited in several high-impact areas
+### 8. The repository remains source-limited in several high-impact areas
 The existing health records consistently identify the same unresolved evidence bottlenecks: Jin/Ryota identity and genealogy, Arisa's death scene and aftermath, Almont/Ryota dialogue and motives, Adam's first meeting and independent decisions, defining Garthin scenes, detailed power-system mechanics, cosmological hierarchy/project membership, and the full narrative history of Strings of Fate.
 
 These cannot be safely completed from the repository alone. They remain explicit recovery targets rather than speculative expansions.
 
-### 8. Root README is intentionally weak and remains low-value to duplicate
+### 9. Root README is intentionally weak and remains low-value to duplicate
 The root `README.md` contains only the repository title. `INDEX.md` is the actual navigation surface and already documents the vault's architecture. Expanding the README would mostly duplicate the index and is therefore not a high-value repair at this stage.
 
 ## Repairs made in this pass
@@ -53,8 +58,9 @@ The root `README.md` contains only the repository title. `INDEX.md` is the actua
 3. Recorded the explicit ownership role of `FICTION_CANON_DEEP.md` in `KNOWLEDGE_OWNERSHIP_MAP.md`.
 4. Added `FICTION_CANON_DEEP.md` to `INDEX.md`.
 5. Added `ARCHIVE/README.md`, `ARCHIVE/KNOWLEDGE_STATUS.md`, and `ARCHIVE/MEMORY_SYSTEM_V3.md` to `INDEX.md`.
-6. Preserved all protected LM Arena contents and did not invent missing recovery passes.
-7. Did not delete or merge files merely because terminology overlaps.
+6. Removed the stale `CHARACTERS.md` navigation reference from `INDEX.md`.
+7. Preserved all protected LM Arena contents and did not invent missing recovery passes.
+8. Did not delete or merge files merely because terminology overlaps.
 
 ## Git evidence
 
@@ -66,6 +72,7 @@ The recent maintenance chain is:
 - `fead8fc24b2c2fe6f24fa4e6557be57c743fd36c` — connected deep fiction synthesis to navigation.
 - `6f1fe21d3b4f3ed1ab0d603f73bdc45007375416` — added explicit ownership mapping for the deep synthesis layer.
 - `0bdafd5d34ff343f212cda84e1d102bce1a5c368` — updated the navigation index with the new ownership and archive-architecture links.
+- `4b5349767920261761bebab268e48849b90111a7` — removed the stale `CHARACTERS.md` navigation reference.
 
 The repository history supports the interpretation that these are incremental maintenance repairs rather than a rewrite of the archive's knowledge model.
 
@@ -77,4 +84,4 @@ The largest knowledge gaps remain primary-source gaps, not documentation gaps. C
 
 ## Core conclusion
 
-The archive's current structural weakness is no longer primarily missing top-level indexing. The more important remaining problem is **depth of linkage and source recovery**. The current maintenance state is healthier because the deep fiction synthesis is now epistemically bounded, the archive's own architecture nodes are discoverable, and the existing uncertainty model remains intact.
+The archive's current structural weakness is no longer primarily missing top-level indexing. The more important remaining problem is **depth of linkage and source recovery**. The current maintenance state is healthier because the deep fiction synthesis is now epistemically bounded, the archive's own architecture nodes are discoverable, stale navigation has been removed, and the existing uncertainty model remains intact.
