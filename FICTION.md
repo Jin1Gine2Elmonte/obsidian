@@ -37,6 +37,9 @@ Canonical owners:
 - `WORLD/DARK_FOREST.md`
 - `WORLD/POWER_SYSTEM.md`
 
+## Deep fiction synthesis
+`FICTION_CANON_DEEP.md` preserves a high-density cross-domain synthesis of recurring fiction, cosmology, character, and world-system ideas. It is a working/historical synthesis, not a competing canonical owner. When a claim matters as canon, follow its specialized owner and `CANON_AND_PROVENANCE.md`.
+
 ## Cosmology
 Recurring cosmological anchors include Existence Sublime, Entity of Forgetting, Primordial Rift, Shadows of the First Creation, Abyss, Corruption, Curse of the Ancients, Blood family, and Dreams of the Inverted Universe.
 
