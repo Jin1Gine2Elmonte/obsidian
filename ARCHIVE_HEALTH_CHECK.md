@@ -28,9 +28,9 @@ Current highest-risk case: Jin ↔ Ryota.
 Primary references: `WORLD/JIN_VERSION_LATTICE.md`, `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
 
 ### 5. Relationship integrity
-Relationships should carry evidence/status. Conceptual similarity is not enough.
+Relationships should carry evidence/status. Conceptual similarity is not enough. Status labels must themselves be defined before they are used; active audit states such as `UNRESOLVED` must not appear as undocumented edge types.
 
-Primary reference: `RELATIONSHIPS.md`.
+Primary reference: `RELATIONSHIPS.md` and `ANCHOR_GRAPH.md`.
 
 ### 6. Historical integrity
 Superseded interpretations should remain available when they explain project evolution or correction history.
@@ -82,6 +82,7 @@ A future maintenance pass should be considered healthy when:
 - stale summaries are marked, narrowed, or retired safely;
 - high-impact conflicts have explicit owners;
 - major relationships carry status/provenance;
+- status vocabularies are internally defined and consistently used;
 - knowledge changes are traceable;
 - raw evidence and synthesis remain separable;
 - additions measurably increase information value.
