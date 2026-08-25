@@ -12,6 +12,12 @@ The forest is the clearest remembered counterexample to absolute imperial contro
 
 These dimensions should be tested against source scenes rather than assumed identical.
 
+## Atomic event/state recovery
+The world-level boundary and empire-state record is maintained in:
+`WORLD/EVENT_ATOMIC_RECOVERY_EMPIRE_DARKFOREST_01.md`.
+
+The current event/state layer preserves only what is actually recoverable: the empire's near-global reach and the Dark Forest as its major known limit. It deliberately does not invent the cause of that limit, its inhabitants, or a hidden history.
+
 ## Questions to recover
 - Why can the empire not control the forest?
 - Is the barrier physical, magical, ecological, military, cultural, or all of these?
