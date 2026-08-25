@@ -9,6 +9,9 @@ Arisa is remembered as Almont's wife and as a central figure in the family branc
 - Her death is witnessed in the remembered child-history thread.
 - The event is followed by escape and later return to the capital.
 
+## Atomic recovery link
+The event-level extraction for her death, the subsequent escape, return, rebellion, repeated departures, and the unresolved Jin/Ryota witness identity is maintained in `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`. That file is a recovery layer, not source authority or final canon.
+
 ## What is missing
 The archive currently lacks enough source-level detail to define:
 - her personality;
