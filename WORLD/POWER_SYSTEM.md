@@ -26,6 +26,9 @@ This is not only a combat system. The blood-inheritance dimension creates a brid
 
 Magic, by contrast, can represent access to a domain not reducible to inherited lineage.
 
+## Current recovery companion
+`WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md` preserves the atomic memory units, evidence boundaries, anti-collapse rules, and highest-value source-recovery targets for this system.
+
 ## Questions to recover
 - Exact definition of Magic.
 - What makes something Magic instead of a Power?
