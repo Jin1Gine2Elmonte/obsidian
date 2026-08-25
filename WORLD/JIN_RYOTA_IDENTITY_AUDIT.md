@@ -58,6 +58,11 @@ Search historical conversations around:
 
 This bridge exists for **evidence navigation only**. The atomic recovery file is not source authority and does not change the resolution status of this audit. The identity audit remains the owning node for the conflict, while the atomic file remains the owning node for the extracted event sequence.
 
+## Version-lattice bridge
+`WORLD/JIN_VERSION_LATTICE.md` and `WORLD/JIN_VARIANTS.md` are the ownership layer for a different but adjacent uncertainty: whether a recovered Jin statement belongs to a particular Jin/Gin/Gene iteration, rewrite, branch, incarnation, or separate character sharing the name. This is relevant to the Jin/Ryota audit because an apparent name conflict may be temporal/project-level rather than a direct identity conflict.
+
+This bridge does **not** assert that Jin and Ryota are different versions. It only establishes the correct investigation path: identity claims must be tested against variant/project/time evidence before being merged or split.
+
 ## Resolution standard
 One explicit scene is enough to split a false merge. One explicit user statement equating the names is enough to merge them for a specific project/version. Anything less should remain unresolved.
 
