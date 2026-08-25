@@ -74,15 +74,28 @@ Purpose: orchestral-operatic-cosmic concept centered on the Entity of Forgetting
 
 Strongest recovered conceptual anchor: the distinction between absolute nothingness and an existent entity/function associated with forgetting.
 
+Dedicated historical owner: `PROJECTS/THE_LAST_THING_TO_BE_FORGOTTEN.md`.
+
 ## Shadows of the First Creation / ظلال الخلق الأول
 Purpose: major mythological/cosmological title and anchor.
 
 Current state: recurring high-impact concept with incomplete recovered hierarchy/mechanics.
 
+Dedicated historical owner: `PROJECTS/SHADOWS_OF_THE_FIRST_CREATION.md`.
+
+## Dreams of the Inverted Universe
+Purpose: dark cosmological project/concept.
+
+Current state: title and broad conceptual identity survive in memory; premise, characters, mechanics, and chronology remain under-recovered.
+
+Dedicated historical owner: `PROJECTS/DREAMS_OF_THE_INVERTED_UNIVERSE.md`.
+
 ## Lord of the Abyss / لورد الغوامض
 Purpose: recurring dark-mythological title/concept.
 
 Current state: anchor-level memory, incomplete project-generation detail.
+
+Dedicated historical owner: `PROJECTS/LORD_OF_THE_ABYSS.md`.
 
 ## Noir / novel-site direction
 Purpose: dark literary publishing/site exploration.
