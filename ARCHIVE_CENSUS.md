@@ -26,6 +26,7 @@ A high-level inventory of durable knowledge currently captured in this repositor
 20. Relationship graph
 21. Version/identity control
 22. Scene-level recovery
+23. Atomic recovery / evidence-linked memory
 
 ## High-value world anchors
 - Jin / Gin / Gene
@@ -60,6 +61,15 @@ A high-level inventory of durable knowledge currently captured in this repositor
 ## Current major ambiguity
 The Jin/Ryota identity relationship is unresolved and is now explicitly isolated in `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`. This is intentionally treated as a high-priority evidence problem rather than silently reconciled.
 
+## Current recovery architecture
+Atomic recovery now exists as a distinct evidence-oriented layer for:
+- Jin-family events;
+- Almont / Garthin / Adam events and behavioral patterns;
+- Empire / Dark Forest world-state recovery;
+- Power-system / cosmology atoms.
+
+These maps are recovery layers, not substitutes for source evidence or canonical mechanics. Verified source material should still outrank them and be propagated to the owning nodes.
+
 ## Expansion test
 Before adding content, ask:
 - Is this actually new evidence?
@@ -86,3 +96,4 @@ When historical conversation source becomes available, prioritize:
 8. Power-system demonstrations in actual scenes.
 9. Empire/capital institutional scenes.
 10. Cosmological scenes connecting the human and cosmic layers.
+11. Cross-linking recovered atomic events/atoms into the high-level relationship graph without upgrading uncertainty to canon.
