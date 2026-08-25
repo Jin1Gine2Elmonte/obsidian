@@ -58,7 +58,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `MEMORY_COVERAGE_AUDIT.md` — broad map of memory domains still missing, partial, or raw-evidence dependent.
 - `MEMORY_RECOVERY_MATRIX.md` — high-impact recovery order across all memory domains.
 - `HIGH_IMPACT_RECOVERY_MATRIX.md` — recovery matrix by impact.
-- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md` through `_12.md` — concrete current-context recovery passes, with explicit provenance/non-canon boundaries.
+- `ARCHIVE/CURRENT_CONTEXT_RECOVERY_01.md`, `_02.md`, `_03.md`, `_04.md`, `_05.md`, `_08.md`, `_10.md`, `_11.md`, `_12.md` — concrete current-context recovery passes currently present in the repository; numbering is historical, not a claim that missing numbers exist.
 - `ARCHIVE/CROSS_DOMAIN_MEMORY_RECOVERY_01.md` — cross-project thematic/structural links.
 - `ARCHIVE/COLLABORATION_CORRECTION_HISTORY_01.md` — historical correction patterns in the collaboration.
 - `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — prompt, model-behavior, agent, MCP, Nexus, and Hermes engineering history.
@@ -87,12 +87,18 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `KNOWLEDGE_OPERATING_MODEL.md` — operating model for maintaining and using the knowledge system.
 - `TOTAL_MEMORY_MAP.md` — broad memory-system map.
 - `USER_WORKING_MODEL.md` — durable working model.
-- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — current repository-wide structural audit and repair record.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — prior repository-wide structural audit and repair record.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — latest repository-wide structural audit and repair record.
 
 ### Archive directory
 `ARCHIVE/`
 
 Contains deeper operational/status records and future atomic knowledge nodes. It should grow by adding genuinely useful nodes, not by duplicating root-level documents.
+
+### Reserved workspace boundaries
+`LM_ARENA/`
+
+Dedicated workspace owned exclusively by LM Arena. Other models, agents, and maintenance processes must not modify, reorganize, or use it as shared archive space. See `LM_ARENA/README.md` for the explicit two-way ownership boundary.
 
 ### World reconstruction
 `WORLD/`
@@ -206,5 +212,3 @@ More words alone do not qualify.
 ## Guiding principle
 
 **Continuity should survive the model.**
-
-Models may change. Applications may change. Agents may change. The user's accumulated knowledge, projects, fictional worlds, reasoning patterns, decisions, creative identity, and the history of how the archive evolved should remain portable.
