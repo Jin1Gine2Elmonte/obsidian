@@ -25,7 +25,6 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `FICTION_CANON_DEEP.md` — deep cross-domain fiction synthesis; working/historical orientation, not a competing canon owner.
 - `COSMOLOGY.md` — cosmology navigation layer.
 - `WORLD_SYSTEMS.md` — world-system navigation layer.
-- `CHARACTERS.md` — legacy/optional character navigation if present.
 - `CREATIVE_PROJECTS_DEEP.md` — conceptual/project navigation layer.
 - `CREATIVE_METHOD.md` — writing/artistic method.
 - `CONCEPTUAL_FINGERPRINT.md` — cross-project recurring conceptual patterns; not a universe or canon owner.
@@ -92,7 +91,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `ARCHIVE/KNOWLEDGE_STATUS.md` — knowledge-state dimensions and promotion/conflict rules.
 - `ARCHIVE/MEMORY_SYSTEM_V3.md` — layered memory lifecycle, retrieval model, and anti-corruption rules.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — prior repository-wide structural audit and repair record.
-- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — prior repository-wide structural audit and repair record.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — latest repository-wide structural audit and repair record.
 
 ### Archive directory
 `ARCHIVE/`
