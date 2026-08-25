@@ -57,6 +57,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `ARCHIVE/CREATIVE_CONCEPT_EVOLUTION_RECOVERY_01.md` — evolution of recurring conceptual axes across projects.
 - `ARCHIVE/IDEA_LINEAGE_RECOVERY_01.md` — how recurring ideas branch, transform, and migrate between projects/contexts.
 - `ARCHIVE/GENERAL_INTERESTS_RESEARCH_RECOVERY_01.md` — durable knowledge interests, research/reading patterns, and naming/language preferences.
+- `ARCHIVE/WORKING_PREFERENCES_AND_QUALITY_HISTORY_01.md` — historical development of working preferences, quality criteria, and recurring standards.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence, decisive-source types, owners, and propagation targets.
 - `KNOWLEDGE_STATE_TRANSITIONS.md`
