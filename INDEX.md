@@ -27,6 +27,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `CHARACTERS.md` — legacy/optional character navigation if present.
 - `CREATIVE_PROJECTS_DEEP.md` — conceptual/project navigation layer.
 - `CREATIVE_METHOD.md` — writing/artistic method.
+- `CONCEPTUAL_FINGERPRINT.md` — cross-project recurring conceptual patterns; not a universe or canon owner.
 - `PROJECTS.md` — project-state/navigation layer.
 - `TECH_STACK.md` — technical navigation/state layer.
 - `CROSS_PROJECT_INVARIANTS.md` — cross-project invariants and recurring structures.
@@ -40,6 +41,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `MEMORY_OPERATIONS.md` — memory operation model.
 - `CANON_AND_PROVENANCE.md` — canonical evidence/status owner.
 - `CANON_CONTROL.md` — compatibility pointer only.
+- `CANONICAL_NODE_TEMPLATE.md` — template for important future canonical/entity nodes; template only, not a knowledge owner.
 - `KNOWLEDGE_OWNERSHIP_MAP.md`
 - `ENTITY_SYSTEM.md` — entity model.
 - `ENTITY_TEMPLATE.md` — entity template.
