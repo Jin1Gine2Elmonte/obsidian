@@ -1,5 +1,7 @@
 # Fiction Canon — Deep Record
 
+> **Role:** deep cross-domain fiction synthesis. This file preserves a high-density historical/working synthesis across fiction, cosmology, world systems, and character architecture; it is **not** a competing canonical owner. Actual canon remains with the specialized domain owners and `CANON_AND_PROVENANCE.md`.
+
 ## Foundational metaphysics
 The major fictional body of work is oriented around existence, imagination, fictionality, memory, forgetting, reality, and the instability of conventional boundaries between them.
 
