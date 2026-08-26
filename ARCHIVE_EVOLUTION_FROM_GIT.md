@@ -102,7 +102,7 @@ This phase is governance/navigation hygiene. It does not alter fictional canon, 
 ### Phase K — Superseded governance duplicate removal
 The next independent full-archive pass found one orphaned legacy governance file whose epistemic vocabulary was already superseded by the canonical governance owner:
 - `c8edaa8` — removed `ARCHIVE/KNOWLEDGE_STATUS.md`, an unreferenced legacy status model whose classes conflicted with the current `CANON_AND_PROVENANCE.md` vocabulary.
-- `e297a6c` — recorded the repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md`.
+- `e297a6c` — recorded the repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md`.
 - `613b090` — synchronized `INDEX.md` with the sixth addendum.
 
 The deleted file's historical existence remains recoverable through Git; it is no longer an active competing governance surface.
@@ -112,7 +112,7 @@ This phase is consolidation hygiene only. No fictional fact, chronology, identit
 ### Phase L — Canonical-node template governance repair
 The next independent maintenance pass found that `CANONICAL_NODE_TEMPLATE.md`, although still structurally useful, retained a legacy status vocabulary that could have regenerated a second epistemic system in future nodes:
 - `a1bca8f` — aligned the template's status/state guidance with `CANON_AND_PROVENANCE.md` and added explicit governance references.
-- `bce20eb` — recorded the repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md`.
+- `bce20eb` — recorded the repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md`.
 - `a1cc5ce` — synchronized `INDEX.md` with the repaired template and seventh addendum.
 
 This phase is template/governance hygiene only. No fictional fact, chronology, identity conclusion, or source-evidence boundary was changed.
@@ -142,6 +142,14 @@ The next independent pass found two related discoverability/governance issues:
 
 This phase preserves the historical V3 model while preventing it from silently becoming a second active status system. It also makes the canonical raw-conversation import specification discoverable without recreating the superseded V1 specification.
 
+### Phase P — Conversation-import epistemic vocabulary repair
+The next independent maintenance pass found a smaller but consequential vocabulary drift inside the canonical historical-conversation import specification:
+- `110a72b` — changed the anti-hallucination rule in `CONVERSATION_ARCHIVE_SPEC_V2.md` from the retired `INFERRED` status label to the current governance classes, while explicitly pointing importers to `CANON_AND_PROVENANCE.md`.
+- `d30fb02` — recorded the repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_11.md`.
+- `fa56991` — exposed Addendum 11 in the root `INDEX.md`.
+
+This phase closes a regeneration path for legacy vocabulary at the source-import boundary. No fictional canon, chronology, identity conclusion, or source hierarchy was changed.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -151,8 +159,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
