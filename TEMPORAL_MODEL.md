@@ -12,6 +12,12 @@ Which project generation, rewrite, prototype, or iteration the statement belongs
 ### 3. Fictional/world time
 When an event occurs inside the fictional world itself.
 
+## Related temporal owners
+- `TEMPORAL_EVENT_TYPES.md` — defines the event classes and minimum event identity fields.
+- `TIMELINE.md` — broad chronology/navigation surface; it does not replace the temporal model.
+- `PROJECT_STATE_TRANSITIONS.md` — project-generation/state changes.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — archival knowledge-state changes.
+
 ## Rule
 Never infer one clock from another.
 
