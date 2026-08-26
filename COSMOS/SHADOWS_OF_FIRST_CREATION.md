@@ -20,5 +20,8 @@ The phrase implies a relationship between origin/creation and surviving remnants
 ## Cover / aesthetic relationship
 The title has been associated with cosmological and dark imagery. Any future visual canon should preserve the user's explicit image constraints rather than deriving a complete visual system from the title alone.
 
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+
 ## Canon protection
 The existence of the title/anchor is established in durable memory. Its exact cosmological mechanics remain unrecovered.
