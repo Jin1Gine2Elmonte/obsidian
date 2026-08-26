@@ -73,6 +73,7 @@ Ownership remains split by function:
 Canonical ownership:
 - `TIMELINE.md` — broad historical sequence.
 - `PROJECT_STATE_TRANSITIONS.md` — project state changes.
+- `PROJECT_GENERATION_SEPARATION.md` — project/version generation boundaries.
 - `HISTORICAL_EVOLUTION_MAP.md` — recurring idea evolution.
 - `INTENT_AND_DISCARDED_PATHS.md` — rejected/abandoned reasoning.
 - `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions.
@@ -84,7 +85,8 @@ Canonical ownership:
 - `KNOWLEDGE_OWNERSHIP_MAP.md` owns information ownership.
 - `ARCHIVE_PROTOCOL.md` owns archive behavior.
 - `ARCHIVE_MAINTENANCE_LOOP.md` owns maintenance lifecycle.
-- Technical architecture files should link to these instead of restating canon/provenance rules.
+- `TECHNICAL_ARCHITECTURE_DEEP.md` owns cross-domain technical synthesis and must point to specialized technical owners rather than restating their implementation details.
+- Technical architecture files should link to these instead of re-stating canon/provenance rules.
 
 ## Tier 6 — root navigation layers
 The following files are intentionally navigation/atlas layers, not competing owners:
@@ -111,6 +113,8 @@ Their job is to orient and point. Domain details belong to specialized owners.
 - WORLD_SYSTEMS converted to world-system navigation layer.
 - CREATIVE_PROJECTS_DEEP converted to conceptual/project navigation layer.
 - CANON_CONTROL demoted to compatibility pointer; `CANON_AND_PROVENANCE.md` is the sole canonical governance owner.
+- `FICTION_CANON_DEEP.md` explicitly bounded as cross-domain synthesis rather than a competing fiction canon owner.
+- `TECHNICAL_ARCHITECTURE_DEEP.md` explicitly bounded as cross-domain technical synthesis rather than a competing implementation owner.
 - Git-evidenced repository history captured in `ARCHIVE_EVOLUTION_FROM_GIT.md`.
 
 ## Next cleanup rule
