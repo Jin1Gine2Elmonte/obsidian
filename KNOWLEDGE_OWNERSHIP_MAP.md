@@ -33,6 +33,18 @@ Define the canonical home for each kind of information so the archive can grow w
 | cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
 | cross-domain technical architecture synthesis | `TECHNICAL_ARCHITECTURE_DEEP.md` | `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical owners |
 
+## Governance / state-change owners
+
+These files form an operational chain rather than competing knowledge stores:
+
+- `CANON_AND_PROVENANCE.md` — canonical definitions for epistemic status, provenance, confidence, contradiction handling, and supersession.
+- `RECOVERY_EVIDENCE_PIPELINE.md` — evidence classes, decisive-source requirements, unresolved recovery lanes, and affected owners.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — recorded knowledge-state changes, reasons, affected nodes, and propagation requirements.
+- `WORLD/CANON_CONFLICTS.md` — active competing claims and unresolved contradictions.
+- `ARCHIVE_MAINTENANCE_LOOP.md` — operational process that connects evidence, ownership, integration, propagation, audit, and safe compression; it is not itself a domain owner.
+
+When these documents refer to one another, the links represent workflow dependencies, not shared ownership of the underlying facts.
+
 ## Domain owners
 
 ### Jin
