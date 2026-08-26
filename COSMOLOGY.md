@@ -77,3 +77,6 @@ Highest-value missing cosmology evidence:
 5. concrete scenes/events where cosmological concepts affect the world;
 6. rules and consequences;
 7. historical changes between project generations.
+
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
