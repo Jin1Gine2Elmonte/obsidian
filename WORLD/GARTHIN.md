@@ -47,6 +47,7 @@ This makes Garthin useful as a test of the broader creative philosophy: **meanin
 - Memory completeness: `WORLD/GARTHIN_MEMORY_DENSITY.md`.
 - Relationship architecture: `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md`.
 - Broader world causality: `WORLD/CAUSAL_EXTRACTION.md`.
+- Relationship registry: `RELATIONSHIPS.md`.
 
 ## Recovery priorities
 Recover scenes rather than only descriptions. Garthin's real character is likely encoded in actions: who he spares, who he punishes, what he notices, what he hides, and what he does when no political benefit exists.
