@@ -30,6 +30,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_04.md` — full-archive directory/Git-evolution maintenance addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` — protocol vocabulary/root-index consistency addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md` — superseded knowledge-status duplicate removal addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md` — canonical-node-template governance vocabulary repair addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
@@ -47,7 +48,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
 - `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis; not a competing canon owner.
 - `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis; not a competing implementation owner.
-- `CANONICAL_NODE_TEMPLATE.md` — template for canonical nodes.
+- `CANONICAL_NODE_TEMPLATE.md` — structural template for canonical nodes; governance vocabulary is inherited from `CANON_AND_PROVENANCE.md`.
 
 ## Archive directory
 `ARCHIVE/`
