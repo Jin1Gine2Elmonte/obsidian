@@ -99,6 +99,16 @@ The next audit found that the archive protocol still carried a legacy status voc
 
 This phase is governance/navigation hygiene. It does not alter fictional canon, project chronology, or source-evidence boundaries.
 
+### Phase K — Superseded governance duplicate removal
+The next independent full-archive pass found one orphaned legacy governance file whose epistemic vocabulary was already superseded by the canonical governance owner:
+- `c8edaa8` — removed `ARCHIVE/KNOWLEDGE_STATUS.md`, an unreferenced legacy status model whose classes conflicted with the current `CANON_AND_PROVENANCE.md` vocabulary.
+- `e297a6c` — recorded the repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md`.
+- `613b090` — synchronized `INDEX.md` with the sixth addendum.
+
+The deleted file's historical existence remains recoverable through Git; it is no longer an active competing governance surface.
+
+This phase is consolidation hygiene only. No fictional fact, chronology, identity conclusion, or source-evidence boundary was changed.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -108,8 +118,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
