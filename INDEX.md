@@ -21,6 +21,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE_MAINTENANCE_LOOP.md` — evidence-to-maintenance lifecycle.
 - `ARCHIVE_EVOLUTION_FROM_GIT.md` — Git-evidenced repository evolution.
 - `HISTORICAL_EVOLUTION_MAP.md` — broader idea/project evolution.
+- `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical specification for importing historical conversation sources into the vault.
 - `ARCHIVE/README.md` — archive-directory navigation and governance boundary.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide audit.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
