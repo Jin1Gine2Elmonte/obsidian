@@ -14,6 +14,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `CANON_AND_PROVENANCE.md` — canonical governance owner for status, provenance, confidence, contradiction, and supersession.
 - `KNOWLEDGE_STATE_TRANSITIONS.md` — owner for changes in what the archive knows/believes.
 - `RECOVERY_EVIDENCE_PIPELINE.md` — evidence classes, decisive-source targets, owners, and propagation targets.
+- `KNOWLEDGE_EVENTS.md` — chronological ledger for knowledge-time events.
 - `KNOWLEDGE_OWNERSHIP_MAP.md` — canonical ownership registry.
 - `ARCHIVE_HEALTH_CHECK.md` — structural health criteria.
 - `ARCHIVE_CLEANUP_BACKLOG.md` — concrete maintenance queue.
@@ -24,6 +25,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` — temporal-governance linkage addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md` — knowledge-time/temporal-event ownership addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
