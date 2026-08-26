@@ -52,9 +52,14 @@ The two vocabularies were semantically compatible but not explicitly mapped. Thi
 `CANON_AND_PROVENANCE.md` now defines the normalization mapping. `UNRESOLVED` is explicitly treated as an active relationship-audit state rather than a competing epistemic class. The graph files retain their compact labels for readability, while the governance layer now explains exactly what they mean.
 
 ### 9. Git-evolution history was lagging behind the actual maintenance chain
-`ARCHIVE_EVOLUTION_FROM_GIT.md` correctly described the major architectural phases of the repository, but its evidenced sequence stopped before the recent full-tree maintenance work. That created a subtle provenance gap: the repository-history owner did not yet record the same maintenance chain that the health audit was already using as evidence.
+`ARCHIVE_EVOLUTION_FROM_GIT.md` correctly described the major architectural phases of the repository, but its evidenced sequence stopped before the most recent control-document synchronization. That created a provenance gap: the repository-history owner did not yet record the final maintenance-control commits that the health audit was already using as evidence.
 
-The file was extended with a dedicated full-tree maintenance phase covering the dead-link repair, dated-audit correction, root/world/cosmology navigation repairs, technical-synthesis ownership boundary, relationship-status normalization, and the corresponding audit commits. This keeps the repository-history owner synchronized with the actual Git evidence without duplicating fictional/project facts.
+The file was updated to include:
+- `fcd1b5b` — refreshed health criteria for the current ownership/linkage state;
+- `0cd6bddd` — synchronized the cleanup backlog with the current ownership boundaries;
+- `c4271fc` — recorded the completed maintenance pass in the dated health audit.
+
+This repair was committed as `f7a23142a1ab6e2701f5cb6a827df81645bf13df`. The Git-evolution owner now reaches the same maintenance endpoint as the structural audit rather than stopping one phase early.
 
 ### 10. Atomic recovery remains a distinct non-canonical layer
 Atomic recovery covers Jin-family events, Almont/Garthin/Adam events, Empire/Dark Forest events, and Power/Cosmology. These are evidence-oriented bridges and are not substitutes for source scenes or canonical mechanics.
@@ -108,6 +113,7 @@ The two control documents were synchronized with the current ownership model. `A
 - Extended the Git-evolution owner through the current maintenance chain.
 - Used Git history and the complete root tree as state evidence rather than relying on prior audit summaries.
 - Synchronized `ARCHIVE_HEALTH_CHECK.md` and `ARCHIVE_CLEANUP_BACKLOG.md` with the current ownership and linkage model.
+- Synchronized `ARCHIVE_EVOLUTION_FROM_GIT.md` with the final maintenance-control commits so the Git-history owner and health audit terminate at the same state.
 
 ## Git evidence
 
@@ -133,10 +139,12 @@ Recent maintenance includes:
 - `0abad7f01f0be5377b14cd2fff0129d24a5d2a09` — synchronized this health record with the Git-evolution update.
 - `fcd1b5b34b5bf79545f1f512f1310bacfe9fb6c0` — refreshed health criteria for the current ownership/linkage state.
 - `0cd6bddd4c55481d0ed0372f28b719719ede8f85` — synchronized the cleanup backlog with the current ownership boundaries.
+- `c4271fc189ffe11bdd665ccee414d439c06058b8` — recorded the completed maintenance pass in this health audit.
+- `f7a23142a1ab6e2701f5cb6a827df81645bf13df` — synchronized the Git-evolution owner with the final control-document maintenance chain.
 
 ## Filename/date correction
 
-A maintenance audit was stored as `ARCHIVE_HEALTH_AUDIT_2026-08-26.md`, but Git records its creation in the 2026-08-25 maintenance chain. Because the current audit date is 2026-08-25, the substantive findings have been consolidated into this correctly dated audit, and the mislabeled duplicate is removed rather than retained as a false future-dated state.
+A maintenance audit was stored as `ARCHIVE_HEALTH_AUDIT_2026-08-26.md`, but Git records its creation in the 2026-08-25 maintenance chain. Because the substantive maintenance represented by that record belongs to the 2026-08-25 Git state, the findings were consolidated into this correctly dated audit, and the mislabeled duplicate was removed rather than retained as a false future-dated state.
 
 ## Remaining safe work
 
