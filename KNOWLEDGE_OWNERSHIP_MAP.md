@@ -42,13 +42,22 @@ Define the canonical home for each kind of information so the archive can grow w
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — identity conflict.
 - `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/JIN_CHILD_HISTORY.md` — child-history branch.
+- `WORLD/JIN_CHILD_HISTORY_DENSITY.md` — child-history memory completeness.
+- `WORLD/JIN_ALMONT_RELATIONSHIP.md` — Jin/Almont relationship surface.
+- `WORLD/JIN_RYOTA_CAUSAL_FORK.md` — competing causal interpretations around Jin/Ryota.
+- `WORLD/JIN_HUMAN_COSMIC_BRIDGE.md` — conditional human/cosmic continuity models.
+- `WORLD/JIN_TO_HUMAN_SCALE.md` — human-scale bridge/recovery surface.
 
 ### Almont / Ryota / family
 - `WORLD/ALMONT.md` — Almont identity.
+- `WORLD/ALMONT_MEMORY_DENSITY.md` — Almont memory completeness.
 - `WORLD/ALMONT_REIGN_PROFILE.md` — reign/institution-versus-person analysis.
 - `WORLD/ALMONT_RYOTA_RELATIONSHIP_DYNAMICS.md` — relationship dynamics.
 - `WORLD/ALMONT_RYOTA_STATE_MACHINE.md` — relationship state transitions.
 - `WORLD/RYOTA_ARISA_BENJAMIN.md` — family-system node.
+- `WORLD/RYOTA_ARISA_BENJAMIN_MEMORY.md` — family-memory completeness.
+- `WORLD/RYOTA_RETURN_MECHANICS.md` — departure/return recovery surface.
 - `WORLD/ARISA_RECOVERY_NODE.md` — Arisa recovery targets.
 - `WORLD/BENJAMIN_RECOVERY_NODE.md` — Benjamin recovery targets.
 
@@ -57,20 +66,36 @@ Define the canonical home for each kind of information so the archive can grow w
 - `WORLD/EMPIRE_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/IMPERIAL_LOGISTICS.md` — derived consistency analysis.
 - `WORLD/IMPERIAL_INSTITUTIONAL_MODEL.md` — recovery/institutional questions.
+- `WORLD/IMPERIAL_POWER_REALITY.md` — stated-power/institutional-reality consistency boundary.
 - `WORLD/CAPITAL_AND_COURT.md` — capital-specific knowledge.
 - `WORLD/DARK_FOREST.md` — Dark Forest canon.
+- `WORLD/DARK_FOREST_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md` — boundary-specific analysis.
 - `WORLD/POWER_SYSTEM.md` — broad power-system owner.
 - `WORLD/POWER_SYSTEM_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/POWER_POLITICS.md` — institutional consequences.
+- `WORLD/POWER_LINEAGE_POLITICS.md` — lineage/inheritance political consequences.
 
 ### Garthin / Adam
 - `WORLD/GARTHIN.md` — Garthin identity and known canon.
 - `WORLD/GARTHIN_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md` — relationship structure.
+- `WORLD/GARTHIN_SCENE_TARGETS.md` — defining-scene recovery targets.
 - `WORLD/ADAM.md` — Adam identity and known canon.
 - `WORLD/ADAM_MEMORY_DENSITY.md` — memory completeness.
 - `WORLD/ADAM_INTERWORLD_MODEL.md` — travel-mechanics investigation.
 - `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md` — Jin-version recognition investigation.
+
+### Cosmology
+- `COSMOS/COSMOLOGY_MEMORY_DENSITY.md` — cosmology memory completeness.
+- `COSMOS/EXISTENCE_SUBLIME.md` — Existence Sublime anchor.
+- `COSMOS/ENTITY_OF_FORGETTING.md` — Entity of Forgetting anchor.
+- `COSMOS/PRIMORDIAL_RIFT.md` — Primordial Rift anchor.
+- `COSMOS/SHADOWS_OF_FIRST_CREATION.md` — Shadows of the First Creation anchor.
+- `COSMOS/CORRUPTION.md` — Corruption anchor.
+- `COSMOS/CURSE_OF_THE_ANCIENTS.md` — Curse of the Ancients anchor.
+- `COSMOS/BLOOD_FAMILY.md` — Blood family anchor.
+- `COSMOS/DREAMS_OF_THE_INVERTED_UNIVERSE.md` — Dreams of the Inverted Universe anchor.
 
 ### Scene / motive recovery
 - `WORLD/SCENE_RECOVERY_MATRIX.md` — scene-level evidence and transition extraction.
