@@ -18,14 +18,17 @@ Capture -> normalize -> classify -> deduplicate -> link -> validate -> index -> 
 
 Never let a summary silently destroy an older state. When a statement changes, preserve the previous state when historically useful and record the new one with a date/status.
 
-## Confidence model
+## Confidence model — historical architecture, not the current governance vocabulary
+The original V3 architecture used these broad confidence labels:
 - `confirmed`: directly stated or directly observed.
 - `supported`: strongly supported by multiple context signals.
 - `inferred`: reasonable synthesis, not directly stated.
 - `speculative`: creative hypothesis or unresolved possibility.
 - `unknown`: genuinely unavailable.
 
-AI systems consuming the archive should never silently convert `inferred`, `speculative`, or `unknown` into `confirmed`.
+These labels remain useful as historical design language, but they are **not the active repository-wide epistemic status vocabulary**. Current status/provenance ownership belongs to `CANON_AND_PROVENANCE.md`, which defines the authoritative classes and their transitions. New or updated nodes must use that governance model rather than reviving the historical V3 vocabulary.
+
+AI systems consuming the archive should never silently convert `inferred`, `speculative`, or `unknown` into canonical knowledge.
 
 ## Retrieval model
 A useful retrieval pass should consider:
@@ -65,3 +68,6 @@ The vault should evolve from files into a graph. A concept that repeatedly conne
 
 ## Long-term goal
 The model should be replaceable. The user's accumulated knowledge should not be.
+
+## Governance reference
+For current epistemic status, provenance, contradiction, supersession, and confidence handling, use `CANON_AND_PROVENANCE.md`. For conversation-source import, use `CONVERSATION_ARCHIVE_SPEC_V2.md`.
