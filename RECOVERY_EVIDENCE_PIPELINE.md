@@ -176,6 +176,13 @@ Separate story transcripts from visual-cover conversations. Prioritize:
 ### Status
 `VISUAL MEMORY STRONG / STORY RECOVERY LOW`
 
+## Governance and transition links
+- Canon/provenance owner: `CANON_AND_PROVENANCE.md` — defines how evidence classes become epistemic states.
+- State-transition registry: `KNOWLEDGE_STATE_TRANSITIONS.md` — records the actual change from one knowledge state to another and the nodes requiring propagation.
+- Conflict owner: `WORLD/CANON_CONFLICTS.md` — holds unresolved competing claims instead of forcing a transition.
+
+The pipeline answers **what evidence is needed**; the transition registry answers **what changed**; the governance owner answers **what the resulting state means**.
+
 ## Evidence-to-propagation rule
 When a source is recovered, never update only the first matching file. First classify the evidence, assign project/version, then update the canonical owner and propagate only verified deltas to affected timelines, relationships, conflicts, and summaries.
 
