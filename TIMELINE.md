@@ -3,6 +3,15 @@
 ## Purpose
 A reconstructed high-level sequence of project evolution. This is **not** a verbatim transcript timeline. Ordering without direct dates is approximate and must not be treated as exact chronology.
 
+## Temporal governance
+Use the dedicated temporal owners when interpreting or extending this timeline:
+- `TEMPORAL_MODEL.md` — separates conversation, project, and fictional/world time.
+- `TEMPORAL_EVENT_TYPES.md` — defines world, project, and knowledge events and their identity.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — records changes in what the archive knows or believes.
+- `PROJECT_STATE_TRANSITIONS.md` — records project-generation/state changes rather than fictional chronology.
+
+This file remains the broad chronology/navigation surface; it does not replace those specialized temporal/state owners.
+
 ## Temporal evidence labels
 - `DATED` — explicit date/source available.
 - `ORDERED` — sequence is supported, but exact date is unavailable.
