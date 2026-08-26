@@ -6,7 +6,7 @@ Repository-wide maintenance pass against the current `main` tree, using the recu
 ## Findings
 
 ### 1. The previous dated audit had become stale by the next day
-`INDEX.md` still pointed to `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` even though the repository had advanced to a real 2026-08-26 Git state. The 2025-style filename was historically correct for the earlier maintenance chain, but it was no longer the correct current audit surface.
+`INDEX.md` still pointed to `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` even though the repository had advanced to a real 2026-08-26 Git state. The 2026-08-25 filename was historically correct for the earlier maintenance chain, but it was no longer the correct current audit surface.
 
 A new dated audit is therefore created for 2026-08-26. The 2026-08-25 audit remains historical evidence and is not rewritten to pretend it described today's state.
 
@@ -18,7 +18,7 @@ The Git-evolution owner has now been extended through:
 - `1894a3e` — recorded that synchronization in the dated health audit on 2026-08-26.
 
 ### 3. Current root/index structure remains stable
-The current recursive tree contains the previously repaired architecture, archive, world, cosmology, project, technical, and protected-workspace boundaries. No new root/domain node was found in the current state that justified another navigation repair after the prior full-tree pass. The only state change since the prior structural audit was the maintenance-history synchronization described above.
+The current recursive tree contains the previously repaired architecture, archive, world, cosmology, project, technical, and protected-workspace boundaries. No new root/domain node was found in the current state that justified another navigation repair after the prior full-tree pass. The only state change since the prior structural audit was the maintenance-history synchronization and the addition of this current audit surface.
 
 `INDEX.md` continues to expose the major root navigation, ownership, graph, recovery, world, cosmology, project, and technical layers. The obsolete `CHARACTERS.md` reference remains absent.
 
@@ -65,8 +65,8 @@ These require original conversations, scenes, or other primary evidence. No spec
 ### 9. Apparent duplication remains functionally differentiated
 The archive still contains navigation, synthesis, memory-density, relationship, recovery, governance, and canonical-owner nodes that discuss adjacent subjects. The current structure gives those repetitions different retrieval purposes and explicit ownership boundaries. No safe deletion or merge was identified in this pass.
 
-### 10. Control documents now reach the same state
-`ARCHIVE_HEALTH_CHECK.md`, `ARCHIVE_CLEANUP_BACKLOG.md`, `ARCHIVE_EVOLUTION_FROM_GIT.md`, and this dated audit now describe the same current ownership/linkage state rather than terminating at different maintenance points.
+### 10. Control documents now reach the same maintenance state
+`ARCHIVE_HEALTH_CHECK.md`, `ARCHIVE_CLEANUP_BACKLOG.md`, `ARCHIVE_EVOLUTION_FROM_GIT.md`, and this dated audit now describe the same ownership/linkage model. The Git-evolution file remains a historical phase record rather than a literal self-updating pointer to every commit after its own last edit.
 
 ## Repairs made in this pass
 
@@ -78,12 +78,15 @@ The archive still contains navigation, synthesis, memory-density, relationship, 
 
 ## Git evidence
 
-This pass is built on the current `main` state at the start of review:
-- `1894a3e2c7f55677d94dbe6c0014eadaede124d6` — current 2026-08-26 maintenance-state commit.
+This pass was initiated against:
+- `1894a3e2c7f55677d94dbe6c0014eadaede124d6` — current 2026-08-26 maintenance-state commit at the start of review.
 
 Repairs made during this pass:
 - `a14708aeb30e9d0ab2d8b5897570eeb3c75bd066` — extended Git-evolution history through the current state.
-- The following commits are part of the current maintenance chain and are preserved in the historical audit: `f7a23142`, `1894a3e`.
+- `5e5433fe7c5055f29f8ba8f270907f4a98955af0` — created this 2026-08-26 audit.
+- `d17773285c270021f71fffc0fd3ee4e55bdc1e9d` — pointed `INDEX.md` to the current audit.
+
+The final audit synchronization is the commit carrying this updated record; Git itself remains the authoritative exact commit history.
 
 ## Remaining safe work
 
