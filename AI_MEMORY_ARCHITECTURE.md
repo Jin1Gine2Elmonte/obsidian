@@ -96,3 +96,8 @@ Prefer the simplest architecture that actually satisfies the requirement. Comple
 
 ## Failure tolerance
 The vault should remain useful when semantic search, MCP, a bridge server, or a particular AI provider is unavailable. No single access mechanism should become a single point of failure for the accumulated knowledge.
+
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md` — central technical relationship states involving Obsidian, AI memory, and MCP.
+- Technical navigation: `TECH_STACK.md`.
+- Ownership/governance: `KNOWLEDGE_OWNERSHIP_MAP.md`.
