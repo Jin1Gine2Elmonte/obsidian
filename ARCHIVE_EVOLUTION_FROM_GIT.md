@@ -55,6 +55,11 @@ The recent Git chain shows a distinct maintenance phase in which the archive was
 - `3acc9c3` — recorded the full-tree navigation, ownership, and cross-link audit state.
 - `05f37b2` — normalized the relationship graph's compact status vocabulary against the canonical provenance/status model.
 - `0f8bf03` — recorded that governance normalization in the current health audit.
+- `fcd1b5b` — refreshed the structural health criteria to reflect the now-explicit synthesis/generation ownership boundaries and the linkage-depth risk.
+- `0cd6bddd` — synchronized the cleanup backlog with those current ownership boundaries.
+- `c4271fc` — recorded the completed maintenance pass and its Git evidence in the dated health audit.
+
+The final three commits matter because they close the feedback loop: the control criteria, cleanup backlog, and audit record now describe the same ownership/linkage state that the repository actually implements.
 
 This phase demonstrates a change in maintenance method: the repository tree and Git history became direct evidence for detecting hidden nodes, dead links, ownership ambiguity, stale state records, and governance vocabulary drift.
 
@@ -67,7 +72,7 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization`
 
 The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
 
