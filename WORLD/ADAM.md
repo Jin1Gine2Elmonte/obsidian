@@ -40,3 +40,4 @@ Do not invent a portal system, teleportation mechanism, detailed backstory, or s
 - Travel-mechanics hypotheses: `WORLD/ADAM_INTERWORLD_MODEL.md`.
 - Jin-variant investigation: `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md`.
 - Jin relationship: `WORLD/JIN_CORE.md`.
+- Relationship registry: `RELATIONSHIPS.md`.
