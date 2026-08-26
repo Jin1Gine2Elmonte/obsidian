@@ -3,6 +3,9 @@
 ## Purpose
 A chronological ledger for events that change the archive's understanding, not events that merely happen inside a fictional world.
 
+## Temporal ownership
+This file is the chronological ledger for **knowledge-time events**. The event taxonomy is defined by `TEMPORAL_EVENT_TYPES.md`; epistemic state changes are defined by `KNOWLEDGE_STATE_TRANSITIONS.md`; the broader three-clock model is defined by `TEMPORAL_MODEL.md`.
+
 ## Event classes
 - `DISCOVERY` — a new fact or source is found.
 - `CORRECTION` — an existing claim is shown to be wrong or incomplete.
@@ -141,3 +144,10 @@ Important boundary: this is an operational scheduling decision, not a fictional 
 
 ## Integrity rule
 Knowledge events describe changes to the archive's understanding. They must never be mistaken for fictional-world events merely because their subject is a fictional character.
+
+## Related temporal/governance owners
+- `TEMPORAL_MODEL.md` — three-clock separation.
+- `TEMPORAL_EVENT_TYPES.md` — event-class taxonomy.
+- `TIMELINE.md` — broad reconstructed chronology.
+- `PROJECT_STATE_TRANSITIONS.md` — project-generation state changes.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — epistemic state changes and propagation.
