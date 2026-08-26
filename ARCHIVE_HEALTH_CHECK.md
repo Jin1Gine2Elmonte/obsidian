@@ -61,9 +61,12 @@ The following root/domain nodes have been narrowed or reassigned so they no long
 
 - `MEMORY.md` — orientation layer rather than duplicate governance/detail store.
 - `FICTION.md` — high-level fiction map rather than canonical character/world owner.
+- `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis rather than competing canon owner.
 - `COSMOLOGY.md` — high-level cosmology map rather than competing cosmology canon.
 - `PROJECTS.md` — project-state/navigation layer rather than duplicate project lore.
+- `PROJECT_GENERATION_SEPARATION.md` — explicit owner for project/version-generation boundaries.
 - `TECH_STACK.md` — technical navigation/history layer rather than duplicate project implementation notes.
+- `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis rather than competing implementation owner.
 - `CANON_CONTROL.md` — pointer/quick gate; `CANON_AND_PROVENANCE.md` is the canonical provenance/status owner.
 - character/world `*_MEMORY_DENSITY.md` nodes — evidence-strength and recovery-gap records rather than identity duplicates.
 
@@ -75,6 +78,7 @@ The following root/domain nodes have been narrowed or reassigned so they no long
 5. Cosmological project membership and hierarchy remain partially unresolved.
 6. Strings of Fate has much stronger visual memory than narrative-memory recovery.
 7. Some specialized nodes may still contain useful historical prose that should be checked when raw transcripts are imported; do not delete it merely for textual similarity.
+8. Major owner nodes should continue to expose provenance, dependency, contradiction, relationship, and recovery links consistently; this is now a linkage-depth concern rather than a top-level indexing problem.
 
 ## Pass criteria
 A future maintenance pass should be considered healthy when:
@@ -85,6 +89,7 @@ A future maintenance pass should be considered healthy when:
 - status vocabularies are internally defined and consistently used;
 - knowledge changes are traceable;
 - raw evidence and synthesis remain separable;
+- major navigation layers expose the correct specialized owners;
 - additions measurably increase information value.
 
 ## Core invariant
