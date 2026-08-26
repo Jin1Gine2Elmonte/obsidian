@@ -15,6 +15,8 @@ Important claims should indicate whether they come from direct user evidence, re
 
 Primary reference: `CANON_AND_PROVENANCE.md`.
 
+Operational governance chain: `CANON_AND_PROVENANCE.md` → `RECOVERY_EVIDENCE_PIPELINE.md` → `KNOWLEDGE_STATE_TRANSITIONS.md`.
+
 ### 3. Temporal integrity
 World events, project-generation changes, conversation events, and knowledge-state changes must remain distinct.
 
@@ -79,6 +81,7 @@ The following root/domain nodes have been narrowed or reassigned so they no long
 6. Strings of Fate has much stronger visual memory than narrative-memory recovery.
 7. Some specialized nodes may still contain useful historical prose that should be checked when raw transcripts are imported; do not delete it merely for textual similarity.
 8. Major owner nodes should continue to expose provenance, dependency, contradiction, relationship, and recovery links consistently; this is now a linkage-depth concern rather than a top-level indexing problem.
+9. Governance/transition/recovery owners should remain traversable as one operational chain: state definitions → decisive evidence → recorded state change. Breaks in that chain are maintenance defects even when the underlying knowledge is intact.
 
 ## Pass criteria
 A future maintenance pass should be considered healthy when:
@@ -90,6 +93,7 @@ A future maintenance pass should be considered healthy when:
 - knowledge changes are traceable;
 - raw evidence and synthesis remain separable;
 - major navigation layers expose the correct specialized owners;
+- governance, recovery, and state-transition surfaces form a traversable chain;
 - additions measurably increase information value.
 
 ## Core invariant
