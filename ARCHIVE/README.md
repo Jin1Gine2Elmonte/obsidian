@@ -1,32 +1,35 @@
 # Archive
 
-This directory contains the durable knowledge layers of the Obsidian memory project.
+This directory contains durable historical, recovery, evidence, and operational knowledge layers for the Obsidian memory project.
 
 The archive is designed to grow by adding small, linked knowledge nodes rather than endlessly enlarging one monolithic memory file.
 
-## Principles
-- Preserve context.
-- Preserve relationships.
-- Preserve historical changes.
-- Separate certainty from inference.
-- Keep open questions open.
-- Promote recurring high-value concepts into anchors.
-- Prefer machine-readable Markdown that remains useful to humans.
-- Never fabricate unavailable history.
+## Current node families
+- Historical and context recovery
+- Creative concept and idea lineage
+- Collaboration / quality / working-history records
+- Decisions, lessons, and provenance
+- Temporal and project evolution records
+- Canon / provenance / knowledge-state audit records
+- Evidence-recovery and atomic recovery structures
+- Cross-domain memory and current-context recovery
+- Repository health, maintenance, and Git-evolution audits
 
-## Node families
-- User context
-- Creative method
-- Fiction
-- Cosmology
-- Characters
-- World systems
-- Projects
-- Technical systems
-- Memory architecture
-- Decisions
-- Timeline
-- Open loops
+## Current governance path
+The archive is not itself a competing canon owner. Current epistemic governance lives in the root/domain owners:
+
+`CANON_AND_PROVENANCE.md` → `RECOVERY_EVIDENCE_PIPELINE.md` → `KNOWLEDGE_STATE_TRANSITIONS.md`
+
+Knowledge-time history is recorded by `KNOWLEDGE_EVENTS.md`. Repository evolution is evidenced by `ARCHIVE_EVOLUTION_FROM_GIT.md` and Git history itself.
+
+## Audit surface
+- `ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical dated audit.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated audit for 2026-08-26.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` — temporal-governance linkage.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md` — knowledge-time / temporal-event ownership linkage.
+
+Addenda preserve dated history without rewriting the original audit after later maintenance commits.
 
 ## Source hierarchy
 1. Explicitly established canon.
@@ -36,4 +39,6 @@ The archive is designed to grow by adding small, linked knowledge nodes rather t
 5. Speculation, which must always be labeled.
 
 ## Maintenance rule
-When a new conversation changes a durable concept, update the smallest relevant node and record the relationship or reason for the change. Avoid replacing an entire knowledge domain when a precise delta is sufficient.
+When a new conversation changes a durable concept, update the smallest relevant owner and record the relationship, evidence, or reason for the change. Avoid replacing an entire knowledge domain when a precise delta is sufficient.
+
+When source evidence is unavailable, preserve the uncertainty and create or update a recovery target rather than inventing the missing history.
