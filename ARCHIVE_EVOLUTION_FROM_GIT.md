@@ -133,6 +133,15 @@ The next independent pass detected that the Phase M repair itself could become s
 
 This phase is a maintenance-control repair: it removes a recurring source of local navigation drift rather than adding another governance layer. No fictional fact, chronology, identity conclusion, relationship, or recovery conclusion was changed.
 
+### Phase O — Memory-system vocabulary scoping and conversation-source navigation
+The next independent pass found two related discoverability/governance issues:
+- `dbf7b34` — scoped the confidence vocabulary in `ARCHIVE/MEMORY_SYSTEM_V3.md` as historical architecture rather than current repository-wide epistemic status, and linked current governance plus the canonical conversation-import specification.
+- `06c72b7` — exposed `CONVERSATION_ARCHIVE_SPEC_V2.md` in the root navigation as the canonical specification for importing historical conversations.
+- `c42f012` — recorded the findings and evidence boundary in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_10.md`.
+- `4e2102c` — indexed Addendum 10 from the root navigation.
+
+This phase preserves the historical V3 model while preventing it from silently becoming a second active status system. It also makes the canonical raw-conversation import specification discoverable without recreating the superseded V1 specification.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -142,8 +151,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
