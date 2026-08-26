@@ -71,6 +71,7 @@ Until source-level conversation evidence resolves the relationship between those
 - Relationship states: `WORLD/ALMONT_RYOTA_STATE_MACHINE.md`.
 - Family system: `WORLD/RYOTA_ARISA_BENJAMIN.md`.
 - Identity conflict: `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md`.
+- Relationship registry: `RELATIONSHIPS.md`.
 
 ## Future recovery priorities
 1. Almont's dialogue.
