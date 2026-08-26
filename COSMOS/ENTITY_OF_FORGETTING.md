@@ -43,5 +43,8 @@ There is a striking conceptual adjacency between the fictional Entity of Forgett
 - Does it have a will, function, or law-like inevitability?
 - How does it relate to creation and the Primordial Rift?
 
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+
 ## Canon protection
 The philosophical premise is strong. Specific abilities, personality, hierarchy, and plot events must be recovered from source material before becoming canon.
