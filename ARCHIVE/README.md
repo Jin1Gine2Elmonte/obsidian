@@ -28,6 +28,10 @@ Knowledge-time history is recorded by `KNOWLEDGE_EVENTS.md`. Repository evolutio
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization.
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` — temporal-governance linkage.
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md` — knowledge-time / temporal-event ownership linkage.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_04.md` — directory-navigation and Git-evolution maintenance.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` — protocol vocabulary and root-index consistency.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md` — superseded knowledge-status duplicate removal.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md` — canonical-node-template governance vocabulary repair.
 
 Addenda preserve dated history without rewriting the original audit after later maintenance commits.
 
