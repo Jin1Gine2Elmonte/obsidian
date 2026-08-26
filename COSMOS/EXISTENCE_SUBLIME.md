@@ -18,5 +18,8 @@ It should be treated as a high-order cosmological concept, potentially connected
 - How does it relate to the Entity of Forgetting?
 - Is it part of the same project as all other cosmological anchors?
 
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+
 ## Archive rule
 Do not turn the adjective "sublime" into a detailed ontology without source evidence. The name is a strong anchor; the mechanics remain open.
