@@ -51,10 +51,15 @@ The two vocabularies were semantically compatible but not explicitly mapped. Thi
 
 `CANON_AND_PROVENANCE.md` now defines the normalization mapping. `UNRESOLVED` is explicitly treated as an active relationship-audit state rather than a competing epistemic class. The graph files retain their compact labels for readability, while the governance layer now explains exactly what they mean.
 
-### 9. Atomic recovery remains a distinct non-canonical layer
+### 9. Git-evolution history was lagging behind the actual maintenance chain
+`ARCHIVE_EVOLUTION_FROM_GIT.md` correctly described the major architectural phases of the repository, but its evidenced sequence stopped before the recent full-tree maintenance work. That created a subtle provenance gap: the repository-history owner did not yet record the same maintenance chain that the health audit was already using as evidence.
+
+The file has now been extended with a dedicated full-tree maintenance phase covering the dead-link repair, dated-audit correction, root/world/cosmology navigation repairs, technical-synthesis ownership boundary, relationship-status normalization, and the corresponding audit commits. This keeps the repository-history owner synchronized with the actual Git evidence without duplicating fictional/project facts.
+
+### 10. Atomic recovery remains a distinct non-canonical layer
 Atomic recovery covers Jin-family events, Almont/Garthin/Adam events, Empire/Dark Forest events, and Power/Cosmology. These are evidence-oriented bridges and are not substitutes for source scenes or canonical mechanics.
 
-### 10. The archive is source-limited in the highest-impact places
+### 11. The archive is source-limited in the highest-impact places
 The main unresolved evidence bottlenecks remain:
 - Jin/Ryota identity and genealogy;
 - Jin variant genealogy and continuity type;
@@ -69,15 +74,15 @@ The main unresolved evidence bottlenecks remain:
 
 These are source-recovery gaps, not documentation gaps. The repository does not justify filling them by inference.
 
-### 11. Duplication remains controlled rather than eliminated by force
+### 12. Duplication remains controlled rather than eliminated by force
 `ARCHIVE_DEDUPLICATION_AUDIT.md` correctly distinguishes canonical facts, memory-density, causal, relationship, recovery, and negative-knowledge representations. The clarified `TECHNICAL_ARCHITECTURE_DEEP.md` follows the same rule: its synthesis role is distinct from the canonical memory-architecture owner.
 
 The archive should not merge files merely because they discuss the same broad subject. Function, provenance, and downstream use determine whether repetition is useful.
 
-### 12. Repository governance is intentionally conservative
+### 13. Repository governance is intentionally conservative
 `ARCHIVE_CLEANUP_BACKLOG.md` defines ownership boundaries and completed consolidation work. The current archive follows the rule that navigation layers point, memory-density nodes measure evidence, relationship files model relations, and specialized nodes own domain facts. Similar terminology is not treated as proof of continuity.
 
-### 13. Root README remains low priority
+### 14. Root README remains low priority
 The root README is weak as documentation, but `INDEX.md` is the actual navigation surface. Expanding README would mostly duplicate the index and is therefore not a high-value repair at this stage.
 
 ## Repairs represented by this audit
@@ -95,6 +100,7 @@ The root README is weak as documentation, but `INDEX.md` is the actual navigatio
 - Added direct owner links for recovered cosmology nodes in `COSMOLOGY.md`.
 - Kept unresolved identity and source gaps explicitly unresolved.
 - Normalized graph relationship labels against the canonical provenance/status vocabulary.
+- Extended the Git-evolution owner through the current maintenance chain.
 - Used Git history and the complete root tree as state evidence rather than relying on prior audit summaries.
 
 ## Git evidence
@@ -114,7 +120,10 @@ Recent maintenance includes:
 - `bebe45bd8d1124d8ca84a675a9d2a37914c64c70` — expanded the World directory navigation surface.
 - `5a6903afa396138c61c5ba041e03bf96fc532b6e` — bounded deep technical architecture as synthesis and linked its canonical owners.
 - `f19bdf06c3d9854f950fb1bf1fb88ff5f5f1b766` — recorded project-generation and technical-synthesis ownership in the ownership map.
+- `3acc9c3414e498de0724cff98aa03d778dd7d30f` — recorded the full-tree navigation, ownership, and cross-link audit state.
 - `05f37b264f24284bfeb187e7679175dc618254cc` — normalized relationship status vocabulary in the canonical governance owner.
+- `0f8bf0376d42570a65de80255164a66870ccd05e` — recorded the relationship-status normalization in the current health audit.
+- `8e17ff8b733967bff2c595ce57ce586ad4296017` — extended Git-evidenced archive evolution through the current maintenance phase.
 
 ## Filename/date correction
 
