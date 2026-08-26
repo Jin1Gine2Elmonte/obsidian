@@ -70,6 +70,25 @@ The next commits established a dated current-audit surface after the maintenance
 
 This phase is deliberately treated as a dated documentation surface, not as a claim that this file self-updates after every later commit. The exact current repository state is always established by Git itself; this document records the latest explicitly documented evolution point.
 
+### Phase H — Temporal and knowledge-time linkage repair
+After the dated audit surface was established, maintenance continued into the temporal subgraph rather than changing underlying chronology:
+- `9cb8897` — linked `TIMELINE.md` to the specialized temporal/state owners.
+- `81711a9` — linked `TEMPORAL_MODEL.md` back into the temporal/state ownership system.
+- `84ff846` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
+- `a674cde` — synchronized `INDEX.md` with the temporal addendum surface.
+- `3bb99e6` — connected `TEMPORAL_EVENT_TYPES.md` to `KNOWLEDGE_EVENTS.md` and `KNOWLEDGE_STATE_TRANSITIONS.md`.
+- `eefda6b` — clarified knowledge-time ownership and temporal cross-links in `KNOWLEDGE_EVENTS.md`.
+- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
+- `77ba8f1` — synchronized the root index with the knowledge-event ledger and third audit addendum.
+
+### Phase I — Directory-navigation integrity repair
+A subsequent full-archive pass found that the root and world navigation were stronger than the `COSMOS/` and `ARCHIVE/` directory surfaces themselves:
+- `7a87196` — added the missing `COSMOS/README.md` as a directory-level navigation/evidence-boundary owner.
+- `e516db8` — refreshed `ARCHIVE/README.md` so its node families, governance path, audit surface, and preservation rules match the current architecture.
+- `be61b94` — synchronized `INDEX.md` with the archive-directory and cosmology-directory owners.
+
+This phase is navigation/ownership hygiene only. It does not promote cosmological relationships, character identity, or other unresolved material to canon.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -79,7 +98,7 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity`
 
 The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
 
