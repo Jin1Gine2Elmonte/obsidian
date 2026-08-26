@@ -93,6 +93,19 @@ These were repaired with a single central-registry pointer per endpoint. No edge
 
 `STRINGS_OF_FATE/PROJECT_FRAME.md` was deliberately **not** given the same pointer merely for symmetry: its relationship-like material remains framed as questions/hypotheses, while the central matrix intentionally keeps its project membership and cross-cosmology relationships unresolved. Adding a registry link there would risk making exploratory question-space look like an established relationship dependency.
 
+### 15. Technical relationship endpoints had the same one-way weakness
+The central relationship registry also contains explicit technical edges:
+- `Obsidian ↔ AI memory`;
+- `Obsidian ↔ GitHub`;
+- `AI memory ↔ MCP`;
+- `Nexus ↔ memory`;
+- `Nexus ↔ Gateway`;
+- `Hermes ↔ deployment`.
+
+`AI_MEMORY_ARCHITECTURE.md` is the dedicated owner for the external AI-memory architecture, and `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` is the historical owner for NEXUS/Hermes evolution, yet neither endpoint exposed the central relationship registry directly. `TECH_STACK.md` already served as a navigation layer to both owners, so no new technical owner was needed.
+
+The safe repair was limited to one central-registry pointer in each technical owner. No implementation claim, NEXUS/Hermes generation, deployment outcome, or relationship status was changed.
+
 ## Repairs made in this pass
 
 1. Extended `ARCHIVE_EVOLUTION_FROM_GIT.md` with the dated 2026-08-26 audit-surface synchronization phase.
@@ -102,8 +115,9 @@ These were repaired with a single central-registry pointer per endpoint. No edge
 5. Added the central `RELATIONSHIPS.md` pointer to `WORLD/JIN_CORE.md`, `WORLD/ALMONT.md`, `WORLD/ADAM.md`, `WORLD/GARTHIN.md`, and `WORLD/POWER_SYSTEM.md` so relationship edges are reachable from their canonical endpoint owners without content duplication.
 6. Added the same central-registry pointer to `WORLD/EMPIRE.md`, `WORLD/DARK_FOREST.md`, `COSMOS/ENTITY_OF_FORGETTING.md`, `COSMOS/EXISTENCE_SUBLIME.md`, `COSMOS/SHADOWS_OF_FIRST_CREATION.md`, and `PROJECTS/THE_LAST_THING_TO_BE_FORGOTTEN.md` where the central relationship model contains a material edge for that endpoint.
 7. Deliberately left `STRINGS_OF_FATE/PROJECT_FRAME.md` untouched because its relationship material remains hypothesis-space rather than established graph dependency.
-8. Preserved all unresolved source gaps and did not create speculative lore.
-9. Left the protected `LM_ARENA/` workspace untouched.
+8. Added the central `RELATIONSHIPS.md` pointer to `AI_MEMORY_ARCHITECTURE.md` and `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` for their explicit technical relationship edges.
+9. Preserved all unresolved source gaps and did not create speculative lore.
+10. Left the protected `LM_ARENA/` workspace untouched.
 
 ## Git evidence
 
@@ -129,6 +143,8 @@ The dated-audit synchronization chain is:
 - `6fcf0a9a384efbe729642ab6623a42f17e718e55` — linked the Shadows of the First Creation owner to the relationship registry.
 - `2bf8e642fd63fe4f62fef4996978d07f7d50c1a1` — linked the dedicated The Last Thing to Be Forgotten project owner to the relationship registry.
 - `f0d64758ba76fcd0965f4488e70ffbebe305f977` — linked the cosmology navigation atlas to the relationship registry.
+- `d48f1cf211308b072855e811143350aa1f03063f` — linked the AI memory architecture owner to the relationship registry.
+- `992eddcb450444e8f075d86453967ec0bf7a50ab` — linked the NEXUS/Hermes historical owner to the relationship registry.
 
 The final audit synchronization commit is the commit carrying this updated record; Git itself remains the authoritative exact commit history.
 
@@ -138,4 +154,4 @@ The next useful frontier remains deeper cross-link verification across the rest 
 
 ## Core conclusion
 
-The repository remains structurally stable after the prior full-tree repair. The independent passes have now closed the visible one-way linkage gaps for the major canonical character, world-system, cosmology, and explicit project endpoints. The remaining asymmetries are intentional where the underlying relationship is still hypothesis-space, as with `Strings of Fate`. No canon was changed, no speculative continuity was promoted, and no protected workspace was altered.
+The repository remains structurally stable after the prior full-tree repair. The independent passes have now closed the visible one-way linkage gaps for the major canonical character, world-system, cosmology, explicit project, and technical endpoints. The remaining asymmetries are intentional where the underlying relationship is still hypothesis-space, as with `Strings of Fate`. No canon was changed, no speculative continuity was promoted, and no protected workspace was altered.
