@@ -75,6 +75,7 @@ The user has explicitly discussed multiple iterations/versions of Jin. The compl
 - Atomic family events: `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md`.
 - Causality: `WORLD/CAUSAL_MAP.md` and `WORLD/CAUSAL_EXTRACTION.md`.
 - Cosmology: `COSMOS/COSMOLOGY_MEMORY_DENSITY.md`.
+- Relationship registry: `RELATIONSHIPS.md`.
 
 ## Preservation directive
 When historical conversation material is imported, extract the local context around every Jin statement and assign, when possible:
