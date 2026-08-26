@@ -22,7 +22,7 @@ Both are durable enough to be discoverable, so they were added to the root index
 ### 3. Deep technical synthesis had an ownership ambiguity
 `TECHNICAL_ARCHITECTURE_DEEP.md` substantially overlaps `AI_MEMORY_ARCHITECTURE.md`, but the overlap is functional rather than a reason to delete either file. The former spans cross-domain technical history and architecture patterns; the latter owns the external AI-memory architecture itself.
 
-The deep file was therefore explicitly bounded as a **cross-domain technical synthesis layer**, with direct links to `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and the specialized technical history nodes. `KNOWLEDGE_OWNERSHIP_MAP.md` now records that distinction.
+The deep file was therefore explicitly bounded as a **cross-domain technical synthesis layer**, with direct links to `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and the specialized technical history nodes. `KNOWLEDGE_OWNERSHIP_MAP.md` records that distinction.
 
 ### 4. World navigation was technically present but incomplete as a directory map
 `WORLD/README.md` already acted as the world-directory navigation layer, but the tree contained many supporting/recovery nodes that were not surfaced there. This made several important files discoverable only by browsing the raw directory.
@@ -54,7 +54,7 @@ The two vocabularies were semantically compatible but not explicitly mapped. Thi
 ### 9. Git-evolution history was lagging behind the actual maintenance chain
 `ARCHIVE_EVOLUTION_FROM_GIT.md` correctly described the major architectural phases of the repository, but its evidenced sequence stopped before the recent full-tree maintenance work. That created a subtle provenance gap: the repository-history owner did not yet record the same maintenance chain that the health audit was already using as evidence.
 
-The file has now been extended with a dedicated full-tree maintenance phase covering the dead-link repair, dated-audit correction, root/world/cosmology navigation repairs, technical-synthesis ownership boundary, relationship-status normalization, and the corresponding audit commits. This keeps the repository-history owner synchronized with the actual Git evidence without duplicating fictional/project facts.
+The file was extended with a dedicated full-tree maintenance phase covering the dead-link repair, dated-audit correction, root/world/cosmology navigation repairs, technical-synthesis ownership boundary, relationship-status normalization, and the corresponding audit commits. This keeps the repository-history owner synchronized with the actual Git evidence without duplicating fictional/project facts.
 
 ### 10. Atomic recovery remains a distinct non-canonical layer
 Atomic recovery covers Jin-family events, Almont/Garthin/Adam events, Empire/Dark Forest events, and Power/Cosmology. These are evidence-oriented bridges and are not substitutes for source scenes or canonical mechanics.
@@ -85,6 +85,11 @@ The archive should not merge files merely because they discuss the same broad su
 ### 14. Root README remains low priority
 The root README is weak as documentation, but `INDEX.md` is the actual navigation surface. Expanding README would mostly duplicate the index and is therefore not a high-value repair at this stage.
 
+### 15. Maintenance-control documents had fallen one step behind the ownership model
+The repository's structural work had already introduced explicit roles for `FICTION_CANON_DEEP.md`, `PROJECT_GENERATION_SEPARATION.md`, and `TECHNICAL_ARCHITECTURE_DEEP.md`, but `ARCHIVE_HEALTH_CHECK.md` and `ARCHIVE_CLEANUP_BACKLOG.md` did not fully reflect those newer boundaries. This was a governance-document drift rather than a domain-knowledge conflict.
+
+The two control documents were synchronized with the current ownership model. `ARCHIVE_HEALTH_CHECK.md` now treats linkage depth as an explicit current risk and includes the newer synthesis/generation boundaries in its consolidation record. `ARCHIVE_CLEANUP_BACKLOG.md` now names `PROJECT_GENERATION_SEPARATION.md` and `TECHNICAL_ARCHITECTURE_DEEP.md` in their correct ownership tiers and records their completed role-bounding.
+
 ## Repairs represented by this audit
 
 - Repaired index drift for recovery and architecture nodes.
@@ -102,6 +107,7 @@ The root README is weak as documentation, but `INDEX.md` is the actual navigatio
 - Normalized graph relationship labels against the canonical provenance/status vocabulary.
 - Extended the Git-evolution owner through the current maintenance chain.
 - Used Git history and the complete root tree as state evidence rather than relying on prior audit summaries.
+- Synchronized `ARCHIVE_HEALTH_CHECK.md` and `ARCHIVE_CLEANUP_BACKLOG.md` with the current ownership and linkage model.
 
 ## Git evidence
 
@@ -124,6 +130,9 @@ Recent maintenance includes:
 - `05f37b264f24284bfeb187e7679175dc618254cc` — normalized relationship status vocabulary in the canonical governance owner.
 - `0f8bf0376d42570a65de80255164a66870ccd05e` — recorded the relationship-status normalization in the current health audit.
 - `8e17ff8b733967bff2c595ce57ce586ad4296017` — extended Git-evidenced archive evolution through the current maintenance phase.
+- `0abad7f01f0be5377b14cd2fff0129d24a5d2a09` — synchronized this health record with the Git-evolution update.
+- `fcd1b5b34b5bf79545f1f512f1310bacfe9fb6c0` — refreshed health criteria for the current ownership/linkage state.
+- `0cd6bddd4c55481d0ed0372f28b719719ede8f85` — synchronized the cleanup backlog with the current ownership boundaries.
 
 ## Filename/date correction
 
