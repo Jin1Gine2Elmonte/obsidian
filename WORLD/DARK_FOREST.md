@@ -36,5 +36,8 @@ If Almont's empire is understood as centralized order, the Dark Forest is the ma
 - why it remains uncontrolled;
 - whether its danger is physical, magical, political, or ontological.
 
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+
 ## Canon rule
 Do not reduce the Forest to generic "forbidden woods." Its established function is broader: it is the major region outside imperial control and therefore an important structural boundary of the world.
