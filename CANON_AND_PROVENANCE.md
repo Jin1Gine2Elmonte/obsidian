@@ -42,6 +42,20 @@ Confidence reflects evidence quality, not elegance or usefulness.
 
 Suggested levels: `high`, `medium`, `low`.
 
+## Relationship-label normalization
+`RELATIONSHIPS.md` and `ANCHOR_GRAPH.md` use a compact operational vocabulary for graph edges. These labels are aliases for the governance classes above, not a second independent epistemic system:
+
+| Graph label | Governance meaning |
+|---|---|
+| `CANON` | `CANONICAL` |
+| `SUPPORTED` | `STRONGLY_SUPPORTED` |
+| `INFERRED` | `DERIVED` |
+| `SPECULATIVE` | `SPECULATIVE` |
+| `UNKNOWN` | `UNKNOWN` |
+| `UNRESOLVED` | active relationship-audit state; underlying evidence is insufficient or conflicting and must remain unresolved rather than being promoted to `CANONICAL` |
+
+Graph files may retain their compact labels for readability. When a relationship is `UNRESOLVED`, the affected conflict owner should explain what evidence conflicts or is missing.
+
 ## Contradictions
 When two records conflict:
 1. preserve both claims;
@@ -70,7 +84,7 @@ A proposed architecture is not a working system until implementation evidence ex
 A memory synthesis must expose its uncertainty and preserve its provenance. It must not manufacture missing transcripts, scenes, or decisions.
 
 ## Relationship status
-Relationships are first-class claims and must carry status/provenance. The fact that two nodes are conceptually adjacent does not make the relationship canonical.
+Relationships are first-class claims and must carry status/provenance. The fact that two nodes are conceptually adjacent does not make the relationship canonical. Use the normalized graph-label mapping above rather than introducing new unlabeled edge states.
 
 ## Temporal status
 A claim may be current in archive time while referring to a historical project state or fictional-world event. Use the temporal model to prevent these clocks from collapsing.
