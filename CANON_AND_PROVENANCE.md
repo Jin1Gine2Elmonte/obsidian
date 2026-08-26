@@ -92,5 +92,12 @@ A claim may be current in archive time while referring to a historical project s
 ## Supersession
 When later evidence changes a claim, preserve the prior state as historical/superseded when it explains evolution. Never erase meaningful history merely to produce a cleaner current summary.
 
+## Operational governance links
+- State-change registry: `KNOWLEDGE_STATE_TRANSITIONS.md` — records why an epistemic state changed and what nodes must be propagated.
+- Recovery evidence pipeline: `RECOVERY_EVIDENCE_PIPELINE.md` — identifies the evidence capable of changing unresolved claims and the downstream owners affected.
+- Active conflict owner: `WORLD/CANON_CONFLICTS.md` — holds unresolved contradictions rather than resolving them inside the governance layer.
+
+These links describe the governance workflow; they do not transfer ownership of facts or relationships to this file.
+
 ## Single-source-of-truth rule
 This file owns governance definitions. `CANON_CONTROL.md` is a navigation pointer only. Project/world nodes own their actual facts; governance files do not become duplicate lore summaries.
