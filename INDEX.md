@@ -29,6 +29,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md` — knowledge-time/temporal-event ownership addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_04.md` — full-archive directory/Git-evolution maintenance addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` — protocol vocabulary/root-index consistency addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md` — superseded knowledge-status duplicate removal addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
