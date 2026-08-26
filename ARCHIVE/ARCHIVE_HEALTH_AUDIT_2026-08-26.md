@@ -31,7 +31,7 @@ The safe repair was **not** to make the evolution file self-updating after every
 The evolution file now explicitly states that it records the latest documented evolution point, while Git itself remains authoritative for the exact current state.
 
 ### 4. Current root/index structure remains stable
-The current recursive tree contains the previously repaired architecture, archive, world, cosmology, project, technical, and protected-workspace boundaries. No new root/domain node was found that justified another navigation repair after the prior full-tree pass. The changes since the prior structural audit are confined to maintenance-history/audit synchronization and the ownership-map repair described below.
+The current recursive tree contains the previously repaired architecture, archive, world, cosmology, project, technical, and protected-workspace boundaries. No new root/domain node was found that justified another navigation repair after the prior full-tree pass. The changes since the prior structural audit are confined to maintenance-history/audit synchronization and the ownership-map repair described below, plus the endpoint relationship-registry linkage repair described in finding 13.
 
 `INDEX.md` continues to expose the major root navigation, ownership, graph, recovery, world, cosmology, project, and technical layers. The obsolete `CHARACTERS.md` reference remains absent.
 
@@ -75,14 +75,20 @@ The archive still contains navigation, synthesis, memory-density, relationship, 
 ### 12. Control documents now reach the same maintenance model
 `ARCHIVE_HEALTH_CHECK.md`, `ARCHIVE_CLEANUP_BACKLOG.md`, `ARCHIVE_EVOLUTION_FROM_GIT.md`, and this dated audit now describe the same ownership/linkage model. The Git-evolution file remains a historical phase record rather than a literal self-updating pointer to every commit after its own last edit.
 
+### 13. Major relationship edges existed centrally but were not exposed from several endpoint owners
+The central `RELATIONSHIPS.md` and `ANCHOR_GRAPH.md` correctly recorded major edges such as `Jin ↔ Adam`, `Jin ↔ Almont/Ryota`, `Almont ↔ Ryota`, `Empire ↔ Almont`, and `Blood inheritance ↔ Powers`. However, several canonical endpoint nodes only linked to their local relationship/state subnodes and did not link back to the relationship registry. This made the relationship graph discoverable from the graph center but not reliably from the entity owner.
+
+This was a **linkage-depth problem, not missing relationship evidence**. The safe repair was to add a single `Relationship registry: RELATIONSHIPS.md` pointer to the endpoint owners for Jin, Almont, Adam, Garthin, and the Power System. No relationship status or factual content was duplicated into those files.
+
 ## Repairs made in this pass
 
 1. Extended `ARCHIVE_EVOLUTION_FROM_GIT.md` with the dated 2026-08-26 audit-surface synchronization phase.
 2. Clarified that the Git-evolution record is a documented historical evolution point, not a self-updating current-HEAD pointer.
 3. Updated this dated health audit to record the newly discovered control-document drift and its repair.
 4. Expanded `KNOWLEDGE_OWNERSHIP_MAP.md` so existing memory-density, family-memory, bridge, political-consequence, and cosmology-support nodes are explicitly represented in the central ownership registry.
-5. Preserved all unresolved source gaps and did not create speculative lore.
-6. Left the protected `LM_ARENA/` workspace untouched.
+5. Added the central `RELATIONSHIPS.md` pointer to `WORLD/JIN_CORE.md`, `WORLD/ALMONT.md`, `WORLD/ADAM.md`, `WORLD/GARTHIN.md`, and `WORLD/POWER_SYSTEM.md` so relationship edges are reachable from their canonical endpoint owners without content duplication.
+6. Preserved all unresolved source gaps and did not create speculative lore.
+7. Left the protected `LM_ARENA/` workspace untouched.
 
 ## Git evidence
 
@@ -96,13 +102,18 @@ The dated-audit synchronization chain is:
 - `e050aee456ec0d3908f13143909e88fd936ec6f7` — finalized the 2026-08-26 audit record.
 - `a12943d52f9ec65a47344287d12af1d1154f8da1` — aligned `ARCHIVE_EVOLUTION_FROM_GIT.md` with that dated-audit synchronization chain.
 - `5cdaa1933943b41a36fc0381b83b193d84c07f64` — completed the ownership-registry coverage repair identified in this independent pass.
+- `cf87cb6d6e4d9754be01f197e49dc40d1776ceb6` — linked Jin's canonical owner to the relationship registry.
+- `af8e68f32bf38c861db1859bf3395a6517388819` — linked Almont's canonical owner to the relationship registry.
+- `ffdf2f9f30f6a10a39f1d4d91630551b716768e1` — linked Adam's canonical owner to the relationship registry.
+- `45b9fe15d81a17f3981439fc8398aa5a3f2975c4` — linked Garthin's canonical owner to the relationship registry.
+- `fbd867b77c5bc77f882326066fed5e0cb203c832` — linked the Power System owner to the relationship registry.
 
 The final audit synchronization commit is the commit carrying this updated record; Git itself remains the authoritative exact commit history.
 
 ## Remaining safe work
 
-The next useful frontier remains deep cross-link verification and primary-source recovery. Further documentation should only be added when it represents a real new owner, relationship, state change, evidence source, or operational capability. Missing scenes and source evidence should remain explicitly missing.
+The next useful frontier remains deeper cross-link verification across the rest of the graph and primary-source recovery. Endpoint owners should expose central relationship/provenance registries where those links are materially relevant, but documentation should not be expanded merely to achieve symmetry when the central graph already carries the edge and the endpoint has no real dependency on it. Missing scenes and source evidence should remain explicitly missing.
 
 ## Core conclusion
 
-The repository remains structurally stable after the prior full-tree repair. The new defects found in this independent pass were **control-document semantic drift** and a **central ownership-registry coverage gap**. The first is bounded by the dated evolution/audit distinction; the second is repaired by explicitly registering existing support nodes without changing their factual ownership. No domain knowledge was invented, no protected workspace was altered, and no source gap was disguised as completion.
+The repository remains structurally stable after the prior full-tree repair. The new defects found in this independent pass were **control-document semantic drift**, a **central ownership-registry coverage gap**, and a **linkage-depth gap between major entity owners and the central relationship registry**. All three were repaired without changing canon, inventing evidence, or expanding protected workspaces. The graph is now easier to traverse from both its central relationship layer and its major canonical endpoint owners.
