@@ -106,6 +106,19 @@ The central relationship registry also contains explicit technical edges:
 
 The safe repair was limited to one central-registry pointer in each technical owner. No implementation claim, NEXUS/Hermes generation, deployment outcome, or relationship status was changed.
 
+### 16. Governance workflow had a real linkage gap after the relationship layer was closed
+The three governance owners were individually coherent but did not expose their operational dependency chain. `CANON_AND_PROVENANCE.md` defined epistemic states and provenance; `RECOVERY_EVIDENCE_PIPELINE.md` defined what evidence can change unresolved claims; and `KNOWLEDGE_STATE_TRANSITIONS.md` defined how a knowledge state changes and what downstream nodes require propagation. Without explicit cross-links, the workflow existed conceptually but was harder to traverse from any one governance node.
+
+This was a **workflow-navigation gap, not a duplicated-content problem**. It was repaired by adding concise operational links among the three owners and to `WORLD/CANON_CONFLICTS.md`. The ownership boundaries remain intact: governance defines state meaning, recovery defines evidence requirements, transitions record state changes, and conflicts retain unresolved competing claims.
+
+### 17. Governance workflow repairs are now represented by Git evidence
+The new linkage was implemented through three concrete commits:
+- `650e090` — connected `CANON_AND_PROVENANCE.md` to the state-transition and recovery owners.
+- `4f742a0` — connected `KNOWLEDGE_STATE_TRANSITIONS.md` to the governance and recovery owners.
+- `333a5be` — connected `RECOVERY_EVIDENCE_PIPELINE.md` back to governance, transitions, and the conflict owner.
+
+The current `main` ref before this audit-record update pointed to `333a5be4b254e58fe4254e39d5a72ed1f7772d06`, confirming that these changes are actually present in the repository rather than merely proposed. Git remains authoritative for the exact current state.
+
 ## Repairs made in this pass
 
 1. Extended `ARCHIVE_EVOLUTION_FROM_GIT.md` with the dated 2026-08-26 audit-surface synchronization phase.
@@ -116,8 +129,9 @@ The safe repair was limited to one central-registry pointer in each technical ow
 6. Added the same central-registry pointer to `WORLD/EMPIRE.md`, `WORLD/DARK_FOREST.md`, `COSMOS/ENTITY_OF_FORGETTING.md`, `COSMOS/EXISTENCE_SUBLIME.md`, `COSMOS/SHADOWS_OF_FIRST_CREATION.md`, and `PROJECTS/THE_LAST_THING_TO_BE_FORGOTTEN.md` where the central relationship model contains a material edge for that endpoint.
 7. Deliberately left `STRINGS_OF_FATE/PROJECT_FRAME.md` untouched because its relationship material remains hypothesis-space rather than established graph dependency.
 8. Added the central `RELATIONSHIPS.md` pointer to `AI_MEMORY_ARCHITECTURE.md` and `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` for their explicit technical relationship edges.
-9. Preserved all unresolved source gaps and did not create speculative lore.
-10. Left the protected `LM_ARENA/` workspace untouched.
+9. Added the governance/transition/recovery cross-links among `CANON_AND_PROVENANCE.md`, `KNOWLEDGE_STATE_TRANSITIONS.md`, and `RECOVERY_EVIDENCE_PIPELINE.md`, while preserving `WORLD/CANON_CONFLICTS.md` as the conflict owner.
+10. Preserved all unresolved source gaps and did not create speculative lore.
+11. Left the protected `LM_ARENA/` workspace untouched.
 
 ## Git evidence
 
@@ -145,8 +159,11 @@ The dated-audit synchronization chain is:
 - `f0d64758ba76fcd0965f4488e70ffbebe305f977` — linked the cosmology navigation atlas to the relationship registry.
 - `d48f1cf211308b072855e811143350aa1f03063f` — linked the AI memory architecture owner to the relationship registry.
 - `992eddcb450444e8f075d86453967ec0bf7a50ab` — linked the NEXUS/Hermes historical owner to the relationship registry.
+- `650e090942fd544f03ccd031b096fd04a24efd08` — connected the canonical governance owner to the state-transition and recovery owners.
+- `4f742a02666b0fcdc0312e045e62779a097e8617` — connected the state-transition registry to the governance and recovery owners.
+- `333a5be4b254e58fe4254e39d5a72ed1f7772d06` — connected the recovery pipeline to governance, transitions, and the conflict owner.
 
-The final audit synchronization commit is the commit carrying this updated record; Git itself remains the authoritative exact commit history.
+The current `main` ref before this audit-record update pointed to `333a5be4b254e58fe4254e39d5a72ed1f7772d06`. This audit update itself becomes the next Git state; Git remains authoritative rather than requiring the audit to recursively list its own resulting commit as a predecessor.
 
 ## Remaining safe work
 
@@ -154,4 +171,4 @@ The next useful frontier remains deeper cross-link verification across the rest 
 
 ## Core conclusion
 
-The repository remains structurally stable after the prior full-tree repair. The independent passes have now closed the visible one-way linkage gaps for the major canonical character, world-system, cosmology, explicit project, and technical endpoints. The remaining asymmetries are intentional where the underlying relationship is still hypothesis-space, as with `Strings of Fate`. No canon was changed, no speculative continuity was promoted, and no protected workspace was altered.
+The repository remains structurally stable after the prior full-tree repair. The independent passes have now closed the visible one-way linkage gaps for the major canonical character, world-system, cosmology, explicit project, technical, and governance endpoints. The remaining asymmetries are intentional where the underlying relationship is still hypothesis-space, as with `Strings of Fate`. No canon was changed, no speculative continuity was promoted, and no protected workspace was altered.
