@@ -23,19 +23,9 @@ The archive is not itself a competing canon owner. Current epistemic governance 
 Knowledge-time history is recorded by `KNOWLEDGE_EVENTS.md`. Repository evolution is evidenced by `ARCHIVE_EVOLUTION_FROM_GIT.md` and Git history itself.
 
 ## Audit surface
-- `ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical dated audit.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated audit for 2026-08-26.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` — temporal-governance linkage.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md` — knowledge-time / temporal-event ownership linkage.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_04.md` — directory-navigation and Git-evolution maintenance.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` — protocol vocabulary and root-index consistency.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md` — superseded knowledge-status duplicate removal.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md` — canonical-node-template governance vocabulary repair.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_08.md` — archive-directory audit-surface synchronization.
-- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_09.md` — follow-up synchronization of this directory-local audit surface after Addendum 08.
+Dated repository audits and their addenda live in this directory. The root `INDEX.md` is the authoritative navigation surface for the complete current audit chain; the live Git tree and HEAD establish current repository state.
 
-The audit surface is a dated historical record. The live repository tree and Git HEAD establish current state.
+The audit chain is intentionally append-only in spirit: later maintenance findings are recorded as new dated addenda rather than rewriting earlier audit conclusions.
 
 ## Source hierarchy
 1. Explicitly established canon.
