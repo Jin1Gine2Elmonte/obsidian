@@ -93,6 +93,9 @@ This phase is navigation/ownership hygiene only. It does not promote cosmologica
 The next audit found that the archive protocol still carried a legacy status vocabulary separate from the canonical governance classes, while several valid supporting governance/synthesis nodes remained absent from the root index:
 - `e172193` — aligned `ARCHIVE_PROTOCOL.md` with the canonical status/provenance vocabulary and added explicit governance links.
 - `a4861e6` — exposed supporting governance, recovery, project-generation, and cross-domain synthesis nodes in `INDEX.md`.
+- `a1f5028` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` to preserve the independent maintenance findings and evidence boundary.
+- `580a04d` — indexed the fifth health addendum from the root navigation surface.
+- `176f5a2` — recorded the protocol/index synchronization in this Git-evolution owner.
 
 This phase is governance/navigation hygiene. It does not alter fictional canon, project chronology, or source-evidence boundaries.
 
