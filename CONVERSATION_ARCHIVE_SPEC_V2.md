@@ -117,7 +117,7 @@ For a future task, retrieve:
 The objective is maximum useful coherence per token, not maximum context length.
 
 ## Anti-hallucination rule
-Never fill missing historical context with a plausible invention. Use `UNKNOWN`, `INFERRED`, or `SPECULATIVE` explicitly. A beautiful explanation is not evidence.
+Never fill missing historical context with a plausible invention. Use the current epistemic status classes defined by `CANON_AND_PROVENANCE.md`—for example `UNKNOWN`, `DERIVED`, or `SPECULATIVE` as appropriate. Do not revive the historical V3 `INFERRED` label as a current status vocabulary.
 
 ## Maintenance rule
 Before creating a new archive document, check for an existing document with overlapping purpose. Prefer updating, merging, or superseding an existing node over creating another near-duplicate.
