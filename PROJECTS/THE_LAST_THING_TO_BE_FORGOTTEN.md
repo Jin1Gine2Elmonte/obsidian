@@ -20,6 +20,9 @@ Partial historical recovery. This file is a project owner, not a complete canon.
 - discarded versions;
 - relationship to other cosmological projects.
 
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+
 ## Evidence boundary
 No unsupported mechanics or story events should be promoted to canon. Recurring names/themes elsewhere do not prove continuity.
 
