@@ -42,6 +42,22 @@ This establishes a shift from passive storage toward evidence-first reconstructi
 
 This marks a transition from remembering project content to preserving how the collaboration learns from work.
 
+### Phase F — Full-tree maintenance and linkage integrity
+The recent Git chain shows a distinct maintenance phase in which the archive was audited against the actual tree rather than only against prior summaries:
+- `4b53497` — removed the stale `CHARACTERS.md` navigation reference after verifying the target did not exist.
+- `787474b` — recorded that broken-navigation repair in the health audit.
+- `9187a6e` — corrected the dated audit navigation and removed the mislabeled future-dated audit record.
+- `0e16aa9` — exposed previously unindexed root architecture nodes and strengthened root/directory navigation.
+- `7de0c91` — linked cosmology atlas entries to their actual owner nodes.
+- `bebe45b` — expanded the `WORLD/` directory navigation surface across its existing recovery/support nodes.
+- `5a6903a` — bounded `TECHNICAL_ARCHITECTURE_DEEP.md` as cross-domain synthesis and linked its canonical owners.
+- `f19bdf0` — recorded project-generation and technical-synthesis ownership in the ownership map.
+- `3acc9c3` — recorded the full-tree navigation, ownership, and cross-link audit state.
+- `05f37b2` — normalized the relationship graph's compact status vocabulary against the canonical provenance/status model.
+- `0f8bf03` — recorded that governance normalization in the current health audit.
+
+This phase demonstrates a change in maintenance method: the repository tree and Git history became direct evidence for detecting hidden nodes, dead links, ownership ambiguity, stale state records, and governance vocabulary drift.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -51,6 +67,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity`
 
-This sequence describes the archive's architecture, not the chronology of the fictional universe.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
+
+This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
