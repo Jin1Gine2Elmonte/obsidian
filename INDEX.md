@@ -21,6 +21,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE_MAINTENANCE_LOOP.md` — evidence-to-maintenance lifecycle.
 - `ARCHIVE_EVOLUTION_FROM_GIT.md` — Git-evidenced repository evolution.
 - `HISTORICAL_EVOLUTION_MAP.md` — broader idea/project evolution.
+- `ARCHIVE/README.md` — archive-directory navigation and governance boundary.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide audit.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization addendum.
@@ -36,12 +37,7 @@ This repository is a structured external memory and knowledge system. It stores 
 ## Archive directory
 `ARCHIVE/`
 
-Contains deeper operational/status records and future atomic knowledge nodes. It should grow by adding genuinely useful nodes, not by duplicating root-level documents.
-
-## Reserved workspace boundaries
-`LM_ARENA/`
-
-Dedicated workspace owned exclusively by LM Arena. Other models, agents, and maintenance processes must not modify, reorganize, or use it as shared archive space. See `LM_ARENA/README.md` for the explicit two-way ownership boundary.
+Contains deeper historical, recovery, evidence, and operational records. See `ARCHIVE/README.md` for its current node families, governance boundary, and audit surface.
 
 ## World reconstruction
 `WORLD/`
@@ -56,3 +52,21 @@ For Jin specifically:
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
 - `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness and gaps.
 - `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md` — atomic power/cosmology recovery layer; evidence-oriented and non-canonical until source evidence is recovered.
+
+## Cosmology reconstruction
+`COSMOS/`
+
+Individual cosmology anchors are kept separate by design. `COSMOS/README.md` is the directory-level navigation and evidence-boundary owner; individual anchor files remain the owners of their respective definitions.
+
+## Strings of Fate
+`STRINGS_OF_FATE/`
+
+Project-specific memory, canon, visual identity, source indexing, design framing, and recovery are separated by function. `STRINGS_OF_FATE/README.md` is the directory-level navigation surface.
+
+## Reserved workspace boundaries
+`LM_ARENA/`
+
+Dedicated workspace owned exclusively by LM Arena. Other models, agents, and maintenance processes must not modify, reorganize, or use it as shared archive space. See `LM_ARENA/README.md` for the explicit two-way ownership boundary.
+
+## Core rule
+Navigation files point to owners; they do not become competing owners. When evidence is missing, preserve the gap and route recovery to the decisive-source target rather than filling it with synthesis.
