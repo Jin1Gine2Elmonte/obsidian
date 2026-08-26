@@ -46,3 +46,8 @@ Magic, by contrast, can represent access to a domain not reducible to inherited 
 
 ## Canon protection
 Only the broad distinction and blood-inheritance relationship are currently safe to treat as durable memory. Detailed mechanics should be recovered from source conversations before being promoted to canon.
+
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md`.
+- Recovery layer: `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md`.
+- Broader power/world navigation: `WORLD/README.md`.
