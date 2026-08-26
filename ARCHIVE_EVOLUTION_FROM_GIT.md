@@ -89,6 +89,13 @@ A subsequent full-archive pass found that the root and world navigation were str
 
 This phase is navigation/ownership hygiene only. It does not promote cosmological relationships, character identity, or other unresolved material to canon.
 
+### Phase J — Protocol vocabulary and root-index completion
+The next audit found that the archive protocol still carried a legacy status vocabulary separate from the canonical governance classes, while several valid supporting governance/synthesis nodes remained absent from the root index:
+- `e172193` — aligned `ARCHIVE_PROTOCOL.md` with the canonical status/provenance vocabulary and added explicit governance links.
+- `a4861e6` — exposed supporting governance, recovery, project-generation, and cross-domain synthesis nodes in `INDEX.md`.
+
+This phase is governance/navigation hygiene. It does not alter fictional canon, project chronology, or source-evidence boundaries.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -98,7 +105,7 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion`
 
 The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
 
