@@ -35,6 +35,18 @@ This repository is a structured external memory and knowledge system. It stores 
 - `TEMPORAL_EVENT_TYPES.md` — world/project/knowledge event taxonomy.
 - `PROJECT_STATE_TRANSITIONS.md` — project-generation/state transitions.
 
+## Supporting governance and synthesis
+- `ARCHIVE_PROTOCOL.md` — archive behavior and preservation protocol.
+- `ARCHIVE_CENSUS.md` — high-level inventory and recovery priorities.
+- `ARCHIVE_DEDUPLICATION_AUDIT.md` — duplication and ownership control.
+- `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions and interpretations that must not be regenerated.
+- `INTENT_AND_DISCARDED_PATHS.md` — preserved creative intent, revisions, and rejected directions.
+- `PROJECT_GENERATION_SEPARATION.md` — project/version generation boundaries.
+- `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
+- `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis; not a competing canon owner.
+- `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis; not a competing implementation owner.
+- `CANONICAL_NODE_TEMPLATE.md` — template for canonical nodes.
+
 ## Archive directory
 `ARCHIVE/`
 
