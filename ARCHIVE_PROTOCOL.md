@@ -6,14 +6,16 @@ This document defines how the external memory should grow, be corrected, compact
 **Review before expansion.** The vault is not a landfill for progressively longer summaries. Every substantial change must first inspect the closest existing node and determine whether the correct operation is update, merge, supersede, delete, or create.
 
 ## Status labels
-Use explicit epistemic status where appropriate:
-- `CANON`: directly established by the user or confirmed project source.
-- `CURRENT`: latest known state, potentially replaceable.
-- `HISTORICAL`: true of an earlier phase.
-- `INFERRED`: supported by context but not directly established.
-- `SPECULATIVE`: creative possibility, not canon.
-- `RETIRED`: intentionally abandoned.
-- `UNKNOWN`: insufficient information.
+`CANON_AND_PROVENANCE.md` is the sole owner of epistemic status definitions. Use its classes rather than maintaining a second status vocabulary:
+- `CANONICAL`
+- `STRONGLY_SUPPORTED`
+- `WORKING`
+- `DERIVED`
+- `SPECULATIVE`
+- `HISTORICAL / SUPERSEDED`
+- `UNKNOWN`
+
+Graph-specific `UNRESOLVED` is a relationship-audit state defined by the canonical governance owner and should not be promoted to a general canon class.
 
 ## Provenance
 Whenever practical, each important note should record where it came from:
@@ -99,3 +101,9 @@ For a substantial update:
 
 ## Retrieval principle
 Retrieve the smallest coherent neighborhood capable of answering the current task, then expand only where relationships or historical context require it. The objective is maximum useful coherence per token.
+
+## Governance links
+- `CANON_AND_PROVENANCE.md` — canonical status, provenance, confidence, contradiction, and supersession definitions.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — records epistemic state changes and propagation requirements.
+- `RECOVERY_EVIDENCE_PIPELINE.md` — identifies decisive evidence and recovery owners.
+- `ARCHIVE_MAINTENANCE_LOOP.md` — operational maintenance lifecycle.
