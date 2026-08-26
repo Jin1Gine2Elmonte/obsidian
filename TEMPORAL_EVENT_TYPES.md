@@ -35,6 +35,8 @@ Examples:
 
 Knowledge events require source/archive-time context.
 
+The detailed knowledge-event ledger is `KNOWLEDGE_EVENTS.md`. State-transition semantics are owned by `KNOWLEDGE_STATE_TRANSITIONS.md`.
+
 ## Event identity
 An event record should never be identified only by a date. Its identity is the tuple:
 
@@ -64,3 +66,10 @@ A statement made today about a childhood event may refer to an older project gen
 
 ## Preservation rule
 When a new source changes the interpretation of an old event, preserve the old interpretation as historical knowledge and create an explicit knowledge-state transition. Do not rewrite the event's world-time merely because the archive's understanding changed.
+
+## Related temporal owners
+- `TEMPORAL_MODEL.md` — separates conversation, project, and fictional/world clocks.
+- `TIMELINE.md` — broad reconstructed chronology and temporal evidence labels.
+- `PROJECT_STATE_TRANSITIONS.md` — project-generation changes.
+- `KNOWLEDGE_EVENTS.md` — chronological knowledge-event ledger.
+- `KNOWLEDGE_STATE_TRANSITIONS.md` — epistemic state transitions and propagation requirements.
