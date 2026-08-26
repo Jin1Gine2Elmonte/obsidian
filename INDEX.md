@@ -94,6 +94,7 @@ Cross-domain reasoning model: internal/external perspectives, Anchor Core promot
 - `ARCHIVE/MEMORY_SYSTEM_V3.md` — layered memory lifecycle, retrieval model, and anti-corruption rules.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide structural audit and repair record.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — current repository-wide structural audit and repair record.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — same-day operational addendum documenting governance-workflow synchronization without rewriting the historical audit.
 
 ### Archive directory
 `ARCHIVE/`
