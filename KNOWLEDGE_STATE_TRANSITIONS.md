@@ -52,6 +52,13 @@ A knowledge transition should cite:
 - reason for transition;
 - affected nodes.
 
+## Governance and recovery links
+- Canon/provenance owner: `CANON_AND_PROVENANCE.md` — defines the epistemic classes and provenance rules used by each transition.
+- Recovery evidence pipeline: `RECOVERY_EVIDENCE_PIPELINE.md` — identifies the evidence that can trigger a transition and the downstream owners that must be rechecked.
+- Conflict owner: `WORLD/CANON_CONFLICTS.md` — records competing states that prevent a transition from being silently finalized.
+
+A transition record explains **why** the state changed; the governance owner defines **what the states mean**; the recovery pipeline defines **what evidence can cause the change**.
+
 ## Historical preservation
 Never delete the previous interpretation merely because it is no longer current. Preserve it as historical/superseded when it explains the path by which the archive changed.
 
