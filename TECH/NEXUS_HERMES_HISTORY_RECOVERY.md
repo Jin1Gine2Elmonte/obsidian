@@ -115,3 +115,8 @@ Do not merge NEXUS, Hermes, OpenClaw, MCP gateway concepts, or ordinary model co
 The technical memory has been summarized repeatedly, but implementation-level history is precisely where many high-value causal details live: what actually worked, what failed, which constraints were real, and which architectures were only speculative.
 
 The next definitive recovery target is therefore **original repository/configuration/log evidence**, not another summary of the same remembered concepts.
+
+## Cross-links
+- Relationship registry: `RELATIONSHIPS.md` — central historical/technical relationship states involving Nexus, Gateway, and Hermes/deployment.
+- Technical navigation: `TECH_STACK.md`.
+- AI-memory architecture: `AI_MEMORY_ARCHITECTURE.md`.
