@@ -58,8 +58,10 @@ The recent Git chain shows a distinct maintenance phase in which the archive was
 - `fcd1b5b` — refreshed the structural health criteria to reflect the now-explicit synthesis/generation ownership boundaries and the linkage-depth risk.
 - `0cd6bddd` — synchronized the cleanup backlog with those current ownership boundaries.
 - `c4271fc` — recorded the completed maintenance pass and its Git evidence in the dated health audit.
+- `f7a2314` — synchronized the Git-evolution owner with the final maintenance-control chain recorded by the health audit.
+- `1894a3e` — recorded that final synchronization in the health audit itself, creating the current repository state on 2026-08-26.
 
-The final three commits matter because they close the feedback loop: the control criteria, cleanup backlog, and audit record now describe the same ownership/linkage state that the repository actually implements.
+The final commits matter because they close the feedback loop: the control criteria, cleanup backlog, audit record, and Git-evolution history now describe the same ownership/linkage state that the repository actually implements.
 
 This phase demonstrates a change in maintenance method: the repository tree and Git history became direct evidence for detecting hidden nodes, dead links, ownership ambiguity, stale state records, and governance vocabulary drift.
 
@@ -72,7 +74,7 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> current-state provenance synchronization`
 
 The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
 
