@@ -32,8 +32,10 @@ Knowledge-time history is recorded by `KNOWLEDGE_EVENTS.md`. Repository evolutio
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` — protocol vocabulary and root-index consistency.
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_06.md` — superseded knowledge-status duplicate removal.
 - `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_07.md` — canonical-node-template governance vocabulary repair.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_08.md` — archive-directory audit-surface synchronization.
+- `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_09.md` — follow-up synchronization of this directory-local audit surface after Addendum 08.
 
-Addenda preserve dated history without rewriting the original audit after later maintenance commits.
+The audit surface is a dated historical record. The live repository tree and Git HEAD establish current state.
 
 ## Source hierarchy
 1. Explicitly established canon.
