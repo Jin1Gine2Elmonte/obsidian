@@ -55,6 +55,7 @@ This layer preserves declared macro-states and boundaries without turning struct
 - Capital/court: `WORLD/CAPITAL_AND_COURT.md`.
 - Almont: `WORLD/ALMONT.md`.
 - Dark Forest boundary: `WORLD/DARK_FOREST.md` and `WORLD/DARK_FOREST_IMPERIAL_BOUNDARY.md`.
+- Relationship registry: `RELATIONSHIPS.md`.
 
 ## Future recovery axes
 - capital/court;
