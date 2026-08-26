@@ -59,11 +59,16 @@ The recent Git chain shows a distinct maintenance phase in which the archive was
 - `0cd6bddd` — synchronized the cleanup backlog with those current ownership boundaries.
 - `c4271fc` — recorded the completed maintenance pass and its Git evidence in the dated health audit.
 - `f7a2314` — synchronized the Git-evolution owner with the final maintenance-control chain recorded by the health audit.
-- `1894a3e` — recorded that final synchronization in the health audit itself, creating the current repository state on 2026-08-26.
+- `1894a3e` — recorded that final synchronization in the health audit itself.
 
-The final commits matter because they close the feedback loop: the control criteria, cleanup backlog, audit record, and Git-evolution history now describe the same ownership/linkage state that the repository actually implements.
+### Phase G — Dated audit surface synchronization
+The next commits established a dated current-audit surface after the maintenance state had moved to 2026-08-26:
+- `a14708a` — extended this Git-evolution record through the then-current maintenance state.
+- `5e5433f` — created the dated `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` rather than rewriting the historical 2026-08-25 audit.
+- `d177732` — pointed `INDEX.md` to the 2026-08-26 audit as the current audit while preserving the 2026-08-25 record as historical evidence.
+- `e050aee` — finalized the 2026-08-26 audit record.
 
-This phase demonstrates a change in maintenance method: the repository tree and Git history became direct evidence for detecting hidden nodes, dead links, ownership ambiguity, stale state records, and governance vocabulary drift.
+This phase is deliberately treated as a dated documentation surface, not as a claim that this file self-updates after every later commit. The exact current repository state is always established by Git itself; this document records the latest explicitly documented evolution point.
 
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
@@ -74,7 +79,7 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> current-state provenance synchronization`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization`
 
 The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, and recovery of decisive primary-source evidence**.
 
