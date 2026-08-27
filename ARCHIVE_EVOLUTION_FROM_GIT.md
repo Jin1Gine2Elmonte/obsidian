@@ -74,11 +74,11 @@ This phase is deliberately treated as a dated documentation surface, not as a cl
 After the dated audit surface was established, maintenance continued into the temporal subgraph rather than changing underlying chronology:
 - `9cb8897` — linked `TIMELINE.md` to the specialized temporal/state owners.
 - `81711a9` — linked `TEMPORAL_MODEL.md` back into the temporal/state ownership system.
-- `84ff846` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
+- `84ff846` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
 - `a674cde` — synchronized `INDEX.md` with the temporal addendum surface.
 - `3bb99e6` — connected `TEMPORAL_EVENT_TYPES.md` to `KNOWLEDGE_EVENTS.md` and `KNOWLEDGE_STATE_TRANSITIONS.md`.
 - `eefda6b` — clarified knowledge-time ownership and temporal cross-links in `KNOWLEDGE_EVENTS.md`.
-- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
+- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
 - `77ba8f1` — synchronized the root index with the knowledge-event ledger and third audit addendum.
 
 ### Phase I — Directory-navigation integrity repair
@@ -150,6 +150,14 @@ The next independent maintenance pass found a smaller but consequential vocabula
 
 This phase closes a regeneration path for legacy vocabulary at the source-import boundary. No fictional canon, chronology, identity conclusion, or source hierarchy was changed.
 
+### Phase Q — Archive-local provenance-language disambiguation
+The next independent maintenance pass found that `ARCHIVE/README.md` used the label `Source hierarchy` for a short orientation list that mixed evidence strength with epistemic status. The canonical governance owner already separates provenance sources from epistemic classes, so retaining the label risked creating a second hierarchy at the archive-directory layer:
+- `284bafd` — renamed and reframed the archive README section as `Evidence / provenance orientation`, explicitly delegating current provenance/status authority to `CANON_AND_PROVENANCE.md`.
+- `982f37b` — recorded the repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_12.md`.
+- `d1458bf` — synchronized `INDEX.md` with Addendum 12.
+
+This phase is wording/ownership hygiene only. No source evidence, fictional canon, chronology, identity conclusion, relationship, or recovery target was changed.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -159,8 +167,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import vocabulary repair -> archive-local provenance-language disambiguation`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
