@@ -38,6 +38,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_11.md` — conversation-import epistemic-vocabulary consistency addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_12.md` — archive-local provenance-language disambiguation addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_13.md` — root-owner navigation completeness addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-27_ADDENDUM_14.md` — recovery-series sequence-integrity addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
