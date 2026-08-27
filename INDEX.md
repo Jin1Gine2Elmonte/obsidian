@@ -37,6 +37,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_10.md` — legacy memory-system vocabulary scoping and conversation-source specification indexing addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_11.md` — conversation-import epistemic-vocabulary consistency addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_12.md` — archive-local provenance-language disambiguation addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_13.md` — root-owner navigation completeness addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
@@ -51,6 +52,11 @@ This repository is a structured external memory and knowledge system. It stores 
 - `NEGATIVE_KNOWLEDGE.md` — unsafe assumptions and interpretations that must not be regenerated.
 - `INTENT_AND_DISCARDED_PATHS.md` — preserved creative intent, revisions, and rejected directions.
 - `PROJECT_GENERATION_SEPARATION.md` — project/version generation boundaries.
+- `REASONING_ARCHITECTURE.md` — cross-domain reasoning and collaboration principles.
+- `CREATIVE_METHOD.md` — creative method and artistic identity.
+- `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, experiments, and strategic learning.
+- `LESSON_PROVENANCE_MAP.md` — evidence and causal lineage behind durable lessons.
+- `CONCEPTUAL_FINGERPRINT.md` — recurring conceptual patterns across creative and technical work.
 - `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
 - `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis; not a competing canon owner.
 - `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis; not a competing implementation owner.
