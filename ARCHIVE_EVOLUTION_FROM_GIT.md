@@ -158,6 +158,20 @@ The next independent maintenance pass found that `ARCHIVE/README.md` used the la
 
 This phase is wording/ownership hygiene only. No source evidence, fictional canon, chronology, identity conclusion, relationship, or recovery target was changed.
 
+### Phase R — Root-owner navigation completeness
+The next independent full-repository navigation review found that active root-level knowledge owners were referenced by `KNOWLEDGE_OWNERSHIP_MAP.md` but absent from `INDEX.md`. The affected files were substantive and current, not dead or historical:
+- `REASONING_ARCHITECTURE.md` — reasoning and collaboration principles;
+- `CREATIVE_METHOD.md` — creative method and artistic identity;
+- `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, and experiments;
+- `LESSON_PROVENANCE_MAP.md` — evidence/causal lineage behind lessons;
+- `CONCEPTUAL_FINGERPRINT.md` — recurring conceptual patterns across creative and technical work.
+
+The repair was intentionally limited to navigation:
+- `ef12728` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_13.md` documenting the root-navigation gap.
+- `a395ef3` — exposed the five active owner nodes and Addendum 13 in `INDEX.md`.
+
+This phase is discoverability/ownership hygiene only. No fictional fact, canon, chronology, relationship conclusion, or recovery target was changed.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -167,8 +181,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import vocabulary repair -> archive-local provenance-language disambiguation`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
