@@ -74,11 +74,11 @@ This phase is deliberately treated as a dated documentation surface, not as a cl
 After the dated audit surface was established, maintenance continued into the temporal subgraph rather than changing underlying chronology:
 - `9cb8897` — linked `TIMELINE.md` to the specialized temporal/state owners.
 - `81711a9` — linked `TEMPORAL_MODEL.md` back into the temporal/state ownership system.
-- `84ff846` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
+- `84ff846` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
 - `a674cde` — synchronized `INDEX.md` with the temporal addendum surface.
 - `3bb99e6` — connected `TEMPORAL_EVENT_TYPES.md` to `KNOWLEDGE_EVENTS.md` and `KNOWLEDGE_STATE_TRANSITIONS.md`.
 - `eefda6b` — clarified knowledge-time ownership and temporal cross-links in `KNOWLEDGE_EVENTS.md`.
-- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
+- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
 - `77ba8f1` — synchronized the root index with the knowledge-event ledger and third audit addendum.
 
 ### Phase I — Directory-navigation integrity repair
@@ -172,6 +172,14 @@ The repair was intentionally limited to navigation:
 
 This phase is discoverability/ownership hygiene only. No fictional fact, canon, chronology, relationship conclusion, or recovery target was changed.
 
+### Phase S — Recovery-series sequence integrity
+The next independent full-tree review found apparent numeric gaps in the `CURRENT_CONTEXT_RECOVERY_*` series. Repository search found no current references establishing the absent numbers as required artifacts, and the available Git/tree evidence did not establish that those members previously existed.
+- `954db3d` — added an explicit sequence-integrity rule to `ARCHIVE_HEALTH_CHECK.md`, preventing filename continuity from being mistaken for evidence of missing history.
+- `23ed5dc` — recorded the finding in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-27_ADDENDUM_14.md`.
+- `5a6fbb2` — synchronized `INDEX.md` with Addendum 14.
+
+This phase establishes that recovery-series numbering is provenance-driven: placeholders or synthetic continuation files must not be created merely to make numbering contiguous. It does not resolve any historical conversation content and does not alter fictional canon, chronology, identity, relationships, or source conclusions.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -181,8 +189,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
