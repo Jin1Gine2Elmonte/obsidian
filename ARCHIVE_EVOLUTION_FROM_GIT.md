@@ -178,6 +178,14 @@ The next independent full-tree review found apparent numeric gaps in the `CURREN
 
 This phase establishes that recovery-series numbering is provenance-driven: placeholders or synthetic continuation files must not be created merely to make numbering contiguous. It does not resolve any historical conversation content and does not alter fictional canon, chronology, identity, relationships, or source conclusions.
 
+### Phase T — Archive-evolution path integrity
+The next current-tree review found two stale repository-local paths in Phase H of this file itself. The historical references to Addenda 02 and 03 omitted the `ARCHIVE/` directory prefix even though the actual files live under `ARCHIVE/` and the root index uses those full paths.
+- `3d9e0bf` — corrected both stale paths in `ARCHIVE_EVOLUTION_FROM_GIT.md`.
+- `d188ba2` — recorded the finding in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_15.md`.
+- `a9de70a` — synchronized `INDEX.md` with Addendum 15.
+
+This phase is documentation/linkage hygiene only. The historical events referenced by those entries were already correct; only their repository-local path notation was stale. No fictional fact, canon, chronology, relationship conclusion, or recovery target was changed.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -187,8 +195,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity -> archive-evolution path integrity`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, archive-evolution path integrity, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
