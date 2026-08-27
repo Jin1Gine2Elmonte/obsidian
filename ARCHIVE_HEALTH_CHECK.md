@@ -58,6 +58,11 @@ Highest-impact current recovery areas:
 - global cosmological relations;
 - full Strings of Fate story history.
 
+### 9. Sequence integrity
+Numeric gaps in a recovery-series filename are not, by themselves, evidence of a missing file, deleted history, or incomplete knowledge. A sequence member should be treated as a real recovery gap only when repository references, Git history, an audit record, or source evidence establish that the member existed or is required by a defined specification.
+
+Conversely, an existing numbered node must not be assumed to imply that all intervening numbers should exist. Maintenance should verify provenance and references before creating placeholders or synthetic continuation files.
+
 ## Consolidation completed in current phase
 The following root/domain nodes have been narrowed or reassigned so they no longer compete with specialized owners:
 
@@ -82,6 +87,7 @@ The following root/domain nodes have been narrowed or reassigned so they no long
 7. Some specialized nodes may still contain useful historical prose that should be checked when raw transcripts are imported; do not delete it merely for textual similarity.
 8. Major owner nodes should continue to expose provenance, dependency, contradiction, relationship, and recovery links consistently; this is now a linkage-depth concern rather than a top-level indexing problem.
 9. Governance/transition/recovery owners should remain traversable as one operational chain: state definitions → decisive evidence → recorded state change. Breaks in that chain are maintenance defects even when the underlying knowledge is intact.
+10. Recovery-series numbering should remain provenance-driven; missing numeric members should be recorded as open recovery questions only when evidence establishes that they represent omitted source material.
 
 ## Pass criteria
 A future maintenance pass should be considered healthy when:
@@ -94,6 +100,7 @@ A future maintenance pass should be considered healthy when:
 - raw evidence and synthesis remain separable;
 - major navigation layers expose the correct specialized owners;
 - governance, recovery, and state-transition surfaces form a traversable chain;
+- recovery-series gaps are distinguished from proven missing artifacts;
 - additions measurably increase information value.
 
 ## Core invariant
