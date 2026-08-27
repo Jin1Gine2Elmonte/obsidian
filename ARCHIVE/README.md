@@ -27,12 +27,17 @@ Dated repository audits and their addenda live in this directory. The root `INDE
 
 The audit chain is intentionally append-only in spirit: later maintenance findings are recorded as new dated addenda rather than rewriting earlier audit conclusions.
 
-## Source hierarchy
-1. Explicitly established canon.
-2. Explicit user preferences and decisions.
-3. Repeated patterns supported by multiple interactions.
-4. Carefully marked synthesis/inference.
-5. Speculation, which must always be labeled.
+## Evidence / provenance orientation
+This directory's previous wording as a single “source hierarchy” mixed evidence strength with epistemic status and could be mistaken for a second governance system.
+
+For current evidence provenance and epistemic status, defer to `CANON_AND_PROVENANCE.md`. The archive layers can be understood as an orientation to how material is represented:
+1. established/current knowledge;
+2. explicitly sourced user or project evidence;
+3. supported recurring patterns;
+4. marked synthesis or inference;
+5. labeled speculation or unresolved material.
+
+This is an orientation for archive representation, not a replacement for the canonical provenance/status definitions.
 
 ## Maintenance rule
 When a new conversation changes a durable concept, update the smallest relevant owner and record the relationship, evidence, or reason for the change. Avoid replacing an entire knowledge domain when a precise delta is sufficient.
