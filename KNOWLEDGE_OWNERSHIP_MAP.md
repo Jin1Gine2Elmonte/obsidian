@@ -30,6 +30,7 @@ Define the canonical home for each kind of information so the archive can grow w
 | durable lesson / decision / experiment | `DECISIONS_AND_LESSONS.md` | `LESSON_PROVENANCE_MAP.md` |
 | lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
 | archive-reconstruction methodology lessons | `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` | maintenance/audit references |
+| historical agent/prompt engineering recovery | `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` | reasoning/technical references; exact prompts and runtime claims require source artifacts |
 | navigation/atlas summary | root navigation files | pointers only; never a competing owner |
 | cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
 | cross-domain technical architecture synthesis | `TECHNICAL_ARCHITECTURE_DEEP.md` | `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical owners |
@@ -91,11 +92,11 @@ When these documents refer to one another, the links represent workflow dependen
 
 ### Garthin / Adam
 - `WORLD/GARTHIN.md` — Garthin identity and known canon.
-- `WORLD/GARTHIN_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/GARTHIN_MEMORY_DENSITY.md` — Garthin memory completeness.
 - `WORLD/GARTHIN_RELATIONAL_ARCHITECTURE.md` — relationship structure.
 - `WORLD/GARTHIN_SCENE_TARGETS.md` — defining-scene recovery targets.
 - `WORLD/ADAM.md` — Adam identity and known canon.
-- `WORLD/ADAM_MEMORY_DENSITY.md` — memory completeness.
+- `WORLD/ADAM_MEMORY_DENSITY.md` — Adam memory completeness.
 - `WORLD/ADAM_INTERWORLD_MODEL.md` — travel-mechanics investigation.
 - `WORLD/ADAM_JIN_VARIANT_DISCRIMINATION.md` — Jin-version recognition investigation.
 
