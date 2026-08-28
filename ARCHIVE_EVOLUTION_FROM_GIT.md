@@ -188,8 +188,9 @@ This phase is documentation/linkage hygiene only. The historical events referenc
 
 ### Phase U — Audit-chain synchronization after ownership repair
 A subsequent current-tree review found that `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_16.md` existed and was indexed by `INDEX.md`, but `ARCHIVE_EVOLUTION_FROM_GIT.md` stopped at Phase T and therefore did not yet record the latest documented maintenance event. This created a small divergence between the audit chain and its Git-evolution summary.
-- `CURRENT` — this Phase U entry is being added to synchronize the Git-evolution owner with the latest audit surface.
-- The associated Addendum 17 and final index synchronization are recorded immediately after this update.
+- `5fb2a94` — extended `ARCHIVE_EVOLUTION_FROM_GIT.md` with Phase U.
+- `a9876aa` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_17.md` documenting the divergence and repair.
+- `70c74c8` — synchronized `INDEX.md` with Addendum 17.
 
 This phase is audit-surface synchronization only. It does not alter fictional canon, chronology, identity, relationships, or recovery conclusions.
 
