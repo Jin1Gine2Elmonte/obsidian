@@ -61,7 +61,6 @@ This repository is a structured external memory and knowledge system. It stores 
 - `MEMORY_RECOVERY_MATRIX.md` — memory recovery routing.
 - `MEMORY_COVERAGE_AUDIT.md` — memory coverage and missing-context audit.
 - `MEMORY_GRAPH.md` — memory graph model.
-- `MEMORY_LAYERS.md` — layered memory model.
 - `TOTAL_MEMORY_MAP.md` — broad memory-system map.
 - `CONTEXT_LAYERS.md` — context-layer model.
 - `RECOVERY_MEMORY_LEADS.md` — recovery leads and evidence targets.
@@ -107,7 +106,6 @@ This directory contains reconstruction of the Jin-related world material: Jin an
 
 For Jin specifically:
 - `WORLD/JIN_CORE.md` — broad identity.
-- `WORLD/JIN_VARIANTS.md` — variant registry.
 - `WORLD/JIN_VERSION_LATTICE.md` — relationships among variants.
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
