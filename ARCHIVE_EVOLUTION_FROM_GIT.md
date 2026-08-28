@@ -74,11 +74,11 @@ This phase is deliberately treated as a dated documentation surface, not as a cl
 After the dated audit surface was established, maintenance continued into the temporal subgraph rather than changing underlying chronology:
 - `9cb8897` — linked `TIMELINE.md` to the specialized temporal/state owners.
 - `81711a9` — linked `TEMPORAL_MODEL.md` back into the temporal/state ownership system.
-- `84ff846` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
+- `84ff846` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_02.md` to preserve that repair without rewriting the primary dated audit.
 - `a674cde` — synchronized `INDEX.md` with the temporal addendum surface.
 - `3bb99e6` — connected `TEMPORAL_EVENT_TYPES.md` to `KNOWLEDGE_EVENTS.md` and `KNOWLEDGE_STATE_TRANSITIONS.md`.
 - `eefda6b` — clarified knowledge-time ownership and temporal cross-links in `KNOWLEDGE_EVENTS.md`.
-- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
+- `b0844f0` — recorded the knowledge-time linkage repair in `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_03.md`.
 - `77ba8f1` — synchronized the root index with the knowledge-event ledger and third audit addendum.
 
 ### Phase I — Directory-navigation integrity repair
@@ -93,7 +93,7 @@ This phase is navigation/ownership hygiene only. It does not promote cosmologica
 The next audit found that the archive protocol still carried a legacy status vocabulary separate from the canonical governance classes, while several valid supporting governance/synthesis nodes remained absent from the root index:
 - `e172193` — aligned `ARCHIVE_PROTOCOL.md` with the canonical status/provenance vocabulary and added explicit governance links.
 - `a4861e6` — exposed supporting governance, recovery, project-generation, and cross-domain synthesis nodes in `INDEX.md`.
-- `a1f5028` — created `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` to preserve the independent maintenance findings and evidence boundary.
+- `a1f5028` — created `ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_05.md` to preserve the independent maintenance findings and evidence boundary.
 - `580a04d` — indexed the fifth health addendum from the root navigation surface.
 - `176f5a2` — recorded the protocol/index synchronization in this Git-evolution owner.
 
@@ -186,6 +186,13 @@ The next current-tree review found two stale repository-local paths in Phase H o
 
 This phase is documentation/linkage hygiene only. The historical events referenced by those entries were already correct; only their repository-local path notation was stale. No fictional fact, canon, chronology, relationship conclusion, or recovery target was changed.
 
+### Phase U — Audit-chain synchronization after ownership repair
+A subsequent current-tree review found that `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_16.md` existed and was indexed by `INDEX.md`, but `ARCHIVE_EVOLUTION_FROM_GIT.md` stopped at Phase T and therefore did not yet record the latest documented maintenance event. This created a small divergence between the audit chain and its Git-evolution summary.
+- `CURRENT` — this Phase U entry is being added to synchronize the Git-evolution owner with the latest audit surface.
+- The associated Addendum 17 and final index synchronization are recorded immediately after this update.
+
+This phase is audit-surface synchronization only. It does not alter fictional canon, chronology, identity, relationships, or recovery conclusions.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -195,8 +202,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity -> archive-evolution path integrity`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity -> archive-evolution path integrity -> audit-chain synchronization after ownership repair`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, archive-evolution path integrity, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, archive-evolution path integrity, audit-chain synchronization, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
