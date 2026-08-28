@@ -10,6 +10,8 @@ Every important knowledge type should have one clear canonical owner.
 
 Primary reference: `KNOWLEDGE_OWNERSHIP_MAP.md`.
 
+Ownership completeness must be checked against directory-level inventories such as `WORLD/README.md`, `COSMOS/README.md`, `STRINGS_OF_FATE/README.md`, and other explicit local navigation surfaces. A file may be locally discoverable yet still be an ownership-registry gap if its substantive role is absent from the canonical ownership map.
+
 ### 2. Provenance
 Important claims should indicate whether they come from direct user evidence, recovered source material, repository state, synthesis, inference, or speculation.
 
@@ -88,6 +90,7 @@ The following root/domain nodes have been narrowed or reassigned so they no long
 8. Major owner nodes should continue to expose provenance, dependency, contradiction, relationship, and recovery links consistently; this is now a linkage-depth concern rather than a top-level indexing problem.
 9. Governance/transition/recovery owners should remain traversable as one operational chain: state definitions → decisive evidence → recorded state change. Breaks in that chain are maintenance defects even when the underlying knowledge is intact.
 10. Recovery-series numbering should remain provenance-driven; missing numeric members should be recorded as open recovery questions only when evidence establishes that they represent omitted source material.
+11. Directory-level inventories should be periodically reconciled with `KNOWLEDGE_OWNERSHIP_MAP.md` so locally navigable substantive nodes do not become unregistered owners.
 
 ## Pass criteria
 A future maintenance pass should be considered healthy when:
@@ -99,6 +102,7 @@ A future maintenance pass should be considered healthy when:
 - knowledge changes are traceable;
 - raw evidence and synthesis remain separable;
 - major navigation layers expose the correct specialized owners;
+- directory-level substantive inventories reconcile with the canonical ownership map;
 - governance, recovery, and state-transition surfaces form a traversable chain;
 - recovery-series gaps are distinguished from proven missing artifacts;
 - additions measurably increase information value.
