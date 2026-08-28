@@ -24,6 +24,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical specification for importing historical conversation sources into the vault.
 - `ARCHIVE/README.md` — archive-directory navigation and governance boundary.
 - `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` — archive-reconstruction methodology lessons.
+- `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — historical agent/prompt engineering recovery layer; exact prompts/runtime claims require source artifacts.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide audit.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization addendum.
