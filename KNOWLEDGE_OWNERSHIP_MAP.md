@@ -31,6 +31,9 @@ Define the canonical home for each kind of information so the archive can grow w
 | lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
 | archive-reconstruction methodology lessons | `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` | maintenance/audit references |
 | historical agent/prompt engineering recovery | `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` | reasoning/technical references; exact prompts and runtime claims require source artifacts |
+| historical technical tool/workflow recovery | `TECH/TOOL_WORKFLOW_HISTORY.md` | `TECH_STACK.md`, project-specific technical references; exact implementation requires source artifacts |
+| NEXUS/Hermes historical recovery | `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` | `TECH_STACK.md`, agent/prompt recovery; exact implementation requires source artifacts |
+| memory object/schema structure | `MEMORY_SCHEMA.md` | `MEMORY_LAYERS.md`, `MEMORY_OPERATIONS.md`; epistemic governance remains `CANON_AND_PROVENANCE.md` |
 | navigation/atlas summary | root navigation files | pointers only; never a competing owner |
 | cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
 | cross-domain technical architecture synthesis | `TECHNICAL_ARCHITECTURE_DEEP.md` | `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical owners |
