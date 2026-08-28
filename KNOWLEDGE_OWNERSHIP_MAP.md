@@ -127,7 +127,6 @@ When these documents refer to one another, the links represent workflow dependen
 - `WORLD/KNOWN_GAPS_AND_RECOVERY_ORDER.md` — prioritized missing world knowledge.
 
 ### World-system / causal and transition analysis
-- `WORLD/JIN_VARIANT_EFFECTS.md` — propagation effects of version changes.
 - `WORLD/CAUSAL_MAP.md` — cross-system causal relationships.
 - `WORLD/CAUSAL_EXTRACTION.md` — scene-oriented causal extraction.
 - `WORLD/CHARACTER_ARCHIVE_PRIORITIES.md` — systematic historical character-recovery priorities.
