@@ -87,6 +87,8 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ENTITY_TEMPLATE.md` — structural template for entity nodes.
 - `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
 - `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis; not a competing canon owner.
+- `WORLD_SYSTEMS.md` — world-systems navigation/atlas layer; not a competing canonical owner.
+- `CREATIVE_PROJECTS_DEEP.md` — cross-project creative navigation/atlas layer; not a competing canonical owner.
 - `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis; not a competing implementation owner.
 - `CANONICAL_NODE_TEMPLATE.md` — structural template for canonical nodes; governance vocabulary is inherited from `CANON_AND_PROVENANCE.md`.
 
