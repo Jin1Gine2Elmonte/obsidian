@@ -117,6 +117,8 @@ For Jin specifically:
 - `WORLD/POWER_COSMOLOGY_ATOMIC_RECOVERY_01.md` — atomic power/cosmology recovery layer; evidence-oriented and non-canonical until source evidence is recovered.
 
 ## Cosmology reconstruction
+`COSMOLOGY.md` is the root cosmology/anchor navigation layer; it summarizes anchor boundaries and routes to the dedicated owners without becoming a competing cosmology canon.
+
 `COSMOS/`
 
 Individual cosmology anchors are kept separate by design. `COSMOS/README.md` is the directory-level navigation and evidence-boundary owner; individual anchor files remain the owners of their respective definitions.
