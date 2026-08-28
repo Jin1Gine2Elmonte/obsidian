@@ -79,8 +79,8 @@ This directory isolates the user's fictional-world knowledge from the general me
 These are evidence-oriented recovery structures, not substitutes for the original scenes. They must not silently become canon when source evidence is incomplete.
 
 ## Preservation / maintenance notes
-- `ARCHIVE_LEARNING_CURVE.md` — historical learning about how the archive should reconstruct this world.
 - `README.md` — directory-level navigation and governance.
+- `ARCHIVE_LEARNING_CURVE.md` — legacy compatibility pointer; archive-reconstruction lessons now live at `ARCHIVE/ARCHIVE_LEARNING_CURVE.md`.
 
 ## Core preservation rules
 1. Never collapse different Jin versions into one merely because they share a name.
