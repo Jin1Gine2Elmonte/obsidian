@@ -25,6 +25,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/README.md` — archive-directory navigation and governance boundary.
 - `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` — archive-reconstruction methodology lessons.
 - `ARCHIVE/AGENT_AND_PROMPT_ENGINEERING_RECOVERY_01.md` — historical agent/prompt engineering recovery layer; exact prompts/runtime claims require source artifacts.
+- `HIGH_IMPACT_RECOVERY_MATRIX.md` — impact-ranked historical recovery priorities.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide audit.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization addendum.
@@ -44,12 +45,27 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_15.md` — stale archive-evolution path repair addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_16.md` — archive-learning-curve ownership repair addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_17.md` — audit-chain synchronization after the ownership repair.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_18.md` — agent/prompt-engineering recovery ownership and discoverability addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
 - `TEMPORAL_MODEL.md` — separation of conversation, project, and fictional/world time.
 - `TEMPORAL_EVENT_TYPES.md` — world/project/knowledge event taxonomy.
 - `PROJECT_STATE_TRANSITIONS.md` — project-generation/state transitions.
+
+## Memory and operating-model surfaces
+- `KNOWLEDGE_OPERATING_MODEL.md` — preservation/synthesis/evolution operating model for the vault.
+- `MEMORY_SCHEMA.md` — typed memory-object structure; subordinate to canonical epistemic governance.
+- `MEMORY_LAYERS.md` — layered memory model.
+- `MEMORY_OPERATIONS.md` — retrieval, writing, compression, correction, and anti-fabrication operations.
+- `MEMORY_RECOVERY_MATRIX.md` — memory recovery routing.
+- `MEMORY_COVERAGE_AUDIT.md` — memory coverage and missing-context audit.
+- `MEMORY_GRAPH.md` — memory graph model.
+- `MEMORY_LAYERS.md` — layered memory model.
+- `TOTAL_MEMORY_MAP.md` — broad memory-system map.
+- `CONTEXT_LAYERS.md` — context-layer model.
+- `RECOVERY_MEMORY_LEADS.md` — recovery leads and evidence targets.
+- `USER_WORKING_MODEL.md` — working model of collaboration/use constraints.
 
 ## Supporting governance and synthesis
 - `ARCHIVE_PROTOCOL.md` — archive behavior and preservation protocol.
@@ -63,10 +79,21 @@ This repository is a structured external memory and knowledge system. It stores 
 - `DECISIONS_AND_LESSONS.md` — durable decisions, lessons, experiments, and strategic learning.
 - `LESSON_PROVENANCE_MAP.md` — evidence and causal lineage behind durable lessons.
 - `CONCEPTUAL_FINGERPRINT.md` — recurring conceptual patterns across creative and technical work.
+- `CROSS_PROJECT_INVARIANTS.md` — recurring cross-project structural invariants.
+- `ENTITY_SYSTEM.md` — typed entity-system model.
+- `ENTITY_TEMPLATE.md` — structural template for entity nodes.
 - `AI_MEMORY_ARCHITECTURE.md` — canonical external-memory architecture owner.
 - `FICTION_CANON_DEEP.md` — cross-domain fiction synthesis; not a competing canon owner.
 - `TECHNICAL_ARCHITECTURE_DEEP.md` — cross-domain technical synthesis; not a competing implementation owner.
 - `CANONICAL_NODE_TEMPLATE.md` — structural template for canonical nodes; governance vocabulary is inherited from `CANON_AND_PROVENANCE.md`.
+
+## Technical history / recovery
+`TECH/`
+
+- `TECH/NEXUS_HERMES_HISTORY_RECOVERY.md` — historical NEXUS/Hermes recovery layer; exact implementation/configuration claims require source artifacts.
+- `TECH/TOOL_WORKFLOW_HISTORY.md` — historical tool/workflow context layer; exact command and implementation history requires source artifacts.
+
+These are recovery/history nodes, not competing technical implementation owners.
 
 ## Archive directory
 `ARCHIVE/`
@@ -80,6 +107,7 @@ This directory contains reconstruction of the Jin-related world material: Jin an
 
 For Jin specifically:
 - `WORLD/JIN_CORE.md` — broad identity.
+- `WORLD/JIN_VARIANTS.md` — variant registry.
 - `WORLD/JIN_VERSION_LATTICE.md` — relationships among variants.
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
