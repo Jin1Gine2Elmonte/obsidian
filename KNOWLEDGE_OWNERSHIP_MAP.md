@@ -29,6 +29,7 @@ Define the canonical home for each kind of information so the archive can grow w
 | repository evolution | `ARCHIVE_EVOLUTION_FROM_GIT.md` + Git history | knowledge-event reference |
 | durable lesson / decision / experiment | `DECISIONS_AND_LESSONS.md` | `LESSON_PROVENANCE_MAP.md` |
 | lesson evidence lineage | `LESSON_PROVENANCE_MAP.md` | lesson-owner references |
+| archive-reconstruction methodology lessons | `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` | maintenance/audit references |
 | navigation/atlas summary | root navigation files | pointers only; never a competing owner |
 | cross-domain fiction synthesis | `FICTION_CANON_DEEP.md` | specialized fiction/world/cosmology owners; never a competing canon owner |
 | cross-domain technical architecture synthesis | `TECHNICAL_ARCHITECTURE_DEEP.md` | `AI_MEMORY_ARCHITECTURE.md`, `TECH_STACK.md`, and project-specific technical owners |
