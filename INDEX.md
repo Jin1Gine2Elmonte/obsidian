@@ -42,6 +42,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-27_ADDENDUM_14.md` — recovery-series sequence-integrity addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_15.md` — stale archive-evolution path repair addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_16.md` — archive-learning-curve ownership repair addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_17.md` — audit-chain synchronization after the ownership repair.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
