@@ -211,6 +211,22 @@ The next full-tree review found that `MEMORY_SCHEMA.md` still carried local `cer
 
 This phase is governance-regeneration and discoverability hygiene. No fictional fact, chronology, identity conclusion, relationship conclusion, or technical implementation claim was added.
 
+### Phase X — World ownership registry and inventory-control synchronization
+The next full-tree pass reconciled the `WORLD/README.md` substantive inventory with `KNOWLEDGE_OWNERSHIP_MAP.md` and found existing world reconstruction/analysis nodes that were locally navigable but not registered in the canonical ownership map. The repair also exposed a control weakness: directory-level substantive inventories were not explicitly required to reconcile with the ownership registry.
+- `c29fd0a` — registered the previously unlisted world recovery, analysis, transition, dependency, and atomic-recovery nodes in `KNOWLEDGE_OWNERSHIP_MAP.md`.
+- `1b7c78f` — removed an accidental duplicate `WORLD/JIN_VARIANT_EFFECTS.md` ownership entry introduced during the repair.
+- `1b0083f` — strengthened `ARCHIVE_HEALTH_CHECK.md` so directory-level substantive inventories must be reconciled against the canonical ownership map.
+- `75171ef` — recorded the world ownership-registry finding in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_20.md`.
+- `8793d23` — recorded the inventory-reconciliation control improvement in `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_21.md`.
+
+This phase is ownership/control hygiene only. It does not promote world reconstruction, causal analysis, or atomic recovery material to canon.
+
+### Phase Y — Audit-evolution synchronization after world ownership/control repairs
+A current-tree comparison found that Addenda 20 and 21 were present in the live archive and indexed by `INDEX.md`, but `ARCHIVE_EVOLUTION_FROM_GIT.md` still stopped at Phase W. The underlying world ownership/control repairs were therefore documented in the audit chain but not yet represented in the Git-evolution narrative.
+- `CURRENT_TREE_REVIEW` — the discrepancy was established by comparing the live `ARCHIVE/` audit chain, `INDEX.md`, and this file; the individual repair commits are preserved in Phase X above.
+
+This phase is documentation synchronization only. It does not change world content, canon, chronology, identity, relationships, or recovery conclusions.
+
 ## What Git proves
 Git proves that the repository itself underwent these structural changes and that they were represented by concrete commits. Git does **not** prove that the underlying fictional or personal facts are true; those still require user/source provenance.
 
@@ -220,8 +236,8 @@ Repository evolution is part of archive history. Later simplification should not
 ## Current interpretation
 The archive's development can now be understood as a sequence:
 
-`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity -> archive-evolution path integrity -> audit-chain synchronization after ownership repair -> agent/prompt recovery ownership and discoverability -> memory-schema governance and root-navigation completion`
+`summary accumulation -> ownership/consolidation -> canon governance -> temporal separation -> health checks -> source recovery -> cross-domain reasoning -> lesson provenance -> full-tree maintenance and linkage integrity -> maintenance-control synchronization -> dated audit surface synchronization -> temporal/knowledge-time linkage repair -> directory-navigation integrity -> protocol vocabulary/index completion -> superseded governance duplicate removal -> canonical-node template governance repair -> archive-directory audit-surface synchronization -> append-only archive audit navigation -> memory-system vocabulary scoping and conversation-source navigation -> conversation-import epistemic vocabulary repair -> archive-local provenance-language disambiguation -> root-owner navigation completeness -> recovery-series sequence integrity -> archive-evolution path integrity -> audit-chain synchronization after ownership repair -> agent/prompt recovery ownership and discoverability -> memory-schema governance and root-navigation completion -> world ownership registry and inventory-control synchronization -> audit-evolution synchronization after world ownership/control repairs`
 
-The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, archive-evolution path integrity, audit-chain synchronization, agent/prompt recovery ownership, schema-governance consistency, root/system navigation completeness, and recovery of decisive primary-source evidence**.
+The current maintenance frontier is no longer primarily top-level documentation volume. It is the combination of **deep cross-link integrity, precise ownership, governance consistency, duplicate suppression, template integrity, directory-local navigation consistency, append-only audit maintenance, historical-model scoping, canonical source-import discoverability, source-import vocabulary integrity, archive-local provenance-language clarity, root-owner discoverability, recovery-series provenance, archive-evolution path integrity, audit-chain synchronization, agent/prompt recovery ownership, schema-governance consistency, root/system navigation completeness, world ownership-registry completeness, inventory-to-ownership reconciliation, and recovery of decisive primary-source evidence**.
 
 This sequence describes the archive's architecture and maintenance evolution, not the chronology of the fictional universe.
