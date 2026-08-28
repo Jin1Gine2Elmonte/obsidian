@@ -23,6 +23,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `HISTORICAL_EVOLUTION_MAP.md` — broader idea/project evolution.
 - `CONVERSATION_ARCHIVE_SPEC_V2.md` — canonical specification for importing historical conversation sources into the vault.
 - `ARCHIVE/README.md` — archive-directory navigation and governance boundary.
+- `ARCHIVE/ARCHIVE_LEARNING_CURVE.md` — archive-reconstruction methodology lessons.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-25.md` — historical repository-wide audit.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26.md` — primary dated repository-wide audit for 2026-08-26.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_01.md` — operational-governance synchronization addendum.
@@ -40,6 +41,7 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-26_ADDENDUM_13.md` — root-owner navigation completeness addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-27_ADDENDUM_14.md` — recovery-series sequence-integrity addendum.
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_15.md` — stale archive-evolution path repair addendum.
+- `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_16.md` — archive-learning-curve ownership repair addendum.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
@@ -76,7 +78,6 @@ This directory contains reconstruction of the Jin-related world material: Jin an
 
 For Jin specifically:
 - `WORLD/JIN_CORE.md` — broad identity.
-- `WORLD/JIN_VARIANTS.md` — variant registry.
 - `WORLD/JIN_VERSION_LATTICE.md` — relationships among variants.
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — unresolved identity conflict.
