@@ -55,7 +55,9 @@ When these documents refer to one another, the links represent workflow dependen
 ### Jin
 - `WORLD/JIN_CORE.md` — broad identity.
 - `WORLD/JIN_VARIANTS.md` — variant registry.
+- `WORLD/JIN_VARIANT_EFFECTS.md` — propagation audit for version changes.
 - `WORLD/JIN_VERSION_LATTICE.md` — variant-to-variant relationships.
+- `WORLD/JIN_VERSION_TABLE.md` — compact current comparison surface for recovered Jin versions.
 - `WORLD/JIN_VERSION_TRANSITIONS.md` — evidence-led changes between variants.
 - `WORLD/JIN_RYOTA_IDENTITY_AUDIT.md` — identity conflict.
 - `WORLD/JIN_MEMORY_DENSITY.md` — memory completeness.
@@ -117,6 +119,33 @@ When these documents refer to one another, the links represent workflow dependen
 ### Scene / motive recovery
 - `WORLD/SCENE_RECOVERY_MATRIX.md` — scene-level evidence and transition extraction.
 - `WORLD/MOTIVE_RECOVERY.md` — motive/psychological recovery targets and evidence boundaries.
+- `WORLD/SCENE_EVIDENCE_PROTOCOL.md` — scene-level evidence standard.
+- `WORLD/SCENE_RECOVERY_METHOD.md` — recovery procedure for scene reconstruction.
+- `WORLD/SOURCE_RECOVERY_QUERY_BANK.md` — targeted questions for future source recovery.
+- `WORLD/RELATIONSHIP_RECOVERY_MATRIX.md` — relationship-level recovery targets.
+- `WORLD/RECOVERY_MATRIX.md` — cross-world recovery priority map.
+- `WORLD/KNOWN_GAPS_AND_RECOVERY_ORDER.md` — prioritized missing world knowledge.
+
+### World-system / causal and transition analysis
+- `WORLD/JIN_VARIANT_EFFECTS.md` — propagation effects of version changes.
+- `WORLD/CAUSAL_MAP.md` — cross-system causal relationships.
+- `WORLD/CAUSAL_EXTRACTION.md` — scene-oriented causal extraction.
+- `WORLD/CHARACTER_ARCHIVE_PRIORITIES.md` — systematic historical character-recovery priorities.
+- `WORLD/CHARACTER_MEMORY_DENSITY_MAP.md` — character-level memory completeness map.
+- `WORLD/CANON_LEDGER.md` — evidence-weighted current world state.
+- `WORLD/CANON_QUALITY_TESTS.md` — tests for promoting world material into stronger canonical states.
+- `WORLD/VERSION_CONTROL.md` — version/project conflict rules within world reconstruction.
+- `WORLD/WORLD_STATE_TRANSITIONS.md` — historical world-state transitions.
+- `WORLD/KNOWLEDGE_DEPENDENCY_GRAPH.md` — dependencies among world knowledge nodes and unresolved claims.
+- `WORLD/MEMORY_RECONSTRUCTION_LAYER.md` — world-memory reconstruction operating model.
+- `WORLD/MEMORY_TO_CANON_PIPELINE.md` — promotion path from recovered world memory to stronger canon.
+
+### Atomic world recovery
+- `WORLD/EVENT_ATOMIC_RECOVERY_ALMONT_GARTHIN_ADAM_01.md` — atomic character-history event units.
+- `WORLD/EVENT_ATOMIC_RECOVERY_EMPIRE_DARKFOREST_01.md` — atomic imperial/Dark Forest event units.
+- `WORLD/EVENT_ATOMIC_RECOVERY_JIN_FAMILY_01.md` — atomic Jin/family event units.
+
+These atomic and analytical nodes remain evidence-oriented unless their source boundaries explicitly establish stronger status.
 
 ### Strings of Fate
 - `STRINGS_OF_FATE/CANON.md` — confirmed project canon.
