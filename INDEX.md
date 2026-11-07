@@ -52,6 +52,8 @@ This repository is a structured external memory and knowledge system. It stores 
 - `ARCHIVE/ARCHIVE_HEALTH_AUDIT_2026-08-28_ADDENDUM_22.md` — audit-evolution synchronization after world ownership/control repairs.
 - `HIGH_IMPACT_RECOVERY_ORDER.md` — recovery priority by impact.
 - `QUESTIONS_AND_OPEN_LOOPS.md` — unresolved questions and active loops.
+- `ANIME/README.md` — anime-production knowledge domain navigation.
+- `ANIME/ANIME_PRODUCTION_AUDIT.md` — anime production readiness audit: inventory, gaps, honest capability limits, and a measured render pipeline.
 - `TIMELINE.md` — broad project/idea chronology; uses dedicated temporal owners rather than replacing them.
 - `TEMPORAL_MODEL.md` — separation of conversation, project, and fictional/world time.
 - `TEMPORAL_EVENT_TYPES.md` — world/project/knowledge event taxonomy.
